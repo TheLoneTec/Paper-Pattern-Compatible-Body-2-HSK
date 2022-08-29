@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+  <v1.3>
+    <li>/</li>
+    <li IfModActive="ChJees.Androids">Races\Androids</li>
+    <li IfModActive="skyarkhangel.asarirace">Races\Asari</li>
+    <li IfModActive="Nemonian.MY">Races\Moyo</li>
+    <li IfModActive="AOBA.RedMoyo">Races\MoyoRed</li>
+    <li IfModActive="Solaris.RatkinRaceMod">Races\Ratkin</li>
+    <li IfModActive="skyarkhangel.HSK">Races\Nova</li>
+    <li IfModActive="skyarkhangel.HSK">Races\Dova</li>
+    <li IfModActive="skyarkhangel.HSK">Races\Norbal</li>
+	<li IfModActive="skyarkhangel.HSK">Races\Orassan</li>
+  </v1.3>
+</loadFolders>
