@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>The Holy Invention - Grand Apparel Paper Pattern Extension</li>
+	</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/graphicPaths/li/body</xpath>
+					<value>
+						<body>Things/Pawn/Humanlike/Bodies/</body>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/alienbodytypes</xpath>
+					<value>
+						<alienbodytypes>
+							<li>Thin</li>
+							<!--<li>Male</li>-->
+							<li>Female</li>
+						</alienbodytypes>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="tail"]/offsets</xpath>
+					<value>
+						<offsets>
+							<south>
+								<bodyTypes>
+									<Male>(-0.01,-0.5)</Male>
+									<Female>(-.01,-0.5)</Female>
+									<Thin>(-0.01,-0.5)</Thin>
+								</bodyTypes>
+							</south>
+							<north>
+								<bodyTypes>
+									<Male>(0,-0.05)</Male>
+									<Female>(0,-0.5)</Female>
+									<Thin>(-0.01,-0.5)</Thin>
+								</bodyTypes>
+							</north>
+							<east>
+								<bodyTypes>
+									<Male>(0.39,-0.37)</Male>
+									<Female>(0.39,-0.37)</Female>
+									<Thin>(0.39,-0.37)</Thin>
+								</bodyTypes>
+							</east>
+						</offsets>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="left ear"]/offsets</xpath>
+					<value>
+						<offsets>
+							<south>
+								<bodyTypes>
+									<Male>(-0.015,0.4)</Male>
+									<Female>(-0.015,0.4)</Female>
+									<Thin>(-0.015,0.4)</Thin>
+								</bodyTypes>
+								<portraitBodyTypes>
+									<Male>(-0.015,0.4)</Male>
+									<Female>(-0.015,0.4)</Female>
+									<Thin>(-0.015,0.4)</Thin>
+								</portraitBodyTypes>
+							</south>
+							<north>
+								<bodyTypes>
+									<Male>(0.03,0.39)</Male>
+									<Female>(0.03,0.39)</Female>
+									<Thin>(0.03,0.39)</Thin>
+								</bodyTypes>
+								<portraitBodyTypes>
+									<Male>(0.03,0.39)</Male>
+									<Female>(0.03,0.39)</Female>
+									<Thin>(0.03,0.39)</Thin>
+								</portraitBodyTypes>
+							</north>
+							<east>
+								<bodyTypes>
+									<Male>(0.012,0.5)</Male>
+									<Female>(0.012,0.5)</Female>
+									<Thin>(0.012,0.5)</Thin>
+								</bodyTypes>
+								<portraitBodyTypes>
+									<Male>(0.012,0.5)</Male>
+									<Female>(0.012,0.5)</Female>
+									<Thin>(0.012,0.5)</Thin>
+								</portraitBodyTypes>
+							</east>
+						</offsets>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="right ear"]/offsets</xpath>
+					<value>
+						<offsets>
+							<south>
+								<bodyTypes>
+									<Male>(0.015,0.4)</Male>
+									<Female>(0.015,0.4)</Female>
+									<Thin>(0.015,0.4)</Thin>
+								</bodyTypes>
+								<portraitBodyTypes>
+									<Male>(0.015,0.4)</Male>
+									<Female>(0.015,0.4)</Female>
+									<Thin>(0.015,0.4)</Thin>
+								</portraitBodyTypes>
+							</south>
+							<north>
+								<bodyTypes>
+									<Male>(-0.01,0.39)</Male>
+									<Female>(-0.01,0.39)</Female>
+									<Thin>(-0.01,0.39)</Thin>
+								</bodyTypes>
+								<portraitBodyTypes>
+									<Male>(-0.01,0.39)</Male>
+									<Female>(-0.01,0.39)</Female>
+									<Thin>(-0.01,0.39)</Thin>
+								</portraitBodyTypes>
+							</north>
+							<east>
+								<bodyTypes>
+									<Male>(0.012,0.5)</Male>
+									<Female>(0.012,0.5)</Female>
+									<Thin>(0.012,0.5)</Thin>
+								</bodyTypes>
+								<portraitBodyTypes>
+									<Male>(0.012,0.5)</Male>
+									<Female>(0.012,0.5)</Female>
+									<Thin>(0.012,0.5)</Thin>
+								</portraitBodyTypes>
+							</east>
+						</offsets>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/customDrawSize</xpath>
+					<value>
+						<customDrawSize>(0.75, 0.75)</customDrawSize>
+					</value>
+				</li>
+<!--
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/useGenderedBodies</xpath>
+					<value>
+						<useGenderedBodies>true</useGenderedBodies>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator</xpath>
+					<value>
+						<customHeadDrawSize>(1, 1)</customHeadDrawSize>
+					</value>
+				</li>
+		-->	
+
+			</operations>
+		</match>
+    </Operation>
+	
+</Patch>

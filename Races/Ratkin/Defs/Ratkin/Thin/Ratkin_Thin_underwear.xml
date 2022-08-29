@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinUnderwearTop" MayRequire="Malistaticy.UnderWhere">
+		<defName>GAPPE_RatkinThinUnderwearTop</defName>
+		<RaceName>Ratkin</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinUnderwear" MayRequire="Malistaticy.UnderWhere">
+		<defName>GAPPE_RatkinThinUnderwear</defName>
+		<RaceName>Ratkin</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinLongJohns" MayRequire="Malistaticy.UnderWhere">
+		<defName>GAPPE_RatkinThinLongJohns</defName>
+		<RaceName>Ratkin</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+</Defs>
