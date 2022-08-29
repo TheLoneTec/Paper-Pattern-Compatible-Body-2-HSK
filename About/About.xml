@@ -42,6 +42,11 @@
 			<displayName>[XND] Visible Pants</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2264108215</steamWorkshopUrl>
 		</li>
+		<li>
+			<packageId>WRK.THIGAPPE</packageId>
+			<displayName>The Holy Invention - Grand Apparel Paper Pattern Extension</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2839518933</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 		<loadBefore>
 		</loadBefore>
@@ -55,6 +60,7 @@
 			<li>Nals.CompatibleBody2</li>
 			<li>WRK.FacialAnimationForMgs</li>
 			<li>XeoNovaDan.VisiblePants</li>
+			<li>WRK.THIGAPPE</li>
 			<li>Malistaticy.UnderWhere</li>
 			<li>ssulunge.KijinRace2</li>
 			<li>mlie.arachnerace</li>
