@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Makes heads smaller for aesthetic reasons. -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+			<FacialAnimation.FaceAdjustmentDef ParentName="HU_FAFaceSizeAndPosition">
+				<defName>OrassanSizeAndPositionDef</defName>
+				<RaceName>Alien_Orassan</RaceName>
+			</FacialAnimation.FaceAdjustmentDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
+		<nomatch Class="PatchOperationAdd">
+		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator</xpath>
+		  <value>
+			<customHeadDrawSize>(0.783, 0.783)</customHeadDrawSize>
+		  </value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
+		  <value>
+			<customHeadDrawSize>(0.783, 0.783)</customHeadDrawSize>
+		  </value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
+		<nomatch Class="PatchOperationAdd">
+		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator</xpath>
+		  <value>
+			<customPortraitHeadDrawSize>(0.783, 0.783)</customPortraitHeadDrawSize>
+		  </value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
+		  <value>
+			<customPortraitHeadDrawSize>(0.783, 0.783)</customPortraitHeadDrawSize>
+		  </value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+		<nomatch Class="PatchOperationAdd">
+		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator</xpath>
+		  <value>
+			<headOffset>(0.00,-0.035)</headOffset>
+		  </value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+		  <value>
+			<headOffset>(0.00,-0.035)</headOffset>
+		  </value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/headOffsetDirectional</xpath>
+		<nomatch Class="PatchOperationAdd">
+		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator</xpath>
+		  <value>
+			<headOffsetDirectional>
+				<east>(-0.025, 0.00)</east>
+				<west>(0.025, 0.00)</west>
+			</headOffsetDirectional>
+		  </value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/headOffsetDirectional</xpath>
+		  <value>
+			<headOffsetDirectional>
+				<east>(-0.025, 0.00)</east>
+				<west>(0.025, 0.00)</west>
+			</headOffsetDirectional>
+		  </value>
+		</match>
+	</Operation>
+	
+</Patch>
