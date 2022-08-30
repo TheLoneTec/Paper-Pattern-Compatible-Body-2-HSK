@@ -836,7 +836,9 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
-						<!-- Primitive Garment Thin -->
+			
+						<!-- ============= Primitive Garment Thin =============== -->
+						
 						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_HulkPrimitiveGarment" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Hulk</BodyType>
