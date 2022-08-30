@@ -142,12 +142,21 @@
 						</offsets>
 					</value>
 				</li>
-
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/customDrawSize</xpath>
-					<value>
+				
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/customDrawSize</xpath>
+					<nomatch Class="PatchOperationAdd">
+					  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator</xpath>
+					  <value>
 						<customDrawSize>(0.85, 0.85)</customDrawSize>
-					</value>
+					  </value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+					  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/customDrawSize</xpath>
+					  <value>
+						<customDrawSize>(0.85, 0.85)</customDrawSize>
+					  </value>
+					</match>
 				</li>
 <!--
 				<li Class="PatchOperationReplace">
