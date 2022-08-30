@@ -60,8 +60,8 @@
 							<BodyType>Thin</BodyType>
 							<ApparelLayer>Middle</ApparelLayer>
 							
-							<MaskPath>Things/ApparelPaperPattern/Human/Thin/Powerarmor/female_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Human/Thin/Powerarmor/female_burn</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Thin/Powerarmor/thin_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Thin/Powerarmor/thin_burn</BurnPath>
 							
 							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
