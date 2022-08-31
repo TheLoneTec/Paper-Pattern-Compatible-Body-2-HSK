@@ -2,15 +2,25 @@
 <Patch>
 
 	<!-- Makes heads smaller for aesthetic reasons. -->
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs</xpath>
-		<value>
-			<FacialAnimation.FaceAdjustmentDef ParentName="HU_FAFaceSizeAndPosition">
-				<defName>AndroidSizeAndPositionDef</defName>
-				<RaceName>ChjAndroid</RaceName>
-			</FacialAnimation.FaceAdjustmentDef>
-		</value>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Facial Animation - WRelicK's Delegation</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+					<FacialAnimation.FaceAdjustmentDef ParentName="HU_FAFaceSizeAndPosition">
+						<defName>AndroidSizeAndPositionDef</defName>
+						<RaceName>ChjAndroid</RaceName>
+					</FacialAnimation.FaceAdjustmentDef>
+				</value>
+			</li>
+			
+			</operation>
+		</match>
 	</Operation>
 
 	<Operation Class="PatchOperationConditional">
