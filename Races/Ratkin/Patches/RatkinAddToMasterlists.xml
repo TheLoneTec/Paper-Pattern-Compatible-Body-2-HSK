@@ -475,6 +475,73 @@
 							<RaceName>Ratkin</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 
+						<!-- =========== Cardigan =========== -->
+
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_ThinCardigan" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Thin</BodyType>
+							<ApparelLayer>Shell</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Powerarmor/fat_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Powerarmor/fat_burn</BurnPath>
+							
+							<OffsetNorth>(0.00,0.1)</OffsetNorth>
+							<ScaleNorth>1.0</ScaleNorth>
+							
+							<OffsetEast>(0.00,0.1)</OffsetEast>
+							<ScaleEast>1.0</ScaleEast>
+							
+							<OffsetSouth>(0.00, 0.1)</OffsetSouth>
+							<ScaleSouth>1.0</ScaleSouth>
+							
+							<OffsetWest>(0.00,0.1)</OffsetWest>
+							<ScaleWest>1.0</ScaleWest>
+
+							<TargetApparelDefs>
+								<li>RK_Cardigan</li>
+							</TargetApparelDefs>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinCardigan">
+							<defName>GAPPE_RatkinThinCardigan</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<!-- Ratkin Plate armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemaleCardigan" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Female</BodyType>
+							<ApparelLayer>Shell</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Powerarmor/fat_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Powerarmor/fat_burn</BurnPath>
+							
+							<OffsetNorth>(0.00,0.1)</OffsetNorth>
+							<ScaleNorth>1.0</ScaleNorth>
+							
+							<OffsetEast>(0.00,0.1)</OffsetEast>
+							<ScaleEast>1.0</ScaleEast>
+							
+							<OffsetSouth>(0.00, 0.1)</OffsetSouth>
+							<ScaleSouth>1.0</ScaleSouth>
+							
+							<OffsetWest>(0.00,0.1)</OffsetWest>
+							<ScaleWest>1.0</ScaleWest>
+
+							<TargetApparelDefs>
+								<li>RK_Cardigan</li>
+							</TargetApparelDefs>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleCardigan">
+							<defName>GAPPE_RatkinFemaleCardigan</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
 						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. 
 						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinLayered">
 							<defName>GAPPE_RatkinThinUnchanged</defName>
@@ -514,6 +581,67 @@
 							<RaceName>Ratkin</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						-->
+						
+						<!-- ========== Other Helmets on Ratkin ========== -->
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="RATKIN_ThinHat" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Thin</BodyType>
+							<ApparelLayer>Overhead</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+							
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>0.9000</ScaleNorth>
+							<ScaleSouth>0.9000</ScaleSouth>
+							<ScaleEast>0.9000</ScaleEast>
+							<ScaleWest>0.9000</ScaleWest>
+
+							<IgnorePackageIds>
+								<li>Solaris.RatkinRaceMod</li>
+							</IgnorePackageIds>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="RATKIN_ThinHat">
+							<defName>GAPPE_RatkinThinHat</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="RATKIN_FemaleHat" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Female</BodyType>
+							<ApparelLayer>Overhead</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+							
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>0.9000</ScaleNorth>
+							<ScaleSouth>0.9000</ScaleSouth>
+							<ScaleEast>0.9000</ScaleEast>
+							<ScaleWest>0.9000</ScaleWest>
+
+							<IgnorePackageIds>
+								<li>Solaris.RatkinRaceMod</li>
+							</IgnorePackageIds>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="RATKIN_FemaleHat">
+							<defName>GAPPE_RatkinFemaleHat</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<!-- ========== Scarfs ========== -->
+						
 						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleHeadOuter">
 							<defName>GAPPE_RatkinFemaleHeadOuter</defName>
 							<RaceName>Ratkin</RaceName>
@@ -523,14 +651,14 @@
 							<defName>GAPPE_RatkinThinHeadOuter</defName>
 							<RaceName>Ratkin</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
-	
-						<li Class="PatchOperationAdd">
-							<xpath>Defs/ThingDef[@Name="MLHeadOuter"]/TargetApparelDefs</xpath>
-							<value>
-								<li>RK_Muffler</li>
-							</value>
-						</li>
 					
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="MLHeadOuter"]/TargetApparelDefs</xpath>
+					<value>
+						<li>RK_Muffler</li>
 					</value>
 				</li>
 
