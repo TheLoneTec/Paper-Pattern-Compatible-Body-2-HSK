@@ -17,15 +17,26 @@
 				<match Class="PatchOperationSequence">
 					<operations>
 					
-					<li Class="PatchOperationAdd">
-						<xpath>Defs</xpath>
-						<value>
-							<FacialAnimation.FaceAdjustmentDef ParentName="HU_FAFaceSizeAndPosition">
-								<defName>OrassanSizeAndPositionDef</defName>
-								<RaceName>Alien_Orassan</RaceName>
-								<Size>(1.5,1.5)</Size>
-							</FacialAnimation.FaceAdjustmentDef>
-						</value>
+					<li Class="PatchOperationFindMod">
+						<mods>
+							<li>Facial Animation - WRelicK's Delegation</li>
+						</mods>
+						<match Class="PatchOperationSequence">
+							<operations>
+							
+							<li Class="PatchOperationAdd">
+								<xpath>Defs</xpath>
+								<value>
+									<FacialAnimation.FaceAdjustmentDef ParentName="HU_FAFaceSizeAndPosition">
+										<defName>OrassanSizeAndPositionDef</defName>
+										<RaceName>Alien_Orassan</RaceName>
+										<Size>(1.5,1.5)</Size>
+									</FacialAnimation.FaceAdjustmentDef>
+								</value>
+							</li>
+							
+							</operation>
+						</match>
 					</li>
 					
 					<li Class="PatchOperationConditional">
@@ -81,14 +92,25 @@
 				<nomatch Class="PatchOperationSequence">
 				<operations>
 				
-					<li Class="PatchOperationAdd">
-						<xpath>Defs</xpath>
-						<value>
-							<FacialAnimation.FaceAdjustmentDef ParentName="HU_FAFaceSizeAndPosition">
-								<defName>OrassanSizeAndPositionDef</defName>
-								<RaceName>Alien_Orassan</RaceName>
-							</FacialAnimation.FaceAdjustmentDef>
-						</value>
+					<li Class="PatchOperationFindMod">
+						<mods>
+							<li>Facial Animation - WRelicK's Delegation</li>
+						</mods>
+						<match Class="PatchOperationSequence">
+							<operations>
+							
+							<li Class="PatchOperationAdd">
+								<xpath>Defs</xpath>
+								<value>
+									<FacialAnimation.FaceAdjustmentDef ParentName="HU_FAFaceSizeAndPosition">
+										<defName>OrassanSizeAndPositionDef</defName>
+										<RaceName>Alien_Orassan</RaceName>
+									</FacialAnimation.FaceAdjustmentDef>
+								</value>
+							</li>
+							
+							</operation>
+						</match>
 					</li>
 					
 					<li Class="PatchOperationConditional">
