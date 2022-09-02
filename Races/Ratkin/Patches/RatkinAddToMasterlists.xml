@@ -584,7 +584,7 @@
 						
 						<!-- ========== Other Helmets on Ratkin ========== -->
 						
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="RATKIN_ThinHat" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="RATKIN_ThinOtherHat" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Thin</BodyType>
 							<ApparelLayer>Overhead</ApparelLayer>
@@ -607,12 +607,12 @@
 
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="RATKIN_ThinHat">
-							<defName>GAPPE_RatkinThinHat</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="RATKIN_ThinOtherHat">
+							<defName>GAPPE_RatkinThinOtherHat</defName>
 							<RaceName>Ratkin</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="RATKIN_FemaleHat" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="RATKIN_FemaleOtherHat" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Female</BodyType>
 							<ApparelLayer>Overhead</ApparelLayer>
@@ -635,11 +635,67 @@
 
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="RATKIN_FemaleOtherHat">
+							<defName>GAPPE_RatkinFemaleOtherHat</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+				
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="RATKIN_ThinHat" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Thin</BodyType>
+							<ApparelLayer>Overhead</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+							
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>1.0000</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>1.0000</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
+
+							<TargetPackageIds>
+								<li>Solaris.RatkinRaceMod</li>
+							</TargetPackageIds>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="RATKIN_ThinHat">
+							<defName>GAPPE_RatkinThinHat</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="RATKIN_FemaleHat" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Female</BodyType>
+							<ApparelLayer>Overhead</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+							
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>1.0000</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>1.0000</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
+
+							<TargetPackageIds>
+								<li>Solaris.RatkinRaceMod</li>
+							</TargetPackageIds>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
 						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="RATKIN_FemaleHat">
 							<defName>GAPPE_RatkinFemaleHat</defName>
 							<RaceName>Ratkin</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
-						
+				
 						<!-- ========== Scarfs ========== -->
 						
 						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleHeadOuter">
