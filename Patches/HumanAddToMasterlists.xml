@@ -686,6 +686,7 @@
 					 or text()="Apparel_ArmorMarinePrestige"]</xpath>
 				</li>
 				-->
+
 				<!-- Pants -->
 				
 				<li Class="PatchOperationAdd">
