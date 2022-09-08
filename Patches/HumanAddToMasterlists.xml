@@ -34,7 +34,24 @@
 						<li>Apparello_Holser</li>
 					</value>
 				</li>
-				
+	
+				<!-- Remove pants from Paper Pattern original patch -->
+	
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="MLPants"]</xpath>
+					<value>
+					<IgnoreApparelDefs>
+						<li>MedievalTimes_Pants_Suspenders_Striped</li>
+						<li>Apparello_Suspender</li>
+						<li>Apparel_Pants</li>
+					</IgnoreApparelDefs>
+					</value>
+				</li>
+	
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[@Name="MLPants"]/TargetApparelDefs/li[text()="Apparel_Pants"]</xpath>
+				</li>
+	
 				<li Class="PatchOperationFindMod">
 				<mods>
 					<li>HMC Vile's Pre-Industrial Overhaul</li>
@@ -160,7 +177,7 @@
 				<li Class="PatchOperationReplace">
 				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemaleOnSkinFull"]</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemaleOnSkinFull" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemaleOnSkinFull" Abstract="True" ParentName="MLOnSkinFull">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Female</BodyType>
 							<ApparelLayer>OnSkin</ApparelLayer>
@@ -177,6 +194,30 @@
 							<ScaleEast>1.0400</ScaleEast>
 							<ScaleWest>1.0000</ScaleWest>
 							
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_ThinOnSkinFull"]</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_ThinOnSkinFull" Abstract="True" ParentName="MLOnSkinFull">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Thin</BodyType>
+							<ApparelLayer>OnSkin</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Thin/OnSkinFull/thin_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Thin/OnSkinFull/thin_burn</BurnPath>
+							
+							<OffsetNorth>(0.0200,0.0600)</OffsetNorth>
+							<OffsetSouth>(0.0180,0.0600)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0600)</OffsetEast>
+							<OffsetWest>(0.0000,0.0500)</OffsetWest>
+							<ScaleNorth>1.3000</ScaleNorth>
+							<ScaleSouth>1.3000</ScaleSouth>
+							<ScaleEast>1.3000</ScaleEast>
+							<ScaleWest>1.4000</ScaleWest>
+
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>
 				</li>
@@ -398,6 +439,67 @@
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
+						<!-- Primitive Garment Thin -->
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_ThinPullHigher" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Thin</BodyType>
+							<ApparelLayer>OnSkin</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Thin/OnSkinFull/thin_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Thin/OnSkinFull/thin_burn</BurnPath>
+							
+							<OffsetNorth>(0.0260,0.1300)</OffsetNorth>
+							<OffsetSouth>(0.0180,0.1300)</OffsetSouth>
+							<OffsetEast>(0.0000,0.1300)</OffsetEast>
+							<OffsetWest>(0.0000,0.1300)</OffsetWest>
+							<ScaleNorth>1.4000</ScaleNorth>
+							<ScaleSouth>1.3000</ScaleSouth>
+							<ScaleEast>1.4000</ScaleEast>
+							<ScaleWest>1.4000</ScaleWest>
+
+
+							<TargetApparelDefs>
+								<li>MedievalTimes_Pants_Suspenders_Striped</li>
+							</TargetApparelDefs>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+						<!-- Primitive Garment Thin -->
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinPullHigher">
+							<defName>GAPPE_HumanThinPullHigher</defName>
+							<RaceName>Human</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					
+						<!-- Primitive Garment Thin -->
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemalePullHigher" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Female</BodyType>
+							<ApparelLayer>OnSkin</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Female/OnSkinFull/female_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Female/OnSkinFull/female_burn</BurnPath>
+							
+							<OffsetNorth>(0.0050,0.1200)</OffsetNorth>
+							<OffsetSouth>(0.0250,0.1200)</OffsetSouth>
+							<OffsetEast>(0.0600,0.1200)</OffsetEast>
+							<OffsetWest>(0.0000,0.0200)</OffsetWest>
+							<ScaleNorth>1.0800</ScaleNorth>
+							<ScaleSouth>1.0800</ScaleSouth>
+							<ScaleEast>1.0800</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
+
+							<TargetApparelDefs>
+								<li>MedievalTimes_Pants_Suspenders_Striped</li>
+							</TargetApparelDefs>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+						<!-- Primitive Garment Thin -->
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemalePullHigher">
+							<defName>GAPPE_HumanFemalePullHigher</defName>
+							<RaceName>Human</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
 						<!-- Hulk Power Armor Top 
 						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_HulkPowerarmorTop" Abstract="True">
 							<BodyType>Hulk</BodyType>

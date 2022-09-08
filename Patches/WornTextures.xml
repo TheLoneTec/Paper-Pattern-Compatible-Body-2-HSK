@@ -140,6 +140,13 @@
 				</value>
 			</li>
 	
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Apparel_Pants"]/apparel/wornGraphicPath</xpath>
+				<value>
+					<wornGraphicPath>Things/Apparel/Suspenders/Suspenders</wornGraphicPath>
+				</value>
+			</li>
+	
 			</operations>
 		</match>
 	</Operation>

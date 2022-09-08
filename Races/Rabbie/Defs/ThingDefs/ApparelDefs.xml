@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- These are master lists of sorts for paper pattern defs that target specific pieces of apparel. 
+		 They're very useful for broadly applying multiple races/bodytype APP defs with common apparel restrictions. 
+		 When you use an ML parent, you must always define the RaceName and BodyType nodes in the child.-->
+  
+	<ThingDef Name="MLRabbieUnder" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<ApparelLayer>RBUnder</ApparelLayer>
+
+		<TargetApparelDefs>
+			<li>RB_Camisole</li>
+		</TargetApparelDefs>
+
+	</ThingDef>
+
+	<!-- CE Strapped Head Clothing (scarf) -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_ThinRabbieUnder" ParentName="MLRabbieUnder" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Thin</BodyType>
+
+		<MaskPath>Things/ApparelPaperPattern/Human/Thin/OnSkinFull/thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Human/Thin/OnSkinFull/thin_burn</BurnPath>
+
+		<OffsetNorth>(0.0000,-0.0300)</OffsetNorth>
+		<OffsetSouth>(0.0000,-0.0200)</OffsetSouth>
+		<OffsetEast>(0.0000,-0.0200)</OffsetEast>
+		<OffsetWest>(0.0000,0.0200)</OffsetWest>
+		<ScaleNorth>1.2000</ScaleNorth>
+		<ScaleSouth>1.2000</ScaleSouth>
+		<ScaleEast>1.2000</ScaleEast>
+		<ScaleWest>1.2000</ScaleWest>
+
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinRabbieUnder">
+		<defName>GAPPE_HumanThinRabbieUnder</defName>
+		<RaceName>Rabbie</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+</Defs> 

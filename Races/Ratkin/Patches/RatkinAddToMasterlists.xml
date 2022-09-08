@@ -696,25 +696,7 @@
 							<RaceName>Ratkin</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 				
-						<!-- ========== Scarfs ========== -->
-						
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleHeadOuter">
-							<defName>GAPPE_RatkinFemaleHeadOuter</defName>
-							<RaceName>Ratkin</RaceName>
-						</ApparelPaperPattern.ApparelPaperPatternDef>
-
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinHeadOuter">
-							<defName>GAPPE_RatkinThinHeadOuter</defName>
-							<RaceName>Ratkin</RaceName>
-						</ApparelPaperPattern.ApparelPaperPatternDef>
 					
-					</value>
-				</li>
-
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[@Name="MLHeadOuter"]/TargetApparelDefs</xpath>
-					<value>
-						<li>RK_Muffler</li>
 					</value>
 				</li>
 

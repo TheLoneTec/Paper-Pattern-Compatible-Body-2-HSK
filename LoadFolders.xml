@@ -11,5 +11,7 @@
     <li IfModActive="skyarkhangel.HSK">Races\Dova</li>
     <li IfModActive="skyarkhangel.HSK">Races\Norbal</li>
 	<li IfModActive="skyarkhangel.HSK">Races\Orassan</li>
+	<li IfModActive="FS.ReviaRace">Races\Revia</li>
+	<li IfModActive="RunneLatki.RabbieRaceMod.sk">Races\Rabbie</li>
   </v1.3>
 </loadFolders>
