@@ -126,54 +126,35 @@
 					</nomatch>
 				</li>
 				
-			<!--
+
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemaleOnSkin"]/OffsetEast</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemaleOnSkin"]</xpath>
 					<value>
-						<OffsetEast>(-0.035, 0.0)</OffsetEast>
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemaleOnSkin" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Female</BodyType>
+							<ApparelLayer>OnSkin</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Female/OnSkin/female_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Female/OnSkin/female_burn</BurnPath>
+							
+							<OffsetNorth>(0.0200,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0200,0.0000)</OffsetSouth>
+							<OffsetEast>(0.0350,0.0000)</OffsetEast>
+							<OffsetWest>(0.0350,0.0000)</OffsetWest>
+							<ScaleNorth>1.1000</ScaleNorth>
+							<ScaleSouth>1.1000</ScaleSouth>
+							<ScaleEast>1.2500</ScaleEast>
+							<ScaleWest>1.2500</ScaleWest>
+
+							<IgnorePackageIds>
+								<li>Mouse.gloomydress</li>
+							</IgnorePackageIds>
+							
+						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>
 				</li>
-				MLPowerarmor
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemaleOnSkin"]/OffsetWest</xpath>
-					<value>
-						<OffsetWest>(-0.035, 0.0)</OffsetWest>
-					</value>
-				</li>
-				
-				
-				<li Class="PatchOperationConditional">
-				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemaleOnSkin"]/OffsetSouth</xpath>
-					<match Class="PatchOperationReplace">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemaleOnSkin"]/OffsetSouth</xpath>
-						<value>
-							<OffsetSouth>(-0.030, 0.0)</OffsetSouth>
-						</value>
-					</match>
-					<nomatch Class="PatchOperationAdd">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemaleOnSkin"]</xpath>
-						<value>
-							<OffsetSouth>(-0.030, 0.0)</OffsetSouth>
-						</value>
-					</nomatch>
-				</li>
-				
-				<li Class="PatchOperationConditional">
-				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemaleOnSkin"]/OffsetNorth</xpath>
-					<match Class="PatchOperationReplace">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemaleOnSkin"]/OffsetNorth</xpath>
-						<value>
-							<OffsetNorth>(-0.01, 0.0)</OffsetNorth>
-						</value>
-					</match>
-					<nomatch Class="PatchOperationAdd">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemaleOnSkin"]</xpath>
-						<value>
-							<OffsetNorth>(-0.01, 0.0)</OffsetNorth>
-						</value>
-					</nomatch>
-				</li>
-				-->
+
 				<li Class="PatchOperationReplace">
 				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemaleOnSkinFull"]</xpath>
 					<value>
@@ -1118,6 +1099,158 @@
 					</value>
 				</li>
 
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+					
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_MaleSmallerHelmet" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Male</BodyType>
+							<ApparelLayer>Overhead</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+						   
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0200)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>0.9000</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>0.9000</ScaleEast>
+							<ScaleWest>0.9000</ScaleWest>
+
+							<TargetApparelDefs>
+								<li>Apparell_ArcticWolfHood</li>
+								<li>Apparel_BronzeHelmet</li>
+							</TargetApparelDefs>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleSmallerHelmet">
+							<defName>GAPPE_HumanMaleSmallerHelmet</defName>
+							<RaceName>Human</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+				
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemaleSmallerHelmet" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Female</BodyType>
+							<ApparelLayer>Overhead</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+						   
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0200)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>0.9000</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>0.9000</ScaleEast>
+							<ScaleWest>0.9000</ScaleWest>
+
+							<TargetApparelDefs>
+								<li>Apparell_ArcticWolfHood</li>
+								<li>Apparel_BronzeHelmet</li>
+							</TargetApparelDefs>
+							 
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleSmallerHelmet">
+							<defName>GAPPE_HumanFemaleSmallerHelmet</defName>
+							<RaceName>Human</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+				
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_ThinSmallerHelmet" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Thin</BodyType>
+							<ApparelLayer>Overhead</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+						   
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0200)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>0.9000</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>0.9000</ScaleEast>
+							<ScaleWest>0.9000</ScaleWest>
+
+							<TargetApparelDefs>
+								<li>Apparell_ArcticWolfHood</li>
+								<li>Apparel_BronzeHelmet</li>
+							</TargetApparelDefs>
+							 
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinSmallerHelmet">
+							<defName>GAPPE_HumanThinSmallerHelmet</defName>
+							<RaceName>Human</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_HulkSmallerHelmet" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Hulk</BodyType>
+							<ApparelLayer>Overhead</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+						   
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0200)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>0.9000</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>0.9000</ScaleEast>
+							<ScaleWest>0.9000</ScaleWest>
+
+							<TargetApparelDefs>
+								<li>Apparell_ArcticWolfHood</li>
+								<li>Apparel_BronzeHelmet</li>
+							</TargetApparelDefs>
+							 
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkSmallerHelmet">
+							<defName>GAPPE_HumanHulkSmallerHelmet</defName>
+							<RaceName>Human</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FatSmallerHelmet" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Fat</BodyType>
+							<ApparelLayer>Overhead</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+						   
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0200)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>0.9000</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>0.9000</ScaleEast>
+							<ScaleWest>0.9000</ScaleWest>
+
+							<TargetApparelDefs>
+								<li>Apparell_ArcticWolfHood</li>
+								<li>Apparel_BronzeHelmet</li>
+							</TargetApparelDefs>
+							 
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatSmallerHelmet">
+							<defName>GAPPE_HumanFatSmallerHelmet</defName>
+							<RaceName>Human</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+					</value>
+				</li>
+
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[thingCategories[li[text()="BootsCat"]]]/apparel/layers</xpath>
 					<value>
@@ -1128,7 +1261,7 @@
 						</layers>
 					</value>
 				</li>
-				
+	
 			</operations>
 		</match>
     </Operation>

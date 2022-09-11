@@ -147,6 +147,20 @@
 				</value>
 			</li>
 	
+			<!-- Shields -->
+			<!--
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="MedievalShield"]/graphicData/shaderType</xpath>
+			</li>
+			-->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="ShieldTribal" or defName="ShieldBone" or defName="Buckler" or defName="MedievalShield"
+				or defName="BallisticShield"]/modExtensions/li[@Class="CombatExtended.ShieldDefExtension"]</xpath>
+				<value>
+					<drawAsTall>true</drawAsTall>
+				</value>
+			</li>
+	
 			</operations>
 		</match>
 	</Operation>

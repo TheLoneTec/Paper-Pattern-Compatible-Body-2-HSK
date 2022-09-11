@@ -41,13 +41,13 @@
 		<RaceName>Human</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 
-	<!-- ========== Scarfs ========== -->
-	
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleHeadOuter">
 		<defName>GAPPE_RatkinFemaleHeadOuter</defName>
 		<RaceName>Ratkin</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 
+	<!-- ========== Scarfs ========== -->
+	
 	<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_MaleHeadOuter" ParentName="MLHeadOuter" Abstract="True">
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Male</BodyType>

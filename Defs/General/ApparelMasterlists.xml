@@ -6,24 +6,24 @@
 		 They're very useful for broadly applying multiple races/bodytype APP defs with common apparel restrictions. 
 		 When you use an ML parent, you must always define the RaceName and BodyType nodes in the child.-->
   
-  <ThingDef Name="MLFeet" Abstract="True">
-    <RenderVersion>1</RenderVersion>
-    <ApparelLayer>Middle</ApparelLayer>
-	
-	<TargetApparelDefs>
-		<li>MedievalTimes_Boots_Steel_Plated</li>
-		<li>Apparello_Boots</li>
-		<li>MedievalTimes_Boots_Combat</li>
-		<li>MedievalTimes_Boots_Techno</li>
-		<li>Apparello_Spboots</li>
-		<!-- HMC Vile's Pre-Industrial Overhaul -->
-		<li>Apparello_Snowboots</li>
-		<li>Apparello_Clawboots</li>
-		<li>Apparello_NorbalMuffshoes</li>
-		<li>Apparello_Shoes</li>
-		<li>Apparello_MetalBoots</li>
-	</TargetApparelDefs>
+	<ThingDef Name="MLFeet" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<ApparelLayer>Middle</ApparelLayer>
+
+		<TargetApparelDefs>
+			<li>MedievalTimes_Boots_Steel_Plated</li>
+			<li>Apparello_Boots</li>
+			<li>MedievalTimes_Boots_Combat</li>
+			<li>MedievalTimes_Boots_Techno</li>
+			<li>Apparello_Spboots</li>
+			<!-- HMC Vile's Pre-Industrial Overhaul -->
+			<li>Apparello_Snowboots</li>
+			<li>Apparello_Clawboots</li>
+			<li>Apparello_NorbalMuffshoes</li>
+			<li>Apparello_Shoes</li>
+			<li>Apparello_MetalBoots</li>
+		</TargetApparelDefs>
 		
-  </ThingDef>
+	</ThingDef>
 
 </Defs>
