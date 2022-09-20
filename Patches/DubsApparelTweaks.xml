@@ -85,6 +85,20 @@
 						</match>
 					</li>
 
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/BodyTypeDef[defName="Male"]/headOffset</xpath>
+						<value><!-- 0.34 -->
+							<headOffset>(0.09, 0.36)</headOffset>
+						</value>
+					</li>
+
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/BodyTypeDef[defName="Thin"]/headOffset</xpath>
+						<value>
+							<headOffset>(0.09, 0.3)</headOffset>
+						</value>
+					</li>
+
 					</operations>
 				</match>
 				<nomatch Class="PatchOperationSequence">

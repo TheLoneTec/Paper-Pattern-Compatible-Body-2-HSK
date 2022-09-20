@@ -17,6 +17,7 @@
 						<li>Apparel_Pants</li>
 						<!-- HMC Vile's Pre-Industrial Overhaul -->
 						<li>Norballo_Loincloth</li>
+						<li>Apparel_RagDressB</li>
 						<!-- Androids -->
 						<li>ChJAndroidThermalBandages</li>
 					</value>
@@ -34,7 +35,14 @@
 						<li>Apparello_Holser</li>
 					</value>
 				</li>
-	
+	<!--
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="MLPowerarmor"]/TargetApparelDefs</xpath>
+					<value>
+						
+					</value>
+				</li>
+	-->
 				<!-- Remove pants from Paper Pattern original patch -->
 	
 				<li Class="PatchOperationAdd">
@@ -138,13 +146,13 @@
 							<MaskPath>Things/ApparelPaperPattern/Human/Female/OnSkin/female_mask</MaskPath>
 							<BurnPath>Things/ApparelPaperPattern/Human/Female/OnSkin/female_burn</BurnPath>
 							
-							<OffsetNorth>(0.0200,0.0000)</OffsetNorth>
+							<OffsetNorth>(0.0200,0.0200)</OffsetNorth>
 							<OffsetSouth>(0.0200,0.0000)</OffsetSouth>
-							<OffsetEast>(0.0350,0.0000)</OffsetEast>
+							<OffsetEast>(0.0350,0.0500)</OffsetEast>
 							<OffsetWest>(0.0350,0.0000)</OffsetWest>
-							<ScaleNorth>1.1000</ScaleNorth>
-							<ScaleSouth>1.1000</ScaleSouth>
-							<ScaleEast>1.2500</ScaleEast>
+							<ScaleNorth>1.0000</ScaleNorth>
+							<ScaleSouth>0.9000</ScaleSouth>
+							<ScaleEast>1.0000</ScaleEast>
 							<ScaleWest>1.2500</ScaleWest>
 
 							<IgnorePackageIds>
@@ -166,15 +174,15 @@
 							<MaskPath>Things/ApparelPaperPattern/Human/Female/OnSkinFull/female_mask</MaskPath>
 							<BurnPath>Things/ApparelPaperPattern/Human/Female/OnSkinFull/female_burn</BurnPath>
 							
-							<OffsetNorth>(0.0250,0.0100)</OffsetNorth>
-							<OffsetSouth>(0.0250,-0.0200)</OffsetSouth>
-							<OffsetEast>(0.0000,0.0200)</OffsetEast>
+							<OffsetNorth>(0.0170,-0.0200)</OffsetNorth>
+							<OffsetSouth>(0.0300,-0.0200)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
 							<OffsetWest>(0.0000,0.0200)</OffsetWest>
-							<ScaleNorth>1.0200</ScaleNorth>
+							<ScaleNorth>1.0000</ScaleNorth>
 							<ScaleSouth>1.0000</ScaleSouth>
-							<ScaleEast>1.0400</ScaleEast>
+							<ScaleEast>1.0000</ScaleEast>
 							<ScaleWest>1.0000</ScaleWest>
-							
+
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>
 				</li>
@@ -225,6 +233,33 @@
 								<li>Mouse.gloomydress</li>
 							</IgnorePackageIds>
 							
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+	
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemaleShell"]</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemaleShell" Abstract="True" ParentName="MLShell">
+							<!-- Default outer. -->
+							<BodyType>Female</BodyType>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Female/Shell/female_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Female/Shell/female_burn</BurnPath>
+							
+							<OffsetNorth>(0.0105,-0.0095)</OffsetNorth>
+							<OffsetSouth>(0.0050,-0.0100)</OffsetSouth>
+							<OffsetEast>(0.0000,-0.0350)</OffsetEast>
+							<OffsetWest>(0.0250,0.0250)</OffsetWest>
+							<ScaleNorth>1.0500</ScaleNorth>
+							<ScaleSouth>1.0500</ScaleSouth>
+							<ScaleEast>1.0500</ScaleEast>
+							<ScaleWest>1.0500</ScaleWest>
+
+							<IgnorePackageIds>
+								<li>Mouse.gloomydress</li>
+							</IgnorePackageIds>
+
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>
 				</li>
@@ -1255,8 +1290,8 @@
 					<xpath>Defs/ThingDef[thingCategories[li[text()="BootsCat"]]]/apparel/layers</xpath>
 					<value>
 						<layers>
-							<li>Feet</li>
 							<li>Middle</li>
+							<li>Feet</li>
 							<!--<li>Shell</li>-->
 						</layers>
 					</value>
