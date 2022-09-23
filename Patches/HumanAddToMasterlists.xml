@@ -264,6 +264,29 @@
 					</value>
 				</li>
 	
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemalePowerarmor"]</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemalePowerarmor" Abstract="True" ParentName="MLPowerarmor">
+							<!-- For any armor that should cover the entire body. -->
+							<BodyType>Female</BodyType>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Female/Powerarmor/female_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Female/Powerarmor/female_burn</BurnPath>
+							
+							<OffsetNorth>(0.0160,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0160,0.0300)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>1.4000</ScaleNorth>
+							<ScaleSouth>1.4500</ScaleSouth>
+							<ScaleEast>1.3500</ScaleEast>
+							<ScaleWest>1.3500</ScaleWest>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+	
 				<!--
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_HulkOnSkinFull"]</xpath>
