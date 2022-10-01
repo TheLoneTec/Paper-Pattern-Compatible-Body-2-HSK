@@ -23,4 +23,6 @@ patches for a collection of mods to add legs and form fitting clothing to rimwor
 
 If you have [Facial Animation - WIP](https://steamcommunity.com/workshop/filedetails/?id=1635901197) you **NEED** [Facial Animation - WRelicK's Delegation](https://steamcommunity.com/sharedfiles/filedetails/?id=2839501950)
 
+###Load My Patch Mod Here
+
 (Optional)[USE Set Apparel Draw Order](https://steamcommunity.com/sharedfiles/filedetails/?id=2828788563) - Can be used is clothing layers arent behaving.
