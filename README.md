@@ -4,9 +4,9 @@ patches for a collection of mods to add legs and form fitting clothing to rimwor
 ## Required Mods
 [XML Extensions](https://steamcommunity.com/sharedfiles/filedetails/?id=2574315206)
 
-[[NL] Compatible Body 2]([NL] Compatible Body 2)
+[[NL] Compatible Body 2](https://steamcommunity.com/sharedfiles/filedetails/?id=1906148376)
 
-[[NL] Apparel Paper Pattern]([NL] Apparel Paper Pattern)
+[[NL] Apparel Paper Pattern](https://steamcommunity.com/sharedfiles/filedetails/?id=2480887589)
 
 [[XND] Visible Pants](https://steamcommunity.com/sharedfiles/filedetails/?id=2264108215)
 
