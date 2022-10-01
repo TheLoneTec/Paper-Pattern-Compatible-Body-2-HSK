@@ -10,7 +10,7 @@ patches for a collection of mods to add legs and form fitting clothing to rimwor
 
 [[XND] Visible Pants](https://steamcommunity.com/sharedfiles/filedetails/?id=2264108215)
 
-[APP BodyType Overrider Extensio](https://steamcommunity.com/workshop/filedetails/?id=2839443438)
+[APP BodyType Overrider Extension](https://steamcommunity.com/workshop/filedetails/?id=2839443438)
 
 [The Holy Invention - Grand Apparel Paper Pattern Extension](https://steamcommunity.com/sharedfiles/filedetails/?id=2839518933)
 
