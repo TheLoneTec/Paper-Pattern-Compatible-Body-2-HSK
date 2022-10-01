@@ -16,7 +16,9 @@ patches for a collection of mods to add legs and form fitting clothing to rimwor
 
 
 ## Recommended Mods
+
 [[NL] Custom Coordinate Offsets](https://steamcommunity.com/sharedfiles/filedetails/?id=1909870211)
+
 [UnderWhere](https://steamcommunity.com/sharedfiles/filedetails/?id=1870010563)
 
 If you have [Facial Animation - WIP](https://steamcommunity.com/workshop/filedetails/?id=1635901197) you **NEED** [Facial Animation - WRelicK's Delegation](https://steamcommunity.com/sharedfiles/filedetails/?id=2839501950)
