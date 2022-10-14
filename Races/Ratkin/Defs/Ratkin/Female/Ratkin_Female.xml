@@ -16,6 +16,16 @@
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleOnSkinFull">
 		<defName>GAPPE_RatkinFemaleOnSkinFull</defName>
 		<RaceName>Ratkin</RaceName>
+		
+		<OffsetNorth>(0.0170,-0.0400)</OffsetNorth>
+		<OffsetSouth>(0.0200,0.0200)</OffsetSouth>
+		<OffsetEast>(0.0000,-0.0100)</OffsetEast>
+		<OffsetWest>(0.0000,0.0100)</OffsetWest>
+		<ScaleNorth>1.0000</ScaleNorth>
+		<ScaleSouth>1.1000</ScaleSouth>
+		<ScaleEast>1.0000</ScaleEast>
+		<ScaleWest>1.0000</ScaleWest>
+		
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel" >
