@@ -28,9 +28,9 @@
 								<xpath>Defs</xpath>
 								<value>
 									<FacialAnimation.FaceAdjustmentDef ParentName="HU_FAFaceSizeAndPosition">
-										<defName>RatkinSizeAndPositionDef</defName>
-										<RaceName>Ratkin</RaceName>
-										<Size>(1.5,1.5)</Size>
+										<defName>RabbieSizeAndPositionDef</defName>
+										<RaceName>Rabbie</RaceName>
+										<!--<Size>(1.5,1.5)</Size>-->
 									</FacialAnimation.FaceAdjustmentDef>
 								</value>
 							</li>
@@ -40,15 +40,15 @@
 					</li>
 					
 					<li Class="PatchOperationConditional">
-						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
+						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
 						<nomatch Class="PatchOperationAdd">
-						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator</xpath>
 						  <value>
 							<customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
 						  </value>
 						</nomatch>
 						<match Class="PatchOperationReplace">
-						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
 						  <value>
 							<customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
 						  </value>
@@ -56,15 +56,15 @@
 					</li>
 					
 					<li Class="PatchOperationConditional">
-						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
+						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
 						<nomatch Class="PatchOperationAdd">
-						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator</xpath>
 						  <value>
 							<customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
 						  </value>
 						</nomatch>
 						<match Class="PatchOperationReplace">
-						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
 						  <value>
 							<customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
 						  </value>
@@ -72,15 +72,15 @@
 					</li>
 					
 					<li Class="PatchOperationConditional">
-						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
 						<nomatch Class="PatchOperationAdd">
-						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator</xpath>
 						  <value>
 							<headOffset>(0.00,-0.02)</headOffset>
 						  </value>
 						</nomatch>
 						<match Class="PatchOperationReplace">
-						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
 						  <value>
 							<headOffset>(0.00,-0.02)</headOffset>
 						  </value>
@@ -104,8 +104,8 @@
 								<xpath>Defs</xpath>
 								<value>
 									<FacialAnimation.FaceAdjustmentDef ParentName="HU_FAFaceSizeAndPosition">
-										<defName>RatkinSizeAndPositionDef</defName>
-										<RaceName>Ratkin</RaceName>
+										<defName>RabbieSizeAndPositionDef</defName>
+										<RaceName>Rabbie</RaceName>
 									</FacialAnimation.FaceAdjustmentDef>
 								</value>
 							</li>
@@ -115,15 +115,15 @@
 					</li>
 					
 					<li Class="PatchOperationConditional">
-						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
+						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
 						<nomatch Class="PatchOperationAdd">
-						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator</xpath>
 						  <value>
 							<customHeadDrawSize>(0.783, 0.783)</customHeadDrawSize>
 						  </value>
 						</nomatch>
 						<match Class="PatchOperationReplace">
-						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
 						  <value>
 							<customHeadDrawSize>(0.783, 0.783)</customHeadDrawSize>
 						  </value>
@@ -131,15 +131,15 @@
 					</li>
 					
 					<li Class="PatchOperationConditional">
-						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
+						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
 						<nomatch Class="PatchOperationAdd">
-						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator</xpath>
 						  <value>
 							<customPortraitHeadDrawSize>(0.783, 0.783)</customPortraitHeadDrawSize>
 						  </value>
 						</nomatch>
 						<match Class="PatchOperationReplace">
-						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
 						  <value>
 							<customPortraitHeadDrawSize>(0.783, 0.783)</customPortraitHeadDrawSize>
 						  </value>
@@ -147,15 +147,15 @@
 					</li>
 					
 					<li Class="PatchOperationConditional">
-						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
 						<nomatch Class="PatchOperationAdd">
-						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator</xpath>
 						  <value>
 							<headOffset>(0.00,-0.055)</headOffset>
 						  </value>
 						</nomatch>
 						<match Class="PatchOperationReplace">
-						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
 						  <value>
 							<headOffset>(0.00,-0.055)</headOffset>
 						  </value>
@@ -172,9 +172,9 @@
 
 	
 	<Operation Class="PatchOperationConditional">
-		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/headOffsetDirectional</xpath>
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator/headOffsetDirectional</xpath>
 		<nomatch Class="PatchOperationAdd">
-		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator</xpath>
+		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator</xpath>
 		  <value>
 			<headOffsetDirectional>
 				<east>(-0.025, 0.00)</east>
@@ -183,7 +183,7 @@
 		  </value>
 		</nomatch>
 		<match Class="PatchOperationReplace">
-		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/headOffsetDirectional</xpath>
+		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Rabbie"]/alienRace/generalSettings/alienPartGenerator/headOffsetDirectional</xpath>
 		  <value>
 			<headOffsetDirectional>
 				<east>(-0.025, 0.00)</east>

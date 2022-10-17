@@ -74,13 +74,13 @@
 						<nomatch Class="PatchOperationAdd">
 							<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator</xpath>
 							<value>
-								<headOffset>(0.00,0.00)</headOffset>
+								<headOffset>(0.00,-0.01)</headOffset>
 							</value>
 						</nomatch>
 						<match Class="PatchOperationReplace">
 							<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
 							<value>
-								<headOffset>(0.00,0.00)</headOffset>
+								<headOffset>(0.00,-0.01)</headOffset>
 							</value>
 						</match>
 					</li>
@@ -95,7 +95,7 @@
 					<li Class="PatchOperationReplace">
 						<xpath>/Defs/BodyTypeDef[defName="Thin"]/headOffset</xpath>
 						<value>
-							<headOffset>(0.09, 0.3)</headOffset>
+							<headOffset>(0.09, 0.34)</headOffset>
 						</value>
 					</li>
 

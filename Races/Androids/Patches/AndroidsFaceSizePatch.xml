@@ -74,13 +74,13 @@
 						<nomatch Class="PatchOperationAdd">
 						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ChjAndroid"]/alienRace/generalSettings/alienPartGenerator</xpath>
 						  <value>
-							<headOffset>(0.00,0.00)</headOffset>
+							<headOffset>(0.00,0.005)</headOffset>
 						  </value>
 						</nomatch>
 						<match Class="PatchOperationReplace">
 						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ChjAndroid"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
 						  <value>
-							<headOffset>(0.00,0.00)</headOffset>
+							<headOffset>(0.00,0.005)</headOffset>
 						  </value>
 						</match>
 					</li>

@@ -30,7 +30,7 @@
 									<FacialAnimation.FaceAdjustmentDef ParentName="HU_FAFaceSizeAndPosition">
 										<defName>ReviaSizeAndPositionDef</defName>
 										<RaceName>ReviaRaceAlien</RaceName>
-										<Size>(1.5,1.5)</Size>
+										<!--<Size>(1.5,1.5)</Size>-->
 									</FacialAnimation.FaceAdjustmentDef>
 								</value>
 							</li>

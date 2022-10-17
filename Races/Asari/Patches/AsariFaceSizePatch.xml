@@ -16,6 +16,7 @@
 					<FacialAnimation.FaceAdjustmentDef ParentName="HU_FAFaceSizeAndPosition">
 						<defName>AsariSizeAndPositionDef</defName>
 						<RaceName>Alien_Asari</RaceName>
+						<Size>(1.25,1.25)</Size>
 					</FacialAnimation.FaceAdjustmentDef>
 				</value>
 			</li>
@@ -29,13 +30,13 @@
 		<nomatch Class="PatchOperationAdd">
 		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Asari"]/alienRace/generalSettings/alienPartGenerator</xpath>
 		  <value>
-			<customHeadDrawSize>(0.783, 0.783)</customHeadDrawSize>
+			<customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
 		  </value>
 		</nomatch>
 		<match Class="PatchOperationReplace">
 		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Asari"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
 		  <value>
-			<customHeadDrawSize>(0.783, 0.783)</customHeadDrawSize>
+			<customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
 		  </value>
 		</match>
 	</Operation>
@@ -45,13 +46,13 @@
 		<nomatch Class="PatchOperationAdd">
 		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Asari"]/alienRace/generalSettings/alienPartGenerator</xpath>
 		  <value>
-			<customPortraitHeadDrawSize>(0.783, 0.783)</customPortraitHeadDrawSize>
+			<customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
 		  </value>
 		</nomatch>
 		<match Class="PatchOperationReplace">
 		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Asari"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
 		  <value>
-			<customPortraitHeadDrawSize>(0.783, 0.783)</customPortraitHeadDrawSize>
+			<customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
 		  </value>
 		</match>
 	</Operation>
@@ -61,13 +62,13 @@
 		<nomatch Class="PatchOperationAdd">
 		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Asari"]/alienRace/generalSettings/alienPartGenerator</xpath>
 		  <value>
-			<headOffset>(0.00,-0.035)</headOffset>
+			<headOffset>(0.00,0.00)</headOffset>
 		  </value>
 		</nomatch>
 		<match Class="PatchOperationReplace">
 		  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Asari"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
 		  <value>
-			<headOffset>(0.00,-0.035)</headOffset>
+			<headOffset>(0.00,0.00)</headOffset>
 		  </value>
 		</match>
 	</Operation>
