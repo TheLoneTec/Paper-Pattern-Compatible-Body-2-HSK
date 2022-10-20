@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- ONSKIN: Covers most of the upper body. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinOnSkin">
+		<defName>GAPPE_SkynetAgentThinOnSkin</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- ONSKINFULL: Covers most of the whole body. -->
+	
+	<!-- Any defs with a parent beginning in ML are subject to a master list of apparel restrictions. 
+		 See Defs/General/ApparelMasterlists.xml for details. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinOnSkinFull">
+		<defName>GAPPE_SkynetAgentThinOnSkinFull</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>GAPPE_SkynetAgentThinOnSkinFullAA</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- PANTS: Only works if Visible Pants is active. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinPants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>GAPPE_SkynetAgentThinPants</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinPantsShort" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>GAPPE_SkynetAgentThinPantsShort</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- MIDDLE -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinMiddle">
+		<defName>GAPPE_SkynetAgentThinMiddle</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>GAPPE_SkynetAgentThinMiddleAA</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- SHELL -->	
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinShell">
+		<defName>GAPPE_SkynetAgentThinShell</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>GAPPE_SkynetAgentThinShellAA</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>GAPPE_SkynetAgentThinBodyStrap</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinPowerarmor">
+		<defName>GAPPE_SkynetAgentThinPowerarmor</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- UTILITY -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinUtility">
+		<defName>GAPPE_SkynetAgentThinUtility</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+
+	<!-- TARGETED -->
+	
+	<!-- Flak pants don't work with the usual pants def because they're in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinFlakPants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>GAPPE_SkynetAgentThinFlakPants</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinTrooperArmor" MayRequire="VanillaExpanded.VAPPE">
+		<defName>GAPPE_SkynetAgentThinTrooperArmor</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+</Defs>

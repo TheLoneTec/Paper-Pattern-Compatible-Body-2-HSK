@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleUnderwearTop" MayRequire="Malistaticy.UnderWhere">
+		<defName>GAPPE_SkynetInfiltratorFemaleUnderwearTop</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleUnderwear" MayRequire="Malistaticy.UnderWhere">
+		<defName>GAPPE_SkynetInfiltratorFemaleUnderwear</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleLongJohns" MayRequire="Malistaticy.UnderWhere">
+		<defName>GAPPE_SkynetInfiltratorFemaleLongJohns</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+</Defs>

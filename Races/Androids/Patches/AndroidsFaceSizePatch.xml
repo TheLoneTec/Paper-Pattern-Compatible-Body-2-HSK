@@ -4,7 +4,9 @@
 	<!-- Makes heads smaller for aesthetic reasons. -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Facial Animation - WRelicK's Delegation</li>
+			<li>Facial Animation Androids Patch</li>
+			<li>Facial Animation HSK Patch</li>
+			<li>Nals Facial Animation for HAR</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>

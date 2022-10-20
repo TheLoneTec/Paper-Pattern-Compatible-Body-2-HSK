@@ -20,6 +20,7 @@
 						<li>Apparel_RagDressB</li>
 						<!-- Androids -->
 						<li>ChJAndroidThermalBandages</li>
+						<li>SpeacialForces_Bodysuit</li>
 					</value>
 				</li>
 				
@@ -1179,6 +1180,7 @@
 							<ScaleWest>0.9000</ScaleWest>
 
 							<TargetApparelDefs>
+								<li>CryptosleepHat</li>
 								<li>Apparell_ArcticWolfHood</li>
 								<li>Apparel_BronzeHelmet</li>
 							</TargetApparelDefs>
@@ -1208,6 +1210,7 @@
 							<ScaleWest>0.9000</ScaleWest>
 
 							<TargetApparelDefs>
+								<li>CryptosleepHat</li>
 								<li>Apparell_ArcticWolfHood</li>
 								<li>Apparel_BronzeHelmet</li>
 							</TargetApparelDefs>
@@ -1237,6 +1240,7 @@
 							<ScaleWest>0.9000</ScaleWest>
 
 							<TargetApparelDefs>
+								<li>CryptosleepHat</li>
 								<li>Apparell_ArcticWolfHood</li>
 								<li>Apparel_BronzeHelmet</li>
 							</TargetApparelDefs>
@@ -1266,6 +1270,7 @@
 							<ScaleWest>0.9000</ScaleWest>
 
 							<TargetApparelDefs>
+								<li>CryptosleepHat</li>
 								<li>Apparell_ArcticWolfHood</li>
 								<li>Apparel_BronzeHelmet</li>
 							</TargetApparelDefs>
@@ -1295,6 +1300,7 @@
 							<ScaleWest>0.9000</ScaleWest>
 
 							<TargetApparelDefs>
+								<li>CryptosleepHat</li>
 								<li>Apparell_ArcticWolfHood</li>
 								<li>Apparel_BronzeHelmet</li>
 							</TargetApparelDefs>

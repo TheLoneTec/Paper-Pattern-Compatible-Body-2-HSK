@@ -13,6 +13,7 @@
 	<li IfModActive="skyarkhangel.HSK">Races\Orassan</li>
 	<li IfModActive="FS.ReviaRace">Races\Revia</li>
 	<li IfModActive="RunneLatki.RabbieRaceMod.sk">Races\Rabbie</li>
+	<li IfModActive="skyarkhangel.skynet">Races\Skynet</li>
 	<li IfModActive="Malistaticy.UnderWhere">Mods\UnderWhere</li>
   </v1.3>
 </loadFolders>
