@@ -318,10 +318,10 @@
 							<OffsetSouth>(0.0050,-0.0100)</OffsetSouth>
 							<OffsetEast>(0.0000,-0.0350)</OffsetEast>
 							<OffsetWest>(0.0250,0.0250)</OffsetWest>
-							<ScaleNorth>1.0500</ScaleNorth>
-							<ScaleSouth>1.0500</ScaleSouth>
-							<ScaleEast>1.0500</ScaleEast>
-							<ScaleWest>1.0500</ScaleWest>
+							<ScaleNorth>1.0000</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>1.0000</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
 
 							<IgnorePackageIds>
 								<li>Mouse.gloomydress</li>
