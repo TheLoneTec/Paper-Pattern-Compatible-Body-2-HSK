@@ -165,6 +165,72 @@
 				</li>
 
 				<li Class="PatchOperationReplace">
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_ThinPants"]</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_ThinPants" Abstract="True" ParentName="MLPants" MayRequire="XeoNovaDan.VisiblePants">
+							<BodyType>Thin</BodyType>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Male/Pants/male_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Male/Pants/male_burn</BurnPath>
+							
+							<OffsetNorth>(0.0000,0.2700)</OffsetNorth>
+							<OffsetSouth>(0.0200,0.2700)</OffsetSouth>
+							<OffsetEast>(0.0800,0.2600)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>1.9000</ScaleNorth>
+							<ScaleSouth>1.9000</ScaleSouth>
+							<ScaleEast>1.9000</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_MalePants"]</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_MalePants" Abstract="True" ParentName="MLPants" MayRequire="XeoNovaDan.VisiblePants">
+							<BodyType>Male</BodyType>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Male/Pants/male_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Male/Pants/male_burn</BurnPath>
+							
+							<OffsetNorth>(0.0000,0.2700)</OffsetNorth>
+							<OffsetSouth>(0.0200,0.2900)</OffsetSouth>
+							<OffsetEast>(0.0800,0.2600)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>1.9000</ScaleNorth>
+							<ScaleSouth>1.9900</ScaleSouth>
+							<ScaleEast>1.9000</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FatPants"]</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FatPants" Abstract="True" ParentName="MLPants" MayRequire="XeoNovaDan.VisiblePants">
+							<BodyType>Fat</BodyType>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Pants/fat_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Pants/fat_burn</BurnPath>
+							
+							<OffsetNorth>(0.0000,0.3000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.3000)</OffsetSouth>
+							<OffsetEast>(0.1000,0.3500)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>1.9000</ScaleNorth>
+							<ScaleSouth>1.9000</ScaleSouth>
+							<ScaleEast>1.9500</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
 				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemaleOnSkinFull"]</xpath>
 					<value>
 						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemaleOnSkinFull" Abstract="True" ParentName="MLOnSkinFull">
@@ -807,15 +873,15 @@
 							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Powerarmor/fat_mask</MaskPath>
 							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Powerarmor/fat_burn</BurnPath>
 							
-							<OffsetNorth>(0.0200,0.0100)</OffsetNorth>
-							<OffsetSouth>(0.0000,0.0100)</OffsetSouth>
-							<OffsetEast>(0.0000,-0.0200)</OffsetEast>
-							<OffsetWest>(0.0000,-0.0200)</OffsetWest>
-							<ScaleNorth>1.0100</ScaleNorth>
-							<ScaleSouth>1.0100</ScaleSouth>
-							<ScaleEast>1.0100</ScaleEast>
-							<ScaleWest>1.0100</ScaleWest>
-							
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0800)</OffsetSouth>
+							<OffsetEast>(-0.0400,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.1500)</OffsetWest>
+							<ScaleNorth>0.9500</ScaleNorth>
+							<ScaleSouth>1.1000</ScaleSouth>
+							<ScaleEast>0.9800</ScaleEast>
+							<ScaleWest>0.9000</ScaleWest>
+
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>
 				</li>

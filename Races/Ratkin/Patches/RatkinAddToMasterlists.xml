@@ -704,6 +704,7 @@
 					<xpath>Defs/ThingDef[@Name="MLShell"]/IgnoreApparelDefs</xpath>
 					<value>
 						<li>RK_RoyalRobe</li>
+						<li>RK_WinterRobe</li>
 						<!--
 						<li>RK_BattleSuit</li>
 						<li>RK_BattleSuitB</li>
