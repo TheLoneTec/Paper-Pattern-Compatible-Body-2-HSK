@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>The Holy Invention - Grand Apparel Paper Pattern Extension</li>
+	</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+	
+				<!-- ============= Feet Defs ============= -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinFeet">
+							<defName>GAPPE_ReviaThinFeet</defName>
+							<RaceName>ReviaRaceAlien</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleFeet">
+							<defName>GAPPE_ReviaFemaleFeet</defName>
+							<RaceName>ReviaRaceAlien</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+						<!-- ============= Pants Defs ============= -->
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinPantsAdjust">
+							<defName>GAPPE_ReviaThinPants</defName>
+							<RaceName>ReviaRaceAlien</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemalePantsAdjust">
+							<defName>GAPPE_ReviaFemalePants</defName>
+							<RaceName>ReviaRaceAlien</RaceName>
+							
+							<OffsetNorth>(0.0200,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0200,0.0000)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0200)</OffsetWest>
+							<ScaleNorth>1.0400</ScaleNorth>
+							<ScaleSouth>1.0400</ScaleSouth>
+							<ScaleEast>1.0400</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+					</value>
+					
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[defName="GAPPE_ReviaFemaleLongJohns"]</xpath>
+					<value>
+						<OffsetSouth>(-0.0050,-0.0300)</OffsetSouth>
+						<ScaleSouth>1.2000</ScaleSouth>	
+					</value>
+				</li>
+
+			</operations>
+		</match>
+    </Operation>
+	
+</Patch>

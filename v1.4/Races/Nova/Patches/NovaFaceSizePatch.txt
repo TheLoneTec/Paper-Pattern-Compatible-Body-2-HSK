@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[NL] Facial Animation - WIP</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+	
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Dubs Apparel Tweaks</li>
+				</mods>
+				<match Class="PatchOperationSequence">
+					<operations>
+
+					<li Class="PatchOperationFindMod">
+						<mods>
+							<li>Facial Animation - WRelicK's Delegation</li>
+						</mods>
+						<match Class="PatchOperationSequence">
+							<operations>
+							
+							<li Class="PatchOperationAdd">
+								<xpath>Defs</xpath>
+								<value>
+									<FacialAnimation.FaceAdjustmentDef ParentName="HU_FAFaceSizeAndPosition">
+										<defName>NovaSizeAndPositionDef</defName>
+										<RaceName>Alien_Nova</RaceName>
+									</FacialAnimation.FaceAdjustmentDef>
+								</value>
+							</li>
+							
+							</operations>
+						</match>
+					</li>
+
+					<li Class="PatchOperationConditional">
+						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
+						<nomatch Class="PatchOperationAdd">
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						  <value>
+							<customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
+						  </value>
+						</nomatch>
+						<match Class="PatchOperationReplace">
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
+						  <value>
+							<customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
+						  </value>
+						</match>
+					</li>
+					
+					<li Class="PatchOperationConditional">
+						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
+						<nomatch Class="PatchOperationAdd">
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						  <value>
+							<customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
+						  </value>
+						</nomatch>
+						<match Class="PatchOperationReplace">
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
+						  <value>
+							<customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
+						  </value>
+						</match>
+					</li>
+
+					<li Class="PatchOperationConditional">
+						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+						<nomatch Class="PatchOperationAdd">
+							<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator</xpath>
+							<value>
+								<headOffset>(0.00,-0.01)</headOffset>
+							</value>
+						</nomatch>
+						<match Class="PatchOperationReplace">
+							<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+							<value>
+								<headOffset>(0.00,-0.01)</headOffset>
+							</value>
+						</match>
+					</li>
+
+					</operations>
+				</match>
+				<nomatch Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationConditional">
+						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
+						<nomatch Class="PatchOperationAdd">
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						  <value>
+							<customHeadDrawSize>(0.783, 0.783)</customHeadDrawSize>
+						  </value>
+						</nomatch>
+						<match Class="PatchOperationReplace">
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
+						  <value>
+							<customHeadDrawSize>(0.783, 0.783)</customHeadDrawSize>
+						  </value>
+						</match>
+					</li>
+					
+					<li Class="PatchOperationConditional">
+						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
+						<nomatch Class="PatchOperationAdd">
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						  <value>
+							<customPortraitHeadDrawSize>(0.783, 0.783)</customPortraitHeadDrawSize>
+						  </value>
+						</nomatch>
+						<match Class="PatchOperationReplace">
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
+						  <value>
+							<customPortraitHeadDrawSize>(0.783, 0.783)</customPortraitHeadDrawSize>
+						  </value>
+						</match>
+					</li>
+					
+					<li Class="PatchOperationConditional">
+						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+						<nomatch Class="PatchOperationAdd">
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						  <value>
+							<headOffset>(0.00,-0.035)</headOffset>
+						  </value>
+						</nomatch>
+						<match Class="PatchOperationReplace">
+						  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+						  <value>
+							<headOffset>(0.00,-0.035)</headOffset>
+						  </value>
+						</match>
+					</li>
+
+				</operations>
+				</nomatch>
+			</li>
+
+			<li Class="XmlExtensions.PatchOperationSafeAddOrReplace">
+			  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace</xpath>
+			  <safetyDepth>2</safetyDepth>
+			  <compare>Name</compare>
+			  <value>
+				<graphicPaths>
+					<li>
+						<head>Things/Pawn/NoEars/Heads_Blank/</head>
+					</li>
+				</graphicPaths>
+			  </value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+			  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="left ear"]/offsets</xpath>
+			  <value>
+				<offsets>
+					<south>
+						<bodyTypes>
+							<Male>(-0.45, 0.55)</Male>
+							<Female>(-0.45, 0.55)</Female>
+							<Fat>(-0.45, 0.55)</Fat>
+							<Thin>(-0.45, 0.55)</Thin>
+							<Hulk>(-0.45, 0.55)</Hulk>
+						</bodyTypes>
+						<crownTypes>
+							<Normal_Average>(0,0)</Normal_Average>
+							<Narrow_Pointy>(0,0))</Narrow_Pointy>
+						</crownTypes>
+						<layerOffset>-0.275</layerOffset>
+					</south>
+					<north>
+						<bodyTypes>
+							<Male>(0.01, 0.87)</Male>
+							<Female>(0.01,0.87)</Female>
+							<Fat>(0.01,0.87))</Fat>
+							<Thin>(0.01,0.87)</Thin>
+							<Hulk>(0.01,0.87)</Hulk>
+						</bodyTypes>
+						<crownTypes>
+							<Normal_Average>(0,0)</Normal_Average>
+							<Narrow_Pointy>(0,0)</Narrow_Pointy>
+						</crownTypes>
+						<layerOffset>-0.275</layerOffset>
+					</north>
+					<east>
+						<bodyTypes>
+							<Male>(-0.5,0.5)</Male>
+							<Female>(-0.5, 0.5)</Female>
+							<Fat>(-0.5, 0.5)</Fat>
+							<Thin>(-0.5, 0.5)</Thin>
+							<Hulk>(-0.5, 0.5)</Hulk>
+						</bodyTypes>
+						<crownTypes>
+							<Normal_Average>(0,0)</Normal_Average>
+							<Narrow_Pointy>(0,0)</Narrow_Pointy>
+						</crownTypes>
+						<layerOffset>-0.275</layerOffset>
+					</east>
+				</offsets>
+			  </value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+			  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="right ear"]/offsets</xpath>
+			  <value>
+				<offsets>
+					<south>
+						<bodyTypes>
+							<Male>(-0.4, 0.55)</Male>
+							<Female>(-0.4, 0.55)</Female>
+							<Fat>(-0.4, 0.55)</Fat>
+							<Thin>(-0.4, 0.55)</Thin>
+							<Hulk>(-0.4, 0.55)</Hulk>
+						</bodyTypes>
+						<crownTypes>
+							<Normal_Average>(0,0)</Normal_Average>
+							<Narrow_Pointy>(0,0)</Narrow_Pointy>
+						</crownTypes>
+						<layerOffset>-0.275</layerOffset>
+					</south>
+					<north>
+						<bodyTypes>
+							<Male>(-0.038, 0.87)</Male>
+							<Female>(-0.038,0.87)</Female>
+							<Fat>(-0.038,0.87))</Fat>
+							<Thin>(-0.038,0.87)</Thin>
+							<Hulk>(-0.038,0.87)</Hulk>
+						</bodyTypes>
+						<crownTypes>
+							<Normal_Average>(0,0)</Normal_Average>
+							<Narrow_Pointy>(0,0)</Narrow_Pointy>
+						</crownTypes>
+						<layerOffset>-0.275</layerOffset>
+					</north>
+					<east>
+						<bodyTypes>
+							<Male>(-0.5,0.5)</Male>
+							<Female>(-0.5, 0.5)</Female>
+							<Fat>(-0.5, 0.5)</Fat>
+							<Thin>(-0.5, 0.5)</Thin>
+							<Hulk>(-0.5, 0.5)</Hulk>
+						</bodyTypes>
+						<crownTypes>
+							<Normal_Average>(0,0)</Normal_Average>
+							<Narrow_Pointy>(0,0)</Narrow_Pointy>
+						</crownTypes>
+						<layerOffset>-0.275</layerOffset>
+					</east>
+				</offsets>
+			  </value>
+			</li>
+
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

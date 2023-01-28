@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-	<!-- Slave collar fix. -->
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleCollar" MayRequire="Ludeon.RimWorld.Ideology">
-		<defName>GAPPE_RatkinFemaleCollar</defName>
-		<RaceName>Ratkin</RaceName>
-	</ApparelPaperPattern.ApparelPaperPatternDef>
-</Defs>

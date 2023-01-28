@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleUnderwearTop" MayRequire="Malistaticy.UnderWhere">
+		<defName>GAPPE_Alien_NovaMaleUnderwearTop</defName>
+		<RaceName>Alien_Nova</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleUnderwear" MayRequire="Malistaticy.UnderWhere">
+		<defName>GAPPE_Alien_NovaMaleUnderwear</defName>
+		<RaceName>Alien_Nova</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleLongJohns" MayRequire="Malistaticy.UnderWhere">
+		<defName>GAPPE_Alien_NovaMaleLongJohns</defName>
+		<RaceName>Alien_Nova</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+</Defs>

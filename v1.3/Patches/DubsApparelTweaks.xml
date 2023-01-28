@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[NL] Facial Animation - WIP</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+	
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Dubs Apparel Tweaks</li>
+				</mods>
+				<match Class="PatchOperationSequence">
+					<operations>
+			
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/FacialAnimation.FaceAdjustmentDef[defName="HumanFaceSizeAndPositionDef"]/Size</xpath>
+						<value>
+							<Size>(1.5,1.5)</Size>
+						</value>
+					</li>
+			
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						<value>
+							<customDrawSize>(1.0, 1.0)</customDrawSize>
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						<value>
+							<customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
+						</value>
+					</li>
+
+					<li Class="PatchOperationConditional">
+						<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
+						<nomatch Class="PatchOperationAdd">
+						  <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						  <value>
+							<customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
+						  </value>
+						</nomatch>
+						<match Class="PatchOperationReplace">
+						  <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
+						  <value>
+							<customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
+						  </value>
+						</match>
+					</li>
+					
+					<li Class="PatchOperationConditional">
+						<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
+						<nomatch Class="PatchOperationAdd">
+						  <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						  <value>
+							<customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
+						  </value>
+						</nomatch>
+						<match Class="PatchOperationReplace">
+						  <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
+						  <value>
+							<customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
+						  </value>
+						</match>
+					</li>
+
+					<li Class="PatchOperationConditional">
+						<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+						<nomatch Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator</xpath>
+							<value>
+								<headOffset>(0.00,-0.01)</headOffset>
+							</value>
+						</nomatch>
+						<match Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+							<value>
+								<headOffset>(0.00,-0.01)</headOffset>
+							</value>
+						</match>
+					</li>
+
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/BodyTypeDef[defName="Male"]/headOffset</xpath>
+						<value><!-- 0.34 -->
+							<headOffset>(0.09, 0.36)</headOffset>
+						</value>
+					</li>
+
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/BodyTypeDef[defName="Thin"]/headOffset</xpath>
+						<value>
+							<headOffset>(0.09, 0.34)</headOffset>
+						</value>
+					</li>
+
+					</operations>
+				</match>
+				<nomatch Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationConditional">
+						<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
+						<nomatch Class="PatchOperationAdd">
+						  <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						  <value>
+							<customHeadDrawSize>(0.783, 0.783)</customHeadDrawSize>
+						  </value>
+						</nomatch>
+						<match Class="PatchOperationReplace">
+						  <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/customHeadDrawSize</xpath>
+						  <value>
+							<customHeadDrawSize>(0.783, 0.783)</customHeadDrawSize>
+						  </value>
+						</match>
+					</li>
+					
+					<li Class="PatchOperationConditional">
+						<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
+						<nomatch Class="PatchOperationAdd">
+						  <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						  <value>
+							<customPortraitHeadDrawSize>(0.783, 0.783)</customPortraitHeadDrawSize>
+						  </value>
+						</nomatch>
+						<match Class="PatchOperationReplace">
+						  <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/customPortraitHeadDrawSize</xpath>
+						  <value>
+							<customPortraitHeadDrawSize>(0.783, 0.783)</customPortraitHeadDrawSize>
+						  </value>
+						</match>
+					</li>
+					
+					<li Class="PatchOperationConditional">
+						<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+						<nomatch Class="PatchOperationAdd">
+						  <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator</xpath>
+						  <value>
+							<headOffset>(0.00,-0.035)</headOffset>
+						  </value>
+						</nomatch>
+						<match Class="PatchOperationReplace">
+						  <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+						  <value>
+							<headOffset>(0.00,-0.035)</headOffset>
+						  </value>
+						</match>
+					</li>
+
+				</operations>
+				</nomatch>
+			</li>
+
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

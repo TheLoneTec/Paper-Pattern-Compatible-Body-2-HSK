@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- ONSKIN: Covers most of the upper body. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkOnSkin">
+		<defName>GAPPE_SkynetCovertHulkOnSkin</defName>
+		<RaceName>SkynetCovert</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- ONSKINFULL: Covers most of the whole body. -->
+	
+	<!-- Any defs with a parent beginning in ML are subject to a master list of apparel restrictions. 
+		 See Defs/General/ApparelMasterlists.xml for details. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkOnSkinFull">
+		<defName>GAPPE_SkynetCovertHulkOnSkinFull</defName>
+		<RaceName>SkynetCovert</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel" >
+		<defName>GAPPE_SkynetCovertHulkOnSkinFullAA</defName>
+		<RaceName>SkynetCovert</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- PANTS: Only works if Visible Pants is active. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkPants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>GAPPE_SkynetCovertHulkPants</defName>
+		<RaceName>SkynetCovert</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkPantsShort" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>GAPPE_SkynetCovertHulkPantsShort</defName>
+		<RaceName>SkynetCovert</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- MIDDLE -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkMiddle">
+		<defName>GAPPE_SkynetCovertHulkMiddle</defName>
+		<RaceName>SkynetCovert</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- SHELL -->	
+	
+	<!-- OnSkinFull parent for general use, e.g. not apparel locked. -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkShell">
+		<!-- Default outer. -->
+		<defName>GAPPE_SkynetCovertHulkShell</defName>
+		<RaceName>SkynetCovert</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
+		<!-- Slave body strap fix. -->
+		<defName>GAPPE_SkynetCovertHulkBodyStrap</defName>
+		<RaceName>SkynetCovert</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkPowerarmor">
+		<!-- For any armor that should cover the entire body. -->
+		<defName>GAPPE_SkynetCovertHulkPowerarmor</defName>
+		<RaceName>SkynetCovert</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- UTILITY -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkUtility">
+		<defName>GAPPE_SkynetCovertHulkUtility</defName>
+		<RaceName>SkynetCovert</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<!-- TARGETED -->
+	
+	<!-- Flak pants don't work with the usual pants def because they're in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkFlakPants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>GAPPE_SkynetCovertHulkFlakPants</defName>
+		<RaceName>SkynetCovert</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkTrooperArmor" MayRequire="VanillaExpanded.VAPPE">
+		<defName>GAPPE_SkynetCovertHulkTrooperArmor</defName>
+		<RaceName>SkynetCovert</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+</Defs>

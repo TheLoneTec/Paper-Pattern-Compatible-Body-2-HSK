@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <!-- Slave collar fix. -->
+  <ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinCollar" MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>GAPPE_Alien_DovaThinCollar</defName>
+		<RaceName>Alien_Dova</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+  
+  
+</Defs>

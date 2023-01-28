@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- ONSKIN: Covers most of the upper body. -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleOnSkin">
+		<defName>GAPPE_SkynetInfiltratorMaleOnSkin</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- ONSKINFULL: Covers most of the whole body. -->
+	
+	<!-- Any defs with a parent beginning in ML are subject to a master list of apparel restrictions. 
+		 See Defs/General/ApparelMasterlists.xml for details. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleOnSkinFull">
+		<defName>GAPPE_SkynetInfiltratorMaleOnSkinFull</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>GAPPE_SkynetInfiltratorMaleOnSkinFullAA</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- PANTS: Only works if Visible Pants is active. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MalePants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>GAPPE_SkynetInfiltratorMalePants</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MalePantsShort" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>GAPPE_SkynetInfiltratorMalePantsShort</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- MIDDLE -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleMiddle">
+		<defName>GAPPE_SkynetInfiltratorMaleMiddle</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>GAPPE_SkynetInfiltratorMaleMiddleAA</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- SHELL -->	
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleShell">
+		<defName>GAPPE_SkynetInfiltratorMaleShell</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>GAPPE_SkynetInfiltratorMaleShellAA</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>GAPPE_SkynetInfiltratorMaleBodyStrap</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MalePowerarmor">
+		<defName>GAPPE_SkynetInfiltratorMalePowerarmor</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- UTILITY -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleUtility">
+		<defName>GAPPE_SkynetInfiltratorMaleUtility</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<!-- TARGETED -->
+	
+	<!-- Flak pants don't work with the usual pants def because they're in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleFlakPants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>GAPPE_SkynetInfiltratorMaleFlakPants</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleTrooperArmor" MayRequire="VanillaExpanded.VAPPE">
+		<defName>GAPPE_SkynetInfiltratorMaleTrooperArmor</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleTK" MayRequire="VanillaExpanded.VAPPE">
+		<defName>GAPPE_SkynetInfiltratorMaleTK</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+</Defs>

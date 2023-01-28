@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>The Holy Invention - Grand Apparel Paper Pattern Extension</li>
+	</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+			<!-- 
+				 This file is intended for users to provide their own additions to THIGAPPE's special mask case masterlists (found under 1.3>Patches>ApparelMasterlists.xml). 
+				 Use of this file is totally optional and is hopefully a temporary solution until APP gets a little more development.
+				 
+				 Simply write a new <li></li> node under the <value> tag of the list you want to add to. Then put the apparel piece's defName inside the empty <li></li> node.
+				 When the game is reloaded, the target apparel item will render with the right mask.
+				 
+				 NOTE: Each masterlist is tied to a layer. Items that should render as full-body armor but use only the Middle layer, for example, will not work even if they're added to MLPowerarmor.
+				 
+				 IMPORTANT: If you intend to add to this file, you are advised to make a local copy of THIGAPPE so these lists won't be automatically reverted to blanks when Steam updates the mod.
+				 When you want to update, copy this file somewhere else, update the mod manually, then copy back and replace.
+			 -->
+
+			<!-- MLOnSkinFull -->
+			<!-- For apparel pieces using the Skin layer that should render over a pawn's whole body, e.g. Tribalwear and VE jumpsuits.-->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="MLOnSkinFull"]/TargetApparelDefs</xpath>
+				<value>
+					<!--<li>VAE_Apparel_Hoodie</li>  Add the defNames of new apparel pieces like so, substituting "Placeholder" with your item's defName. -->
+					<!-- <li></li> -->
+				</value>
+			</li>
+			
+			<!-- MLPants -->
+			<!-- [XND] Visible Pants only. For legwear using the Skin layer that should render on the all of the legs, e.g. vanilla pants and VE jeans. Note that for this to work, VP must also add support for pants that don't already have graphics. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="MLPants"]/TargetApparelDefs</xpath>
+				<value>
+					<!-- <li></li> -->
+				</value>
+			</li>
+			
+			<!-- MLShorts -->
+			<!-- [XND] Visible Pants only. For legwear using the Skin layer that should stop at about knee-level, e.g. VE shorts and skirts. Note for MLPants applies here too. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="MLShorts"]/TargetApparelDefs</xpath>
+				<value>
+					<!-- <li></li> -->
+				</value>
+			</li>
+			
+			<!-- MLShell -->
+			<!-- Unique; an IgnoreApparelDef masterlist. Uses the Shell layer. Items added here will not render with the default Shell masks, e.g. capes from Royalty or burkas from Ideology. Does not apply to the Aya races. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="MLShell"]/IgnoreApparelDefs</xpath>
+				<value>
+					<!-- <li></li> -->
+				</value>
+			</li>
+			
+			<!-- MLPowerarmor -->
+			<!-- For protective suits using the Shell layer that should render over a pawn's whole body, e.g. marine armor and plate armor. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="MLPowerarmor"]/TargetApparelDefs</xpath>
+				<value>
+					<!--<li>RB_CasualTshirt</li>-->
+				</value>
+			</li>
+
+			<li Class="PatchOperationConditional">
+			<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "HUMAN_ThinShell"]/IgnorePackageIds</xpath>
+				<match Class="PatchOperationAdd">
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "HUMAN_ThinShell"]/IgnorePackageIds</xpath>
+					<value>
+						<li>RunneLatki.RabbieRaceMod.sk</li>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "HUMAN_ThinShell"]</xpath>
+					<value>
+						<IgnorePackageIds>
+							<li>RunneLatki.RabbieRaceMod.sk</li>
+						</IgnorePackageIds>
+					</value>
+				</nomatch>
+			</li>
+
+			<li Class="PatchOperationConditional">
+			<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "HUMAN_ThinOnSkin"]/IgnorePackageIds</xpath>
+				<match Class="PatchOperationAdd">
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "HUMAN_ThinOnSkin"]/IgnorePackageIds</xpath>
+					<value>
+						<li>RunneLatki.RabbieRaceMod.sk</li>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "HUMAN_ThinOnSkin"]</xpath>
+					<value>
+						<IgnorePackageIds>
+							<li>RunneLatki.RabbieRaceMod.sk</li>
+						</IgnorePackageIds>
+					</value>
+				</nomatch>
+			</li>
+
+			<li Class="PatchOperationConditional">
+			<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "HUMAN_ThinMiddle"]/IgnorePackageIds</xpath>
+				<match Class="PatchOperationAdd">
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "HUMAN_ThinMiddle"]/IgnorePackageIds</xpath>
+					<value>
+						<li>RunneLatki.RabbieRaceMod.sk</li>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "HUMAN_ThinMiddle"]</xpath>
+					<value>
+						<IgnorePackageIds>
+							<li>RunneLatki.RabbieRaceMod.sk</li>
+						</IgnorePackageIds>
+					</value>
+				</nomatch>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+
+					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinFeet">
+						<defName>GAPPE_RabbieThinFeet</defName>
+						<RaceName>Rabbie</RaceName>
+					</ApparelPaperPattern.ApparelPaperPatternDef>
+				
+					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleFeet">
+						<defName>GAPPE_RabbieFemaleFeet</defName>
+						<RaceName>Rabbie</RaceName>
+					</ApparelPaperPattern.ApparelPaperPatternDef>
+		
+					<!-- ============= Pants Defs ============= -->
+					
+					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinPantsAdjust">
+						<defName>GAPPE_RabbieThinPants</defName>
+						<RaceName>Rabbie</RaceName>
+					</ApparelPaperPattern.ApparelPaperPatternDef>
+
+					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemalePantsAdjust">
+						<defName>GAPPE_RabbieFemalePants</defName>
+						<RaceName>Rabbie</RaceName>
+						
+						<OffsetNorth>(0.0200,0.0000)</OffsetNorth>
+						<OffsetSouth>(0.0200,0.0000)</OffsetSouth>
+						<OffsetEast>(0.0000,0.0000)</OffsetEast>
+						<OffsetWest>(0.0000,0.0200)</OffsetWest>
+						<ScaleNorth>1.0400</ScaleNorth>
+						<ScaleSouth>1.0400</ScaleSouth>
+						<ScaleEast>1.0400</ScaleEast>
+						<ScaleWest>1.0000</ScaleWest>
+
+					</ApparelPaperPattern.ApparelPaperPatternDef>
+
+					<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_ThinHat" Abstract="True">
+						<RenderVersion>1</RenderVersion>
+						<BodyType>Thin</BodyType>
+						<ApparelLayer>RBNeck</ApparelLayer>
+						
+						<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+						<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+						
+						<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+						<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
+						<OffsetEast>(0.0000,0.0000)</OffsetEast>
+						<OffsetWest>(0.0000,0.0000)</OffsetWest>
+						<ScaleNorth>1.0000</ScaleNorth>
+						<ScaleSouth>1.0000</ScaleSouth>
+						<ScaleEast>1.0000</ScaleEast>
+						<ScaleWest>1.0000</ScaleWest>
+
+						<TargetPackageIds>
+							<li>RunneLatki.RabbieRaceMod.sk</li>
+						</TargetPackageIds>
+
+					</ApparelPaperPattern.ApparelPaperPatternDef>
+
+					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinHat">
+						<defName>GAPPE_RabbieThinHat</defName>
+						<RaceName>Rabbie</RaceName>
+					</ApparelPaperPattern.ApparelPaperPatternDef>
+
+				</value>
+			</li>
+
+			</operations>
+		</match>
+    </Operation>
+	
+</Patch>

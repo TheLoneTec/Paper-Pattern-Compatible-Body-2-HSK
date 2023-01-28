@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/ThingDefs/Clothing.xml-->
+<!-- panties -->
+<UnderWhere_Panties.label>трусики</UnderWhere_Panties.label>
+<!-- A pair of simple women's undergarments. -->
+<UnderWhere_Panties.description>простые женские трусики</UnderWhere_Panties.description>
+<!-- boxers -->
+<UnderWhere_Boxers.label>боксёры</UnderWhere_Boxers.label>
+<!-- A pair of simple men's undergarments. -->
+<UnderWhere_Boxers.description>простые мужские трусы</UnderWhere_Boxers.description>
+<!-- bra -->
+<UnderWhere_Bra.label>бюстгалтер</UnderWhere_Bra.label>
+<!-- A bra, for providing support to women's fun bits. -->
+<UnderWhere_Bra.description>Простой бюстгалтер для поддержание женской груди.</UnderWhere_Bra.description>
+<!-- tanktop -->
+<UnderWhere_Tanktop.label>Майка</UnderWhere_Tanktop.label>
+<!-- Tanktop, wifebeater, A-Shirt, singlet. Whatever you call it, its an undershirt for both sexes. -->
+<UnderWhere_Tanktop.description>Майка, топик, футболка. Как ни назови это майка для обоих полов.</UnderWhere_Tanktop.description>
+<!-- chestwrap -->
+<UnderWhere_Chestwrap.label>нагрудная повязка</UnderWhere_Chestwrap.label>
+<!-- A primitive chestwrap, for providing support to women's fun bits. -->
+<UnderWhere_Chestwrap.description>Примитивная нагрудная повязка для поддержания женской груди.</UnderWhere_Chestwrap.description>
+<!-- loincloth -->
+<UnderWhere_Loincloth.label>набедренная повязка</UnderWhere_Loincloth.label>
+<!-- A primitive excuse for modesty. Very drafty. -->
+<UnderWhere_Loincloth.description>Примитивное оправдание скромности. Очень сквозит.</UnderWhere_Loincloth.description>
+<!-- long johns -->
+<UnderWhere_LongJohns.label>кальсоны</UnderWhere_LongJohns.label>
+<!-- This type of full-body underwear for both sexes is popular in cold climates for its thermal insulative properties. -->
+<UnderWhere_LongJohns.description>Этот вид нижнего белья для обоих полов популярен в холодном климате благодаря своим теплоизоляционным свойствам.</UnderWhere_LongJohns.description>
+
+
+
+<!--/Defs/ThingDefs/Clothing.xml-->
+<!-- panties -->
+<UnderWhere_Panties.label>трусики</UnderWhere_Panties.label>
+<!-- A pair of simple women's undergarments. -->
+<UnderWhere_Panties.description>простые женские трусики</UnderWhere_Panties.description>
+<!-- boxers -->
+<UnderWhere_Boxers.label>боксёры</UnderWhere_Boxers.label>
+<!-- A pair of simple men's undergarments. -->
+<UnderWhere_Boxers.description>простые мужские трусы</UnderWhere_Boxers.description>
+<!-- bra -->
+<UnderWhere_Bra.label>бюстгалтер</UnderWhere_Bra.label>
+<!-- A bra, for providing support to women's fun bits. -->
+<UnderWhere_Bra.description>Простой бюстгалтер для поддержание женской груди.</UnderWhere_Bra.description>
+<!-- tanktop -->
+<UnderWhere_Tanktop.label>Майка</UnderWhere_Tanktop.label>
+<!-- Tanktop, wifebeater, A-Shirt, singlet. Whatever you call it, its an undershirt for both sexes. -->
+<UnderWhere_Tanktop.description>Майка, топик, футболка. Как ни назови это майка для обоих полов.</UnderWhere_Tanktop.description>
+<!-- chestwrap -->
+<UnderWhere_Chestwrap.label>нагрудная повязка</UnderWhere_Chestwrap.label>
+<!-- A primitive chestwrap, for providing support to women's fun bits. -->
+<UnderWhere_Chestwrap.description>Примитивная нагрудная повязка для поддержания женской груди.</UnderWhere_Chestwrap.description>
+<!-- loincloth -->
+<UnderWhere_Loincloth.label>набедренная повязка</UnderWhere_Loincloth.label>
+<!-- A primitive excuse for modesty. Very drafty. -->
+<UnderWhere_Loincloth.description>Примитивное оправдание скромности. Очень сквозит.</UnderWhere_Loincloth.description>
+<!-- long johns -->
+<UnderWhere_LongJohns.label>кальсоны</UnderWhere_LongJohns.label>
+<!-- This type of full-body underwear for both sexes is popular in cold climates for its thermal insulative properties. -->
+<UnderWhere_LongJohns.description>Этот вид нижнего белья для обоих полов популярен в холодном климате благодаря своим теплоизоляционным свойствам.</UnderWhere_LongJohns.description>
+
+
+<!--/Defs/ThingDefs/Clothing.xml-->
+<!-- panties -->
+<UnderWhere_Panties.label>трусики</UnderWhere_Panties.label>
+<!-- A pair of simple women's undergarments. -->
+<UnderWhere_Panties.description>простые женские трусики</UnderWhere_Panties.description>
+<!-- boxers -->
+<UnderWhere_Boxers.label>боксёры</UnderWhere_Boxers.label>
+<!-- A pair of simple men's undergarments. -->
+<UnderWhere_Boxers.description>простые мужские трусы</UnderWhere_Boxers.description>
+<!-- bra -->
+<UnderWhere_Bra.label>бюстгалтер</UnderWhere_Bra.label>
+<!-- A bra, for providing support to women's fun bits. -->
+<UnderWhere_Bra.description>Простой бюстгалтер для поддержание женской груди.</UnderWhere_Bra.description>
+<!-- tanktop -->
+<UnderWhere_Tanktop.label>Майка</UnderWhere_Tanktop.label>
+<!-- Tanktop, wifebeater, A-Shirt, singlet. Whatever you call it, its an undershirt for both sexes. -->
+<UnderWhere_Tanktop.description>Майка, топик, футболка. Как ни назови это майка для обоих полов.</UnderWhere_Tanktop.description>
+<!-- chestwrap -->
+<UnderWhere_Chestwrap.label>нагрудная повязка</UnderWhere_Chestwrap.label>
+<!-- A primitive chestwrap, for providing support to women's fun bits. -->
+<UnderWhere_Chestwrap.description>Примитивная нагрудная повязка для поддержания женской груди.</UnderWhere_Chestwrap.description>
+<!-- loincloth -->
+<UnderWhere_Loincloth.label>набедренная повязка</UnderWhere_Loincloth.label>
+<!-- A primitive excuse for modesty. Very drafty. -->
+<UnderWhere_Loincloth.description>Примитивное оправдание скромности. Очень сквозит.</UnderWhere_Loincloth.description>
+<!-- long johns -->
+<UnderWhere_LongJohns.label>кальсоны</UnderWhere_LongJohns.label>
+<!-- This type of full-body underwear for both sexes is popular in cold climates for its thermal insulative properties. -->
+<UnderWhere_LongJohns.description>Этот вид нижнего белья для обоих полов популярен в холодном климате благодаря своим теплоизоляционным свойствам.</UnderWhere_LongJohns.description>
+
+
+<!--/Defs/ThingDefs/Clothing.xml-->
+<!-- panties -->
+<UnderWhere_Panties.label>трусики</UnderWhere_Panties.label>
+<!-- A pair of simple women's undergarments. -->
+<UnderWhere_Panties.description>простые женские трусики</UnderWhere_Panties.description>
+<!-- boxers -->
+<UnderWhere_Boxers.label>боксёры</UnderWhere_Boxers.label>
+<!-- A pair of simple men's undergarments. -->
+<UnderWhere_Boxers.description>простые мужские трусы</UnderWhere_Boxers.description>
+<!-- bra -->
+<UnderWhere_Bra.label>бюстгалтер</UnderWhere_Bra.label>
+<!-- A bra, for providing support to women's fun bits. -->
+<UnderWhere_Bra.description>Простой бюстгалтер для поддержание женской груди.</UnderWhere_Bra.description>
+<!-- tanktop -->
+<UnderWhere_Tanktop.label>Майка</UnderWhere_Tanktop.label>
+<!-- Tanktop, wifebeater, A-Shirt, singlet. Whatever you call it, its an undershirt for both sexes. -->
+<UnderWhere_Tanktop.description>Майка, топик, футболка. Как ни назови это майка для обоих полов.</UnderWhere_Tanktop.description>
+<!-- chestwrap -->
+<UnderWhere_Chestwrap.label>нагрудная повязка</UnderWhere_Chestwrap.label>
+<!-- A primitive chestwrap, for providing support to women's fun bits. -->
+<UnderWhere_Chestwrap.description>Примитивная нагрудная повязка для поддержания женской груди.</UnderWhere_Chestwrap.description>
+<!-- loincloth -->
+<UnderWhere_Loincloth.label>набедренная повязка</UnderWhere_Loincloth.label>
+<!-- A primitive excuse for modesty. Very drafty. -->
+<UnderWhere_Loincloth.description>Примитивное оправдание скромности. Очень сквозит.</UnderWhere_Loincloth.description>
+<!-- long johns -->
+<UnderWhere_LongJohns.label>кальсоны</UnderWhere_LongJohns.label>
+<!-- This type of full-body underwear for both sexes is popular in cold climates for its thermal insulative properties. -->
+<UnderWhere_LongJohns.description>Этот вид нижнего белья для обоих полов популярен в холодном климате благодаря своим теплоизоляционным свойствам.</UnderWhere_LongJohns.description>
+
+</LanguageData>

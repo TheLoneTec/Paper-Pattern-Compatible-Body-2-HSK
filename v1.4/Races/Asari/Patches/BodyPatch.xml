@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+<!--
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>The Holy Invention - Grand Apparel Paper Pattern Extension</li>
+	</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Asari"]/alienRace/graphicPaths/li/body</xpath>
+					<value>
+						<body>Things/Pawn/Humanlike/Bodies/</body>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+    </Operation>
+	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Asari"]/alienRace/generalSettings/alienPartGenerator</xpath>
+		<value>
+			<customHeadDrawSize>(0.8, 0.8)</customHeadDrawSize>
+		</value>
+	</Operation>
+	-->
+</Patch>
