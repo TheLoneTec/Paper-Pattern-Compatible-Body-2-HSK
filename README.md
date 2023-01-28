@@ -21,8 +21,16 @@ patches for a collection of mods to add legs and form fitting clothing to rimwor
 
 [UnderWhere](https://steamcommunity.com/sharedfiles/filedetails/?id=1870010563)
 
-If you have [Facial Animation - WIP](https://steamcommunity.com/workshop/filedetails/?id=1635901197) you **NEED** [Facial Animation - WRelicK's Delegation](https://steamcommunity.com/sharedfiles/filedetails/?id=2839501950)
+[FAE-Facial Animations Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2890697696)
 
 ### Load My Patch Mod Here
 
 (Optional)[USE Set Apparel Draw Order](https://steamcommunity.com/sharedfiles/filedetails/?id=2828788563) - Can be used is clothing layers arent behaving.
+
+Possible Issues:
+
+[Facial Animation - WRelicK's Delegation](https://steamcommunity.com/sharedfiles/filedetails/?id=2839501950)
+
+Not Compatible:
+
+Male Ratkins Mod (CB2 Thin body is the Male Ratkin Body, not needed)
