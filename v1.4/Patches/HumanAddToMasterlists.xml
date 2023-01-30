@@ -50,7 +50,6 @@
 					<xpath>Defs/ThingDef[@Name="MLPants"]</xpath>
 					<value>
 					<IgnoreApparelDefs>
-						<li>MedievalTimes_Pants_Suspenders_Striped</li>
 						<li>Apparello_Suspender</li>
 						<li>Apparel_Pants</li>
 					</IgnoreApparelDefs>
@@ -612,6 +611,36 @@
 						<!-- Primitive Garment Thin -->
 						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemalePullHigher">
 							<defName>GAPPE_HumanFemalePullHigher</defName>
+							<RaceName>Human</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<!-- Primitive Garment Thin -->
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_MalePullHigher" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Male</BodyType>
+							<ApparelLayer>OnSkin</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Male/OnSkinFull/male_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Male/OnSkinFull/male_burn</BurnPath>
+							
+							<OffsetNorth>(0.0300,0.0500)</OffsetNorth>
+							<OffsetSouth>(0.0200,0.0500)</OffsetSouth>
+							<OffsetEast>(-0.0750,0.0500)</OffsetEast>
+							<OffsetWest>(-0.0750,0.0500)</OffsetWest>
+							<ScaleNorth>1.0000</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>1.0000</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
+
+							<TargetApparelDefs>
+								<li>MedievalTimes_Pants_Suspenders_Striped</li>
+							</TargetApparelDefs>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+						<!-- Primitive Garment Thin -->
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MalePullHigher">
+							<defName>GAPPE_HumanMalePullHigher</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 
