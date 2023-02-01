@@ -9,9 +9,20 @@
 			<operations>
 
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "ChjAndroid"]/alienRace/graphicPaths/li/body</xpath>
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "ChjAndroid"]/alienRace/graphicPaths/body</xpath>
 					<value>
-						<body>Things/Pawn/Androids/Body/</body>
+						<body>
+							<path>Things/Pawn/Androids/Body/</path>
+							<bodytypeGraphics>
+								<Male>Things/Pawn/Androids/Body/Naked_Male</Male>
+								<Female>Things/Pawn/Androids/Body/Naked_Female</Female>
+								<Thin>Things/Pawn/Androids/Body/Naked_Thin</Thin>
+								<Hulk>Things/Android/Naked_Hulk</Hulk>
+								<Fat>Things/Android/Naked_Fat</Fat>
+								<Child MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Bodies/Child/Naked_Child</Child>
+								<Baby MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Bodies/Naked_Baby</Baby>
+							</bodytypeGraphics>
+						</body>
 					</value>
 				</li>
 

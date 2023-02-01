@@ -3,35 +3,35 @@
   <v1.3>
     <li>/</li>
 	<li>v1.3</li>
-    <li IfModActive="ChJees.Androids">1.3\Races\Androids</li>
-    <li IfModActive="skyarkhangel.asarirace">1.3\Races\Asari</li>
-    <li IfModActive="Nemonian.MY">1.3\Races\Moyo</li>
-    <li IfModActive="AOBA.RedMoyo">1.3\Races\MoyoRed</li>
+    <li IfModActive="ChJees.Androids">v1.3\Races\Androids</li>
+    <li IfModActive="skyarkhangel.asarirace">v1.3\Races\Asari</li>
+    <li IfModActive="Nemonian.MY">v1.3\Races\Moyo</li>
+    <li IfModActive="AOBA.RedMoyo">v1.3\Races\MoyoRed</li>
     <li IfModActive="Solaris.RatkinRaceMod">1.3\Races\Ratkin</li>
-    <li IfModActive="skyarkhangel.HSK">1.3\Races\Nova</li>
-    <li IfModActive="skyarkhangel.HSK">1.3\Races\Dova</li>
-    <li IfModActive="skyarkhangel.HSK">1.3\Races\Norbal</li>
-	<li IfModActive="skyarkhangel.HSK">1.3\Races\Orassan</li>
-	<li IfModActive="FS.ReviaRace">1.3\Races\Revia</li>
-	<li IfModActive="RunneLatki.RabbieRaceMod.sk">1.3\Races\Rabbie</li>
-	<li IfModActive="skyarkhangel.skynet">1.3\Races\Skynet</li>
-	<li IfModActive="Malistaticy.UnderWhere">1.3\Mods\UnderWhere</li>
+    <li IfModActive="skyarkhangel.HSK">v1.3\Races\Nova</li>
+    <li IfModActive="skyarkhangel.HSK">v1.3\Races\Dova</li>
+    <li IfModActive="skyarkhangel.HSK">v1.3\Races\Norbal</li>
+	<li IfModActive="skyarkhangel.HSK">v1.3\Races\Orassan</li>
+	<li IfModActive="FS.ReviaRace">v1.3\Races\Revia</li>
+	<li IfModActive="RunneLatki.RabbieRaceMod.sk">v1.3\Races\Rabbie</li>
+	<li IfModActive="skyarkhangel.skynet">v1.3\Races\Skynet</li>
+	<li IfModActive="Malistaticy.UnderWhere">v1.3\Mods\UnderWhere</li>
   </v1.3>
   <v1.4>
     <li>/</li>
 	<li>v1.4</li>
-    <li IfModActive="ChJees.Androids">1.4\Races\Androids</li>
-    <li IfModActive="skyarkhangel.asarirace">1.4\Races\Asari</li>
-    <li IfModActive="Nemonian.MY">1.4\Races\Moyo</li>
-    <li IfModActive="AOBA.RedMoyo">1.4\Races\MoyoRed</li>
-    <li IfModActive="Solaris.RatkinRaceMod">1.4\Races\Ratkin</li>
-    <li IfModActive="skyarkhangel.HSK">1.4\Races\Nova</li>
-    <li IfModActive="skyarkhangel.HSK">1.4\Races\Dova</li>
-    <li IfModActive="skyarkhangel.HSK">1.4\Races\Norbal</li>
-	<li IfModActive="skyarkhangel.HSK">1.4\Races\Orassan</li>
-	<li IfModActive="FS.ReviaRace">1.4\Races\Revia</li>
-	<li IfModActive="RunneLatki.RabbieRaceMod.sk">1.4\Races\Rabbie</li>
-	<li IfModActive="skyarkhangel.skynet">1.4\Races\Skynet</li>
-	<li IfModActive="Malistaticy.UnderWhere">1.4\Mods\UnderWhere</li>
+    <li IfModActive="ChJees.Androids">v1.4\Races\Androids</li>
+    <li IfModActive="skyarkhangel.asarirace">v1.4\Races\Asari</li>
+    <li IfModActive="Nemonian.MY">v1.4\Races\Moyo</li>
+    <li IfModActive="AOBA.RedMoyo">v1.4\Races\MoyoRed</li>
+    <li IfModActive="Solaris.RatkinRaceMod">v1.4\Races\Ratkin</li>
+    <li IfModActive="skyarkhangel.HSK">v1.4\Races\Nova</li>
+    <li IfModActive="skyarkhangel.HSK">v1.4\Races\Dova</li>
+    <li IfModActive="skyarkhangel.HSK">v1.4\Races\Norbal</li>
+	<li IfModActive="skyarkhangel.HSK">v1.4\Races\Orassan</li>
+	<li IfModActive="FS.ReviaRace">v1.4\Races\Revia</li>
+	<li IfModActive="RunneLatki.RabbieRaceMod.sk">v1.4\Races\Rabbie</li>
+	<li IfModActive="skyarkhangel.skynet">v1.4\Races\Skynet</li>
+	<li IfModActive="Malistaticy.UnderWhere">v1.4\Mods\UnderWhere</li>
   </v1.4>
 </loadFolders>

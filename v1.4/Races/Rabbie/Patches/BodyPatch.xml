@@ -9,7 +9,7 @@
 			<operations>
 
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Rabbie"]/alienRace/graphicPaths/li/body</xpath>
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Rabbie"]/alienRace/graphicPaths/body</xpath>
 					<value>
 						<body>Things/Pawn/Humanlike/Bodies/</body>
 					</value>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[1.3]Idhale Race</li>
+			<li>[1.3]Nearmare Race</li>
+			<li>[1.3]Neclose Race</li>
+			<li>[1.3]Nexaga Race</li>
+			<li>[1.3]Qualeela Race</li>
+			<li>[1.3]Saclean Race</li>
+			<li>[1.3]Silkiera Race</li>
+			<li>[1.3]Solark Race</li>
+			<li>[1.3]Xenoorca Race</li>
+			<li>[1.3]Idearn Race</li>
+			
+			<li>[1.4]Idhale Race</li>
+			<li>[1.4]Nearmare Race</li>
+			<li>[1.4]Neclose Race</li>
+			<li>[1.4]Nexaga Race</li>
+			<li>[1.4]Qualeela Race</li>
+			<li>[1.4]Saclean Race</li>
+			<li>[1.4]Silkiera Race</li>
+			<li>[1.4]Solark Race</li>
+			<li>[1.4]Xenoorca Race</li>
+			<li>[1.4]Idearn Race</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+			
+				<!-- Female -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleOnSkinAya">
+							<defName>GAPPE_ChjAndroidFemaleOnSkinAya</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleMiddleAya">
+							<defName>GAPPE_ChjAndroidFemaleMiddleAya</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleShellAya">
+							<defName>GAPPE_ChjAndroidFemaleShellAya</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleOverheadAya">
+							<defName>GAPPE_ChjAndroidFemaleOverheadAya</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleEyeCoverAya">
+							<defName>GAPPE_ChjAndroidFemaleEyeCoverAya</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+				
+				<!-- Male -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleOnSkinAya">
+							<defName>GAPPE_ChjAndroidMaleOnSkinAya</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleMiddleAya">
+							<defName>GAPPE_ChjAndroidMaleMiddleAya</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleShellAya">
+							<defName>GAPPE_ChjAndroidMaleShellAya</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleOverheadAya">
+							<defName>GAPPE_ChjAndroidMaleOverheadAya</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleEyeCoverAya">
+							<defName>GAPPE_ChjAndroidMaleEyeCoverAya</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+				
+				<!-- Thin -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinOnSkinAya">
+							<defName>GAPPE_ChjAndroidThinOnSkinAya</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinMiddleAya">
+							<defName>GAPPE_ChjAndroidThinMiddleAya</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinShellAya">
+							<defName>GAPPE_ChjAndroidThinShellAya</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinOverheadAya">
+							<defName>GAPPE_ChjAndroidThinOverheadAya</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinEyeCoverAya">
+							<defName>GAPPE_ChjAndroidThinEyeCoverAya</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>
