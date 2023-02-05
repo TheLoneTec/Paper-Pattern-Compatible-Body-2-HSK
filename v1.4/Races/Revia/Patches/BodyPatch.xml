@@ -9,7 +9,7 @@
 			<operations>
 
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "ReviaRaceAlien"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="tail"]/offsets</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "ReviaRaceAlien"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPartLabel="tail"]/offsets</xpath>
 				<value>
 					<offsets>
 						<south>
@@ -53,15 +53,15 @@
 			</li>
 
 			<li Class="PatchOperationConditional">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ReviaRaceAlien"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="tail"]/drawSize</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ReviaRaceAlien"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPartLabel="tail"]/drawSize</xpath>
 				<nomatch Class="PatchOperationAdd">
-				  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ReviaRaceAlien"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="tail"]</xpath>
+				  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ReviaRaceAlien"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPartLabel="tail"]</xpath>
 				  <value>
 					<drawSize>0.85</drawSize>
 				  </value>
 				</nomatch>
 				<match Class="PatchOperationReplace">
-				  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ReviaRaceAlien"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="tail"]/drawSize</xpath>
+				  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ReviaRaceAlien"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPartLabel="tail"]/drawSize</xpath>
 				  <value>
 					<drawSize>0.85</drawSize>
 				  </value>
