@@ -8,7 +8,7 @@
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
-	
+	<!--
 			<li Class="PatchOperationFindMod">
 				<mods>
 					<li>Dubs Apparel Tweaks</li>
@@ -154,38 +154,46 @@
 				</graphicPaths>
 			  </value>
 			</li>
-
+-->
 			<li Class="PatchOperationReplace">
-			  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="left ear"]/offsets</xpath>
+			  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPartLabel="left ear"]/offsets</xpath>
 			  <value>
 				<offsets>
 					<south>
 						<bodyTypes>
-							<Male>(-0.45, 0.55)</Male>
-							<Female>(-0.45, 0.55)</Female>
-							<Fat>(-0.45, 0.55)</Fat>
-							<Thin>(-0.45, 0.55)</Thin>
-							<Hulk>(-0.45, 0.55)</Hulk>
+							<Male>(-0.44, 0.45)</Male>
+							<Female>(-0.44, 0.45)</Female>
+							<Fat>(-0.44, 0.45)</Fat>
+							<Thin>(-0.44, 0.45)</Thin>
+							<Hulk>(-0.44, 0.45)</Hulk>
+							<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.44, 0.45)</Baby>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.44, 0.45)</Child>
 						</bodyTypes>
-						<crownTypes>
-							<Normal_Average>(0,0)</Normal_Average>
-							<Narrow_Pointy>(0,0))</Narrow_Pointy>
-						</crownTypes>
-						<layerOffset>-0.275</layerOffset>
+						<headTypes>
+							<Male_AverageNormal>(0,0)</Male_AverageNormal>
+							<Male_NarrowPointy>(0,0)</Male_NarrowPointy>
+							<Female_AverageNormal>(0,0)</Female_AverageNormal>
+							<Female_NarrowPointy>(0,0)</Female_NarrowPointy>
+						</headTypes>
+						<layerOffset>-0.175</layerOffset>
 					</south>
 					<north>
 						<bodyTypes>
-							<Male>(0.01, 0.87)</Male>
-							<Female>(0.01,0.87)</Female>
-							<Fat>(0.01,0.87))</Fat>
-							<Thin>(0.01,0.87)</Thin>
-							<Hulk>(0.01,0.87)</Hulk>
+							<Male>(0.06, 0.77)</Male>
+							<Female>(0.06,0.77)</Female>
+							<Fat>(0.06,0.77)</Fat>
+							<Thin>(0.06,0.77)</Thin>
+							<Hulk>(0.06,0.77)</Hulk>
+							<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.06,0.77)</Baby>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(0.06,0.77)</Child>
 						</bodyTypes>
-						<crownTypes>
-							<Normal_Average>(0,0)</Normal_Average>
-							<Narrow_Pointy>(0,0)</Narrow_Pointy>
-						</crownTypes>
-						<layerOffset>-0.275</layerOffset>
+						<headTypes>
+							<Male_AverageNormal>(0,0)</Male_AverageNormal>
+							<Male_NarrowPointy>(0,0)</Male_NarrowPointy>
+							<Female_AverageNormal>(0,0)</Female_AverageNormal>
+							<Female_NarrowPointy>(0,0)</Female_NarrowPointy>
+						</headTypes>
+						<layerOffset>-0.34</layerOffset>
 					</north>
 					<east>
 						<bodyTypes>
@@ -194,48 +202,60 @@
 							<Fat>(-0.5, 0.5)</Fat>
 							<Thin>(-0.5, 0.5)</Thin>
 							<Hulk>(-0.5, 0.5)</Hulk>
+							<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.5, 0.5)</Baby>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.5, 0.5)</Child>
 						</bodyTypes>
-						<crownTypes>
-							<Normal_Average>(0,0)</Normal_Average>
-							<Narrow_Pointy>(0,0)</Narrow_Pointy>
-						</crownTypes>
-						<layerOffset>-0.275</layerOffset>
+						<headTypes>
+							<Male_AverageNormal>(0,0)</Male_AverageNormal>
+							<Male_NarrowPointy>(0,0)</Male_NarrowPointy>
+							<Female_AverageNormal>(0,0)</Female_AverageNormal>
+							<Female_NarrowPointy>(0,0)</Female_NarrowPointy>
+						</headTypes>
+						<layerOffset>-0.175</layerOffset>
 					</east>
 				</offsets>
 			  </value>
 			</li>
 
 			<li Class="PatchOperationReplace">
-			  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="right ear"]/offsets</xpath>
+			  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPartLabel="right ear"]/offsets</xpath>
 			  <value>
 				<offsets>
 					<south>
 						<bodyTypes>
-							<Male>(-0.4, 0.55)</Male>
-							<Female>(-0.4, 0.55)</Female>
-							<Fat>(-0.4, 0.55)</Fat>
-							<Thin>(-0.4, 0.55)</Thin>
-							<Hulk>(-0.4, 0.55)</Hulk>
+							<Male>(-0.37, 0.45)</Male>
+							<Female>(-0.37, 0.45)</Female>
+							<Fat>(-0.37, 0.45)</Fat>
+							<Thin>(-0.37, 0.45)</Thin>
+							<Hulk>(-0.37, 0.45)</Hulk>
+							<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.37, 0.45)</Baby>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.37, 0.45)</Child>
 						</bodyTypes>
-						<crownTypes>
-							<Normal_Average>(0,0)</Normal_Average>
-							<Narrow_Pointy>(0,0)</Narrow_Pointy>
-						</crownTypes>
-						<layerOffset>-0.275</layerOffset>
+						<headTypes>
+							<Male_AverageNormal>(0,0)</Male_AverageNormal>
+							<Male_NarrowPointy>(0,0)</Male_NarrowPointy>
+							<Female_AverageNormal>(0,0)</Female_AverageNormal>
+							<Female_NarrowPointy>(0,0)</Female_NarrowPointy>
+						</headTypes>
+						<layerOffset>-0.175</layerOffset>
 					</south>
 					<north>
 						<bodyTypes>
-							<Male>(-0.038, 0.87)</Male>
-							<Female>(-0.038,0.87)</Female>
-							<Fat>(-0.038,0.87))</Fat>
-							<Thin>(-0.038,0.87)</Thin>
-							<Hulk>(-0.038,0.87)</Hulk>
+							<Male>(-0.02, 0.78)</Male>
+							<Female>(-0.02,0.78)</Female>
+							<Fat>(-0.02,0.78)</Fat>
+							<Thin>(-0.02,0.78)</Thin>
+							<Hulk>(-0.02,0.78)</Hulk>
+							<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.02,0.78)</Baby>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.02,0.78</Child>
 						</bodyTypes>
-						<crownTypes>
-							<Normal_Average>(0,0)</Normal_Average>
-							<Narrow_Pointy>(0,0)</Narrow_Pointy>
-						</crownTypes>
-						<layerOffset>-0.275</layerOffset>
+						<headTypes>
+							<Male_AverageNormal>(0,0)</Male_AverageNormal>
+							<Male_NarrowPointy>(0,0)</Male_NarrowPointy>
+							<Female_AverageNormal>(0,0)</Female_AverageNormal>
+							<Female_NarrowPointy>(0,0)</Female_NarrowPointy>
+						</headTypes>
+						<layerOffset>-0.34</layerOffset>
 					</north>
 					<east>
 						<bodyTypes>
@@ -244,12 +264,16 @@
 							<Fat>(-0.5, 0.5)</Fat>
 							<Thin>(-0.5, 0.5)</Thin>
 							<Hulk>(-0.5, 0.5)</Hulk>
+							<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.5, 0.5)</Baby>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.5, 0.5)</Child>
 						</bodyTypes>
-						<crownTypes>
-							<Normal_Average>(0,0)</Normal_Average>
-							<Narrow_Pointy>(0,0)</Narrow_Pointy>
-						</crownTypes>
-						<layerOffset>-0.275</layerOffset>
+						<headTypes>
+							<Male_AverageNormal>(0,0)</Male_AverageNormal>
+							<Male_NarrowPointy>(0,0)</Male_NarrowPointy>
+							<Female_AverageNormal>(0,0)</Female_AverageNormal>
+							<Female_NarrowPointy>(0,0)</Female_NarrowPointy>
+						</headTypes>
+						<layerOffset>-0.175</layerOffset>
 					</east>
 				</offsets>
 			  </value>
