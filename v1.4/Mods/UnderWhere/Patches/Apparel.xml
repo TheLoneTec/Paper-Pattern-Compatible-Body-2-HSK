@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>UnderWhere</li>
+	</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[@Name="UnderWhereNeolithic"]/recipeMaker/recipeUsers/li[text()="CraftingSpot"]</xpath>
+				</li>
+	
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>
