@@ -16,13 +16,15 @@
 				</li>
 
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Rabbie"]/alienRace/generalSettings/alienPartGenerator/alienbodytypes</xpath>
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Rabbie"]/alienRace/generalSettings/alienPartGenerator/bodyTypes</xpath>
 					<value>
-						<alienbodytypes>
+						<bodyTypes>
+							<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+							<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
 							<li>Thin</li>
 							<!--<li>Male</li>-->
 							<!--<li>Female</li>-->
-						</alienbodytypes>
+						</bodyTypes>
 					</value>
 				</li>
 
@@ -58,7 +60,7 @@
 		-->	
 
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Rabbie"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="tail"]/offsets</xpath>
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Rabbie"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPartLabel="tail"]/offsets</xpath>
 					<value>
 						<offsets>
 							<south>
