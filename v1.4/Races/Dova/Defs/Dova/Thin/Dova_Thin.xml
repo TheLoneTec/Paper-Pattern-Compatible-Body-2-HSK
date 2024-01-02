@@ -4,8 +4,8 @@
 
 	<!-- ONSKIN: Covers most of the upper body. -->
 
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinOnSkin">
-		<defName>GAPPE_Alien_DovaThinOnSkin</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinOnSkin">
+		<defName>THIGAPPE_Alien_DovaThinOnSkin</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
@@ -13,66 +13,66 @@
 	
 	<!-- Any defs with a parent beginning in ML are subject to a master list of apparel restrictions. 
 		 See Defs/General/Apparel.xml for details. -->
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinOnSkinFull">
-		<defName>GAPPE_Alien_DovaThinOnSkinFull</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinOnSkinFull">
+		<defName>THIGAPPE_Alien_DovaThinOnSkinFull</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
-		<defName>GAPPE_Alien_DovaThinOnSkinFullAA</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_Alien_DovaThinOnSkinFullAA</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
 	<!-- PANTS: Only works if Visible Pants is active. -->
 
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinPants" MayRequire="XeoNovaDan.VisiblePants">
-		<defName>GAPPE_Alien_DovaThinPants</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinPants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_Alien_DovaThinPants</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinPantsShort" MayRequire="XeoNovaDan.VisiblePants">
-		<defName>GAPPE_Alien_DovaThinPantsShort</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinPantsShort" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_Alien_DovaThinPantsShort</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
 	<!-- MIDDLE -->
 
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinMiddle">
-		<defName>GAPPE_Alien_DovaThinMiddle</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinMiddle">
+		<defName>THIGAPPE_Alien_DovaThinMiddle</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
-		<defName>GAPPE_Alien_DovaThinMiddleAA</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_Alien_DovaThinMiddleAA</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
 	<!-- SHELL -->	
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinShell">
-		<defName>GAPPE_Alien_DovaThinShell</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinShell">
+		<defName>THIGAPPE_Alien_DovaThinShell</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
-		<defName>GAPPE_Alien_DovaThinShellAA</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_Alien_DovaThinShellAA</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
-		<defName>GAPPE_Alien_DovaThinBodyStrap</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>THIGAPPE_Alien_DovaThinBodyStrap</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinPowerarmor">
-		<defName>GAPPE_Alien_DovaThinPowerarmor</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinArmor">
+		<defName>THIGAPPE_Alien_DovaThinArmor</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
 	<!-- Utility -->
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinUtility">
-		<defName>GAPPE_Alien_DovaThinUtility</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinUtility">
+		<defName>THIGAPPE_Alien_DovaThinUtility</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
@@ -80,14 +80,14 @@
 	<!-- TARGETED -->
 	
 	<!-- Flak pants don't work with the usual pants def because they're in the middle layer. -->
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinFlakPants">
-		<defName>GAPPE_Alien_DovaThinFlakPants</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinFlakPants">
+		<defName>THIGAPPE_Alien_DovaThinFlakPants</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
 	<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinTrooperArmor" MayRequire="VanillaExpanded.VAPPE">
-		<defName>GAPPE_Alien_DovaThinTrooperArmor</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinTrooperArmor" MayRequire="VanillaExpanded.VAPPE">
+		<defName>THIGAPPE_Alien_DovaThinTrooperArmor</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	

@@ -3,7 +3,7 @@
 <Defs>
 
   <!-- Slave collar fix. -->
-  <ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinCollar" MayRequire="Ludeon.RimWorld.Ideology" Abstract="True">
+  <ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinCollar" MayRequire="Ludeon.RimWorld.Ideology" Abstract="True">
 	<RenderVersion>1</RenderVersion>
     <BodyType>Thin</BodyType>
     <ApparelLayer>Overhead</ApparelLayer>

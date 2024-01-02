@@ -3,8 +3,8 @@
 <Defs>
 
   <!-- Slave collar fix. -->
-  <ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatCollar" MayRequire="Ludeon.RimWorld.Ideology">
-	<defName>GAPPE_SkynetPrototypeTXFatCollar</defName>
+  <ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatCollar" MayRequire="Ludeon.RimWorld.Ideology">
+	<defName>THIGAPPE_SkynetPrototypeTXFatCollar</defName>
 	<RaceName>SkynetPrototypeTX</RaceName>
   </ApparelPaperPattern.ApparelPaperPatternDef>
   

@@ -4,32 +4,32 @@
 
 	<!-- ONSKIN: Covers most of the upper body. -->
 
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatOnSkin">
-		<defName>GAPPE_SkynetPrototypeTXFatOnSkin</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatOnSkin">
+		<defName>THIGAPPE_SkynetPrototypeTXFatOnSkin</defName>
 		<RaceName>SkynetPrototypeTX</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
 	<!-- ONSKINFULL: Covers most of the whole body. -->
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatOnSkinFull">
-		<defName>GAPPE_SkynetPrototypeTXFatOnSkinFull</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatOnSkinFull">
+		<defName>THIGAPPE_SkynetPrototypeTXFatOnSkinFull</defName>
 		<RaceName>SkynetPrototypeTX</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel" >
-		<defName>GAPPE_SkynetPrototypeTXFatOnSkinAA</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel" >
+		<defName>THIGAPPE_SkynetPrototypeTXFatOnSkinAA</defName>
 		<RaceName>SkynetPrototypeTX</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
 	<!-- PANTS: Only works if Visible Pants is active. -->
 
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatPants" MayRequire="XeoNovaDan.VisiblePants">
-		<defName>GAPPE_SkynetPrototypeTXFatPants</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatPants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_SkynetPrototypeTXFatPants</defName>
 		<RaceName>SkynetPrototypeTX</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatPantsShort" MayRequire="XeoNovaDan.VisiblePants">
-		<defName>GAPPE_SkynetPrototypeTXFatShorts</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatPantsShort" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_SkynetPrototypeTXFatShorts</defName>
 		<RaceName>SkynetPrototypeTX</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
@@ -37,8 +37,8 @@
 
 	<!-- Middle parent for general use, e.g. not apparel locked. -->
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatMiddle">
-		<defName>GAPPE_SkynetPrototypeTXFatMiddle</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatMiddle">
+		<defName>THIGAPPE_SkynetPrototypeTXFatMiddle</defName>
 		<RaceName>SkynetPrototypeTX</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
@@ -46,37 +46,37 @@
 	
 	<!-- OnSkinFull parent for general use, e.g. not apparel locked. -->
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatShell">
-		<defName>GAPPE_SkynetPrototypeTXFatShell</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatShell">
+		<defName>THIGAPPE_SkynetPrototypeTXFatShell</defName>
 		<RaceName>SkynetPrototypeTX</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
-		<defName>GAPPE_SkynetPrototypeTXFatBodyStrap</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>THIGAPPE_SkynetPrototypeTXFatBodyStrap</defName>
 		<RaceName>SkynetPrototypeTX</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatPowerarmor">
-		<defName>GAPPE_SkynetPrototypeTXFatPowerarmor</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatArmor">
+		<defName>THIGAPPE_SkynetPrototypeTXFatArmor</defName>
 		<RaceName>SkynetPrototypeTX</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 
 	<!-- TARGETED -->
 	
 	<!-- Flak pants don't work with the usual pants def because they're in the middle layer. -->
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatFlakPants" MayRequire="XeoNovaDan.VisiblePants">
-		<defName>GAPPE_SkynetPrototypeTXFatFlakPants</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatFlakPants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_SkynetPrototypeTXFatFlakPants</defName>
 		<RaceName>SkynetPrototypeTX</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
 	<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatTrooperArmor" MayRequire="VanillaExpanded.VAPPE">
-		<defName>GAPPE_SkynetPrototypeTXFatTrooperArmor</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatTrooperArmor" MayRequire="VanillaExpanded.VAPPE">
+		<defName>THIGAPPE_SkynetPrototypeTXFatTrooperArmor</defName>
 		<RaceName>SkynetPrototypeTX</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatUtility">
-		<defName>GAPPE_SkynetPrototypeTXFatUtility</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatUtility">
+		<defName>THIGAPPE_SkynetPrototypeTXFatUtility</defName>
 		<RaceName>SkynetPrototypeTX</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	

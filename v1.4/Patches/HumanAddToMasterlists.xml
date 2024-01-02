@@ -9,7 +9,7 @@
 			<operations>
 
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[@Name="MLOnSkinFull"]/TargetApparelDefs</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@THIGAPPE_MLOnSkinFull="true"]/TargetApparelDefs</xpath>
 					<value>
 						<li>CryptosleepBodysuit</li>
 						<li>MedievalTimes_Pants_Suspenders_Striped</li>
@@ -26,7 +26,7 @@
 				</li>
 				
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[@Name="MLPants"]/TargetApparelDefs</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@THIGAPPE_MLPants="true"]/TargetApparelDefs</xpath>
 					<value>
 						<li>Apparello_Spants</li>
 						<li>Apparello_Lederhose</li>
@@ -39,7 +39,7 @@
 				</li>
 	<!--
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[@Name="MLPowerarmor"]/TargetApparelDefs</xpath>
+					<xpath>Defs/ThingDef[@Name="THIGAPPE_MLArmor"]/TargetApparelDefs</xpath>
 					<value>
 						
 					</value>
@@ -48,7 +48,7 @@
 				<!-- Remove pants from Paper Pattern original patch -->
 	
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[@Name="MLPants"]</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@THIGAPPE_MLPants="true"]</xpath>
 					<value>
 					<IgnoreApparelDefs>
 						<li>Apparello_Suspender</li>
@@ -58,11 +58,11 @@
 				</li>
 	
 				<li Class="PatchOperationRemove">
-					<xpath>Defs/ThingDef[@Name="MLPants"]/TargetApparelDefs/li[text()="Apparel_Pants"]</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@THIGAPPE_MLPants="true"]/TargetApparelDefs/li[text()="Apparel_Pants"]</xpath>
 				</li>
 	
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[@Name="MLShell"]</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@THIGAPPE_MLShellIgnore="true"]</xpath>
 					<value>
 						<TargetApparelDefs>
 							<li>Apparel_TunicFine</li>
@@ -78,7 +78,7 @@
 						<operations>
 					
 						<li Class="PatchOperationAdd">
-							<xpath>Defs/ThingDef[@Name="MLShell"]/TargetApparelDefs</xpath>
+							<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@THIGAPPE_MLShellIgnore="true"]/TargetApparelDefs</xpath>
 							<value>
 								<li>RBPApparel_Smock</li>
 							</value>
@@ -96,7 +96,7 @@
 						<operations>
 					
 							<li Class="PatchOperationAdd">
-								<xpath>Defs/ThingDef[@Name="MLPants"]/TargetApparelDefs</xpath>
+								<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@THIGAPPE_MLPants="true"]/TargetApparelDefs</xpath>
 								<value>
 									<li>MedievalTimes_Pants_Suspenders</li>
 								</value>
@@ -108,7 +108,7 @@
 						<operations>
 					
 							<li Class="PatchOperationAdd">
-								<xpath>Defs/ThingDef[@Name="MLOnSkinFull"]/TargetApparelDefs</xpath>
+								<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@THIGAPPE_MLOnSkinFull="true"]/TargetApparelDefs</xpath>
 								<value>
 									<li>MedievalTimes_Pants_Suspenders</li>
 								</value>
@@ -119,7 +119,7 @@
 				</li>
 				
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[@Name="MLShell"]/IgnoreApparelDefs</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@THIGAPPE_MLOnSkinFull="true"]/IgnoreApparelDefs</xpath>
 					<value>
 						<li>Apparel_TribalA</li>
 						<li>MedievalTimes_Cloak</li>
@@ -127,15 +127,15 @@
 				</li>
 				
 				<li Class="PatchOperationConditional">
-				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "HUMAN_FemaleShell"]/IgnoreApparelDefs</xpath>
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "THIGAPPE_HUMAN_FemaleShell"]/IgnoreApparelDefs</xpath>
 					<match Class="PatchOperationAdd">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "HUMAN_FemaleShell"]/IgnoreApparelDefs</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "THIGAPPE_HUMAN_FemaleShell"]/IgnoreApparelDefs</xpath>
 						<value>
 							<li>Apparel_TribalA</li>
 						</value>
 					</match>
 					<nomatch Class="PatchOperationAdd">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "HUMAN_FemaleShell"]</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "THIGAPPE_HUMAN_FemaleShell"]</xpath>
 						<value>
 							<IgnoreApparelDefs>
 								<li>Apparel_TribalA</li>
@@ -145,15 +145,15 @@
 				</li>
 				
 				<li Class="PatchOperationConditional">
-				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "HUMAN_ThinShell"]/IgnoreApparelDefs</xpath>
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "THIGAPPE_HUMAN_ThinShell"]/IgnoreApparelDefs</xpath>
 					<match Class="PatchOperationAdd">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "HUMAN_ThinShell"]/IgnoreApparelDefs</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "THIGAPPE_HUMAN_ThinShell"]/IgnoreApparelDefs</xpath>
 						<value>
 							<li>Apparel_TribalA</li>
 						</value>
 					</match>
 					<nomatch Class="PatchOperationAdd">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "HUMAN_ThinShell"]</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "THIGAPPE_HUMAN_ThinShell"]</xpath>
 						<value>
 							<IgnoreApparelDefs>
 								<li>Apparel_TribalA</li>
@@ -164,9 +164,9 @@
 				
 
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemaleOnSkin"]</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="THIGAPPE_HUMAN_FemaleOnSkin"]</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemaleOnSkin" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemaleOnSkin" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Female</BodyType>
 							<ApparelLayer>OnSkin</ApparelLayer>
@@ -192,9 +192,9 @@
 				</li>
 
 				<li Class="PatchOperationReplace">
-				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_ThinPants"]</xpath>
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="THIGAPPE_HUMAN_ThinPants"]</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_ThinPants" Abstract="True" ParentName="MLPants" MayRequire="XeoNovaDan.VisiblePants">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinPants" Abstract="True" ParentName="THIGAPPE_MLPants" MayRequire="XeoNovaDan.VisiblePants">
 							<BodyType>Thin</BodyType>
 							
 							<MaskPath>Things/ApparelPaperPattern/Human/Male/Pants/male_mask</MaskPath>
@@ -214,9 +214,9 @@
 				</li>
 
 				<li Class="PatchOperationReplace">
-				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_MalePants"]</xpath>
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="THIGAPPE_HUMAN_MalePants"]</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_MalePants" Abstract="True" ParentName="MLPants" MayRequire="XeoNovaDan.VisiblePants">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_MalePants" Abstract="True" ParentName="THIGAPPE_MLPants" MayRequire="XeoNovaDan.VisiblePants">
 							<BodyType>Male</BodyType>
 							
 							<MaskPath>Things/ApparelPaperPattern/Human/Male/Pants/male_mask</MaskPath>
@@ -236,9 +236,9 @@
 				</li>
 
 				<li Class="PatchOperationReplace">
-				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FatPants"]</xpath>
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="THIGAPPE_HUMAN_FatPants"]</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FatPants" Abstract="True" ParentName="MLPants" MayRequire="XeoNovaDan.VisiblePants">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FatPants" Abstract="True" ParentName="THIGAPPE_MLPants" MayRequire="XeoNovaDan.VisiblePants">
 							<BodyType>Fat</BodyType>
 							
 							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Pants/fat_mask</MaskPath>
@@ -258,9 +258,9 @@
 				</li>
 
 				<li Class="PatchOperationReplace">
-				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemaleOnSkinFull"]</xpath>
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="THIGAPPE_HUMAN_FemaleOnSkinFull"]</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemaleOnSkinFull" Abstract="True" ParentName="MLOnSkinFull">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemaleOnSkinFull" Abstract="True" ParentName="THIGAPPE_MLOnSkinFull">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Female</BodyType>
 							<ApparelLayer>OnSkin</ApparelLayer>
@@ -282,9 +282,9 @@
 				</li>
 
 				<li Class="PatchOperationReplace">
-				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_ThinOnSkinFull"]</xpath>
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="THIGAPPE_HUMAN_ThinOnSkinFull"]</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_ThinOnSkinFull" Abstract="True" ParentName="MLOnSkinFull">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinOnSkinFull" Abstract="True" ParentName="THIGAPPE_MLOnSkinFull">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Thin</BodyType>
 							<ApparelLayer>OnSkin</ApparelLayer>
@@ -306,9 +306,9 @@
 				</li>
 
 				<li Class="PatchOperationReplace">
-				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_HulkOnSkinFull"]</xpath>
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="THIGAPPE_HUMAN_HulkOnSkinFull"]</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_HulkOnSkinFull" Abstract="True" ParentName="MLOnSkinFull">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_HulkOnSkinFull" Abstract="True" ParentName="THIGAPPE_MLOnSkinFull">
 							<BodyType>Hulk</BodyType>
 		
 							<MaskPath>Things/ApparelPaperPattern/Human/Hulk/OnSkinFull/hulk_mask</MaskPath>
@@ -332,9 +332,9 @@
 				</li>
 	
 				<li Class="PatchOperationReplace">
-				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemaleShell"]</xpath>
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="THIGAPPE_HUMAN_FemaleShell"]</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemaleShell" Abstract="True" ParentName="MLShell">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemaleShell" Abstract="True" ParentName="THIGAPPE_MLShell">
 							<!-- Default outer. -->
 							<BodyType>Female</BodyType>
 							
@@ -359,14 +359,14 @@
 				</li>
 	
 				<li Class="PatchOperationReplace">
-				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FemalePowerarmor"]</xpath>
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="THIGAPPE_HUMAN_FemaleArmor"]</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemalePowerarmor" Abstract="True" ParentName="MLPowerarmor">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemaleArmor" Abstract="True" ParentName="THIGAPPE_MLArmor">
 							<!-- For any armor that should cover the entire body. -->
 							<BodyType>Female</BodyType>
 							
-							<MaskPath>Things/ApparelPaperPattern/Human/Female/Powerarmor/female_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Human/Female/Powerarmor/female_burn</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Female/Armor/female_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Female/Armor/female_burn</BurnPath>
 							
 							<OffsetNorth>(0.0160,0.0000)</OffsetNorth>
 							<OffsetSouth>(0.0160,0.0300)</OffsetSouth>
@@ -383,28 +383,28 @@
 	
 				<!--
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_HulkOnSkinFull"]</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="THIGAPPE_HUMAN_HulkOnSkinFull"]</xpath>
 					<value>
 						<OffsetEast>(0.0, 0.05)</OffsetEast>
 					</value>
 				</li>
 				
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_HulkOnSkinFull"]</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="THIGAPPE_HUMAN_HulkOnSkinFull"]</xpath>
 					<value>
 						<OffsetWest>(0.0, 0.05)</OffsetWest>
 					</value>
 				</li>
 				
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_HulkOnSkinFull"]</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="THIGAPPE_HUMAN_HulkOnSkinFull"]</xpath>
 					<value>
 						<OffsetNorth>(0.0, 0.05)</OffsetNorth>
 					</value>
 				</li>
 				
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_HulkOnSkinFull"]</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="THIGAPPE_HUMAN_HulkOnSkinFull"]</xpath>
 					<value>
 						<OffsetSouth>(0.0, 0.05)</OffsetSouth>
 					</value>
@@ -415,7 +415,7 @@
 					<xpath>Defs</xpath>
 					<value>
 
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_HulkCape" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_HulkCape" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Hulk</BodyType>
 							<ApparelLayer>Shell</ApparelLayer>
@@ -439,12 +439,12 @@
 
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkCape">
-							<defName>GAPPE_HumanHulkCape</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkCape">
+							<defName>THIGAPPE_HumanHulkCape</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_MaleCape" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_MaleCape" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Male</BodyType>
 							<ApparelLayer>Shell</ApparelLayer>
@@ -468,12 +468,12 @@
 
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleCape">
-							<defName>GAPPE_HumanMaleCape</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleCape">
+							<defName>THIGAPPE_HumanMaleCape</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemaleCape" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemaleCape" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Female</BodyType>
 							<ApparelLayer>Shell</ApparelLayer>
@@ -497,12 +497,12 @@
 
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleCape">
-							<defName>GAPPE_HumanFemaleCape</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleCape">
+							<defName>THIGAPPE_HumanFemaleCape</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_ThinCape" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinCape" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Thin</BodyType>
 							<ApparelLayer>Shell</ApparelLayer>
@@ -526,8 +526,8 @@
 
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinCape">
-							<defName>GAPPE_HumanThinCape</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinCape">
+							<defName>THIGAPPE_HumanThinCape</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
@@ -540,7 +540,7 @@
 					<xpath>Defs</xpath>
 					<value>
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_ThinPrimitiveGarment" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinPrimitiveGarment" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Thin</BodyType>
 							<ApparelLayer>OnSkin</ApparelLayer>
@@ -567,13 +567,13 @@
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinPrimitiveGarment">
-							<defName>GAPPE_HumanThinPrimitiveGarment</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinPrimitiveGarment">
+							<defName>THIGAPPE_HumanThinPrimitiveGarment</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_ThinPullHigher" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinPullHigher" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Thin</BodyType>
 							<ApparelLayer>OnSkin</ApparelLayer>
@@ -598,13 +598,13 @@
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinPullHigher">
-							<defName>GAPPE_HumanThinPullHigher</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinPullHigher">
+							<defName>THIGAPPE_HumanThinPullHigher</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemalePullHigher" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemalePullHigher" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Female</BodyType>
 							<ApparelLayer>OnSkin</ApparelLayer>
@@ -628,13 +628,13 @@
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemalePullHigher">
-							<defName>GAPPE_HumanFemalePullHigher</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemalePullHigher">
+							<defName>THIGAPPE_HumanFemalePullHigher</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_MalePullHigher" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_MalePullHigher" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Male</BodyType>
 							<ApparelLayer>OnSkin</ApparelLayer>
@@ -658,17 +658,17 @@
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MalePullHigher">
-							<defName>GAPPE_HumanMalePullHigher</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MalePullHigher">
+							<defName>THIGAPPE_HumanMalePullHigher</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 
 						<!-- Hulk Power Armor Top 
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_HulkPowerarmorTop" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_HulkArmorTop" Abstract="True">
 							<BodyType>Hulk</BodyType>
 							
-							<MaskPath>Things/ApparelPaperPattern/Human/Hulk/Powerarmor/hulk_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Human/Hulk/Powerarmor/hulk_burn</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Hulk/Armor/hulk_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Hulk/Armor/hulk_burn</BurnPath>
 
 							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
@@ -687,20 +687,20 @@
 							
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkPowerarmorTop">
-							<defName>GAPPE_HumanHulkPowerArmorTop</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkArmorTop">
+							<defName>THIGAPPE_HumanHulkPowerArmorTop</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						-->
 	
 						<!-- Fat Power Armor Top -->
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FatPowerarmorReducedGreater" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FatArmorReducedGreater" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Fat</BodyType>
 							<ApparelLayer>Shell</ApparelLayer>
 							
-							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Powerarmor/fat_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Powerarmor/fat_burn</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Armor/fat_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Armor/fat_burn</BurnPath>
 							
 							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 							<OffsetSouth>(0.0300,0.0000)</OffsetSouth>
@@ -717,19 +717,19 @@
 							
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatPowerarmorReducedGreater">
-							<defName>GAPPE_HumanFatPowerArmorReducedGreater</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatArmorReducedGreater">
+							<defName>THIGAPPE_HumanFatPowerArmorReducedGreater</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 	
 						<!-- Fat Power Armor Top -->
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FatPowerarmorReduced" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FatArmorReduced" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Fat</BodyType>
 							<ApparelLayer>Shell</ApparelLayer>
 							
-							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Powerarmor/fat_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Powerarmor/fat_burn</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Armor/fat_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Armor/fat_burn</BurnPath>
 							
 							<OffsetNorth>(0.0000,-0.0900)</OffsetNorth>
 							<OffsetSouth>(0.0000,-0.0900)</OffsetSouth>
@@ -746,20 +746,20 @@
 							
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatPowerarmorReduced">
-							<defName>GAPPE_HumanFatPowerArmorReduced</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatArmorReduced">
+							<defName>THIGAPPE_HumanFatPowerArmorReduced</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
 						<!-- Adjusted for Smaller Armors -->
 						
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FatPowerarmorAdjusted" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FatArmorAdjusted" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Fat</BodyType>
 							<ApparelLayer>Shell</ApparelLayer>
 							
-							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Powerarmor/fat_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Powerarmor/fat_burn</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Armor/fat_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Armor/fat_burn</BurnPath>
 
 							<OffsetNorth>(0.0000,-0.0600)</OffsetNorth>
 							<OffsetSouth>(0.0100,-0.0300)</OffsetSouth>
@@ -777,20 +777,20 @@
 							
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatPowerarmorAdjusted">
-							<defName>GAPPE_HumanFatPowerArmorAdjusted</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatArmorAdjusted">
+							<defName>THIGAPPE_HumanFatPowerArmorAdjusted</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 				
 						<!-- Adjusted for Smaller Armors -->
 						
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FatPowerarmorFullCovered" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FatArmorFullCovered" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Fat</BodyType>
 							<ApparelLayer>Shell</ApparelLayer>
 							
-							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Powerarmor/fat_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Powerarmor/fat_burn</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Armor/fat_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Armor/fat_burn</BurnPath>
 
 							<OffsetNorth>(0.0200,-0.0600)</OffsetNorth>
 							<OffsetSouth>(0.0100,0.0000)</OffsetSouth>
@@ -814,20 +814,20 @@
 							
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatPowerarmorFullCovered">
-							<defName>GAPPE_HumanFatPowerArmorFullCovered</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatArmorFullCovered">
+							<defName>THIGAPPE_HumanFatPowerArmorFullCovered</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
 						<!-- Adjusted for Smaller Armors -->
 						
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_HulkPowerarmorAdjusted" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_HulkArmorAdjusted" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Hulk</BodyType>
 							<ApparelLayer>Shell</ApparelLayer>
 							
-							<MaskPath>Things/ApparelPaperPattern/Human/Hulk/Powerarmor/hulk_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Human/Hulk/Powerarmor/hulk_burn</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Hulk/Armor/hulk_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Hulk/Armor/hulk_burn</BurnPath>
 
 							<OffsetNorth>(0.0060,-0.0200)</OffsetNorth>
 							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
@@ -845,20 +845,20 @@
 							
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkPowerarmorAdjusted">
-							<defName>GAPPE_HumanHulkPowerArmorAdjusted</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkArmorAdjusted">
+							<defName>THIGAPPE_HumanHulkPowerArmorAdjusted</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 				
 						<!-- Adjusted for Smaller Armors -->
 						
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_HulkPowerarmorFullCovered" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_HulkArmorFullCovered" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Hulk</BodyType>
 							<ApparelLayer>Shell</ApparelLayer>
 							
-							<MaskPath>Things/ApparelPaperPattern/Human/Hulk/Powerarmor/hulk_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Human/Hulk/Powerarmor/hulk_burn</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Hulk/Armor/hulk_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Hulk/Armor/hulk_burn</BurnPath>
 
 							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
@@ -882,8 +882,8 @@
 							
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkPowerarmorFullCovered">
-							<defName>GAPPE_HumanHulkPowerArmorFullCovered</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkArmorFullCovered">
+							<defName>THIGAPPE_HumanHulkPowerArmorFullCovered</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 				
@@ -891,7 +891,7 @@
 				</li>
 				
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[@Name="MLPowerarmor"]/TargetApparelDefs</xpath>
+					<xpath>Defs/ThingDef[@Name="THIGAPPE_MLArmor"]/TargetApparelDefs</xpath>
 					<value>
 						<li>MedievalTimes_Hauberk</li>
 						<li>ViTech_RoyalPlateArmor</li>
@@ -907,7 +907,7 @@
 				</li>
 		
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_HulkPowerarmor"]</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="THIGAPPE_HUMAN_HulkArmor"]</xpath>
 					<value>
 						<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 						<OffsetSouth>(0.0100,0.0000)</OffsetSouth>
@@ -921,14 +921,14 @@
 				</li>
 				
 				<li Class="PatchOperationReplace">
-				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="HUMAN_FatPowerarmor"]</xpath>
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name="THIGAPPE_HUMAN_FatArmor"]</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FatPowerarmor" Abstract="True" ParentName="MLPowerarmor">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FatArmor" Abstract="True" ParentName="THIGAPPE_MLArmor">
 							<!-- For any armor that should cover the entire body. -->
 							<BodyType>Fat</BodyType>
 							
-							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Powerarmor/fat_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Powerarmor/fat_burn</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Armor/fat_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Armor/fat_burn</BurnPath>
 							
 							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 							<OffsetSouth>(0.0000,0.0800)</OffsetSouth>
@@ -945,7 +945,7 @@
 				
 				<!--
 				<li Class="PatchOperationRemove">
-					<xpath>Defs/ThingDef[@Name="MLPowerarmor"]/TargetApparelDefs/li[text()="Apparel_PlateArmor" or 
+					<xpath>Defs/ThingDef[@Name="THIGAPPE_MLArmor"]/TargetApparelDefs/li[text()="Apparel_PlateArmor" or 
 					text()="Apparel_ArmorRecon" or text()="Apparel_ArmorReconPrestige" or text()="Apparel_ArmorCataphract" or text()="Apparel_ArmorCataphractPhoenix"
 					or text()="Apparel_ArmorCataphractPrestige" or text()="Apparel_ArmorCataphract" or text()="Apparel_ArmorLocust" or text()="Apparel_ArmorMarineGrenadier"
 					 or text()="Apparel_ArmorMarinePrestige"]</xpath>
@@ -958,7 +958,7 @@
 					<xpath>Defs</xpath>
 					<value>
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_ThinPantsAdjust" ParentName="HUMAN_ThinPants" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinPantsAdjust" ParentName="THIGAPPE_HUMAN_ThinPants" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Thin</BodyType>
 							<ApparelLayer>OnSkin</ApparelLayer>
@@ -981,13 +981,13 @@
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinPantsAdjust">
-							<defName>GAPPE_HumanThinPants</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinPantsAdjust">
+							<defName>THIGAPPE_HumanThinPants</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_HulkPantsAdjust" ParentName="HUMAN_HulkPants" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_HulkPantsAdjust" ParentName="THIGAPPE_HUMAN_HulkPants" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Hulk</BodyType>
 							<ApparelLayer>OnSkin</ApparelLayer>
@@ -1007,13 +1007,13 @@
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkPantsAdjust">
-							<defName>GAPPE_HumanHulkPants</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkPantsAdjust">
+							<defName>THIGAPPE_HumanHulkPants</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemalePantsAdjust" ParentName="HUMAN_FemalePants" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemalePantsAdjust" ParentName="THIGAPPE_HUMAN_FemalePants" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Female</BodyType>
 							<ApparelLayer>OnSkin</ApparelLayer>
@@ -1033,13 +1033,13 @@
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemalePantsAdjust">
-							<defName>GAPPE_HumanFemalePants</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemalePantsAdjust">
+							<defName>THIGAPPE_HumanFemalePants</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_MalePantsAdjust" ParentName="HUMAN_MalePants" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_MalePantsAdjust" ParentName="THIGAPPE_HUMAN_MalePants" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Male</BodyType>
 							<ApparelLayer>OnSkin</ApparelLayer>
@@ -1062,13 +1062,13 @@
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MalePantsAdjust">
-							<defName>GAPPE_HumanMalePants</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MalePantsAdjust">
+							<defName>THIGAPPE_HumanMalePants</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FatPantsAdjust" ParentName="HUMAN_FatPants" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FatPantsAdjust" ParentName="THIGAPPE_HUMAN_FatPants" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Fat</BodyType>
 							<ApparelLayer>OnSkin</ApparelLayer>
@@ -1091,8 +1091,8 @@
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatPantsAdjust">
-							<defName>GAPPE_HumanFatPants</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatPantsAdjust">
+							<defName>THIGAPPE_HumanFatPants</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
@@ -1105,7 +1105,7 @@
 			
 						<!-- ============= Primitive Garment Thin =============== -->
 						
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_HulkPrimitiveGarment" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_HulkPrimitiveGarment" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Hulk</BodyType>
 							<ApparelLayer>OnSkin</ApparelLayer>
@@ -1132,8 +1132,8 @@
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
 						<!-- Primitive Garment Thin -->
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkPrimitiveGarment">
-							<defName>GAPPE_HumanHulkPrimitiveGarment</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkPrimitiveGarment">
+							<defName>THIGAPPE_HumanHulkPrimitiveGarment</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
@@ -1147,13 +1147,13 @@
 					<value>
 					
 						<!-- Ratkin Plate armor doesn't work with the usual armor def because it's in the middle layer. -->
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_MaleFeet" ParentName="MLFeet" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_MaleFeet" ParentName="THIGAPPE_MLFeet" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Male</BodyType>
 							<ApparelLayer>Middle</ApparelLayer>
 							
-							<MaskPath>Things/ApparelPaperPattern/Human/Male/Powerarmor/male_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Human/Male/Powerarmor/male_burn</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Male/Armor/male_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Male/Armor/male_burn</BurnPath>
 							
 							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
@@ -1167,12 +1167,12 @@
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
 						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleFeet">
-							<defName>GAPPE_HumanMaleFeet</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleFeet">
+							<defName>THIGAPPE_HumanMaleFeet</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_ThinFeet" ParentName="MLFeet" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinFeet" ParentName="THIGAPPE_MLFeet" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Thin</BodyType>
 							<ApparelLayer>Middle</ApparelLayer>
@@ -1194,8 +1194,8 @@
 							 
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinFeet">
-							<defName>GAPPE_HumanThinFeet</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinFeet">
+							<defName>THIGAPPE_HumanThinFeet</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 	
@@ -1206,13 +1206,13 @@
 					<xpath>Defs</xpath>
 					<value>
 					
-					<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemaleFeet" ParentName="MLFeet" Abstract="True">
+					<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemaleFeet" ParentName="THIGAPPE_MLFeet" Abstract="True">
 						<RenderVersion>1</RenderVersion>
 						<BodyType>Female</BodyType>
 						<ApparelLayer>Middle</ApparelLayer>
 						
-						<MaskPath>Things/ApparelPaperPattern/Human/Female/Powerarmor/female_mask</MaskPath>
-						<BurnPath>Things/ApparelPaperPattern/Human/Female/Powerarmor/female_burn</BurnPath>
+						<MaskPath>Things/ApparelPaperPattern/Human/Female/Armor/female_mask</MaskPath>
+						<BurnPath>Things/ApparelPaperPattern/Human/Female/Armor/female_burn</BurnPath>
 						
 						<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 						<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
@@ -1225,12 +1225,12 @@
 
 					</ApparelPaperPattern.ApparelPaperPatternDef>
 				
-					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleFeet">
-						<defName>GAPPE_HumanFemaleFeet</defName>
+					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleFeet">
+						<defName>THIGAPPE_HumanFemaleFeet</defName>
 						<RaceName>Human</RaceName>
 					</ApparelPaperPattern.ApparelPaperPatternDef>
 		
-					<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FatFeet" ParentName="MLFeet" Abstract="True">
+					<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FatFeet" ParentName="THIGAPPE_MLFeet" Abstract="True">
 						<RenderVersion>1</RenderVersion>
 						<BodyType>Fat</BodyType>
 						<ApparelLayer>Middle</ApparelLayer>
@@ -1249,18 +1249,18 @@
 
 					</ApparelPaperPattern.ApparelPaperPatternDef>
 					
-					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatFeet">
-						<defName>GAPPE_HumanFatFeet</defName>
+					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatFeet">
+						<defName>THIGAPPE_HumanFatFeet</defName>
 						<RaceName>Human</RaceName>
 					</ApparelPaperPattern.ApparelPaperPatternDef>
 				
-					<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_HulkFeet" ParentName="MLFeet" Abstract="True">
+					<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_HulkFeet" ParentName="THIGAPPE_MLFeet" Abstract="True">
 						<RenderVersion>1</RenderVersion>
 						<BodyType>Hulk</BodyType>
 						<ApparelLayer>Middle</ApparelLayer>
 						
-						<MaskPath>Things/ApparelPaperPattern/Human/Hulk/Powerarmor/hulk_mask</MaskPath>
-						<BurnPath>Things/ApparelPaperPattern/Human/Hulk/Powerarmor/hulk_burn</BurnPath>
+						<MaskPath>Things/ApparelPaperPattern/Human/Hulk/Armor/hulk_mask</MaskPath>
+						<BurnPath>Things/ApparelPaperPattern/Human/Hulk/Armor/hulk_burn</BurnPath>
 						
 						<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 						<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
@@ -1273,8 +1273,8 @@
 
 					</ApparelPaperPattern.ApparelPaperPatternDef>
 					
-					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkFeet">
-						<defName>GAPPE_HumanHulkFeet</defName>
+					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkFeet">
+						<defName>THIGAPPE_HumanHulkFeet</defName>
 						<RaceName>Human</RaceName>
 					</ApparelPaperPattern.ApparelPaperPatternDef>
 					
@@ -1285,7 +1285,7 @@
 					<xpath>Defs</xpath>
 					<value>
 					
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_MaleSmallerHelmet" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_MaleSmallerHelmet" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Male</BodyType>
 							<ApparelLayer>Overhead</ApparelLayer>
@@ -1310,12 +1310,12 @@
 
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 			
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleSmallerHelmet">
-							<defName>GAPPE_HumanMaleSmallerHelmet</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleSmallerHelmet">
+							<defName>THIGAPPE_HumanMaleSmallerHelmet</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 				
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FemaleSmallerHelmet" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemaleSmallerHelmet" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Female</BodyType>
 							<ApparelLayer>Overhead</ApparelLayer>
@@ -1340,12 +1340,12 @@
 							 
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleSmallerHelmet">
-							<defName>GAPPE_HumanFemaleSmallerHelmet</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleSmallerHelmet">
+							<defName>THIGAPPE_HumanFemaleSmallerHelmet</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 				
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_ThinSmallerHelmet" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinSmallerHelmet" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Thin</BodyType>
 							<ApparelLayer>Overhead</ApparelLayer>
@@ -1370,12 +1370,12 @@
 							 
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinSmallerHelmet">
-							<defName>GAPPE_HumanThinSmallerHelmet</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinSmallerHelmet">
+							<defName>THIGAPPE_HumanThinSmallerHelmet</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_HulkSmallerHelmet" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_HulkSmallerHelmet" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Hulk</BodyType>
 							<ApparelLayer>Overhead</ApparelLayer>
@@ -1400,12 +1400,12 @@
 							 
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_HulkSmallerHelmet">
-							<defName>GAPPE_HumanHulkSmallerHelmet</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkSmallerHelmet">
+							<defName>THIGAPPE_HumanHulkSmallerHelmet</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-						<ApparelPaperPattern.ApparelPaperPatternDef Name="HUMAN_FatSmallerHelmet" Abstract="True">
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FatSmallerHelmet" Abstract="True">
 							<RenderVersion>1</RenderVersion>
 							<BodyType>Fat</BodyType>
 							<ApparelLayer>Overhead</ApparelLayer>
@@ -1430,8 +1430,8 @@
 							 
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 						
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FatSmallerHelmet">
-							<defName>GAPPE_HumanFatSmallerHelmet</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatSmallerHelmet">
+							<defName>THIGAPPE_HumanFatSmallerHelmet</defName>
 							<RaceName>Human</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 	

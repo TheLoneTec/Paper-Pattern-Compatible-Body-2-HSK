@@ -15,8 +15,8 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleOnSkinARR">
-							<defName>GAPPE_SoldiermorphXHFemaleOnSkinARR</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleOnSkinARR">
+							<defName>THIGAPPE_SoldiermorphXHFemaleOnSkinARR</defName>
 							<RaceName>SoldiermorphXH</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>
@@ -25,8 +25,8 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleBottomARR">
-							<defName>GAPPE_SoldiermorphXHFemaleBottomARR</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleBottomARR">
+							<defName>THIGAPPE_SoldiermorphXHFemaleBottomARR</defName>
 							<RaceName>SoldiermorphXH</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>
@@ -35,8 +35,8 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_FemaleMiddleARR">
-							<defName>GAPPE_SoldiermorphXHFemaleMiddleARR</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleMiddleARR">
+							<defName>THIGAPPE_SoldiermorphXHFemaleMiddleARR</defName>
 							<RaceName>SoldiermorphXH</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>
@@ -46,8 +46,8 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleOnSkinARR">
-							<defName>GAPPE_SoldiermorphXHMaleOnSkinARR</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleOnSkinARR">
+							<defName>THIGAPPE_SoldiermorphXHMaleOnSkinARR</defName>
 							<RaceName>SoldiermorphXH</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>
@@ -56,8 +56,8 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleBottomARR">
-							<defName>GAPPE_SoldiermorphXHMaleBottomARR</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleBottomARR">
+							<defName>THIGAPPE_SoldiermorphXHMaleBottomARR</defName>
 							<RaceName>SoldiermorphXH</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>
@@ -66,8 +66,8 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_MaleMiddleARR">
-							<defName>GAPPE_SoldiermorphXHMaleMiddleARR</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleMiddleARR">
+							<defName>THIGAPPE_SoldiermorphXHMaleMiddleARR</defName>
 							<RaceName>SoldiermorphXH</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>
@@ -77,8 +77,8 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinOnSkinARR">
-							<defName>GAPPE_SoldiermorphXHThinOnSkinARR</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinOnSkinARR">
+							<defName>THIGAPPE_SoldiermorphXHThinOnSkinARR</defName>
 							<RaceName>SoldiermorphXH</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>
@@ -87,8 +87,8 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinBottomARR">
-							<defName>GAPPE_SoldiermorphXHThinBottomARR</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinBottomARR">
+							<defName>THIGAPPE_SoldiermorphXHThinBottomARR</defName>
 							<RaceName>SoldiermorphXH</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>
@@ -97,8 +97,8 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
-						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinMiddleARR">
-							<defName>GAPPE_SoldiermorphXHThinMiddleARR</defName>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinMiddleARR">
+							<defName>THIGAPPE_SoldiermorphXHThinMiddleARR</defName>
 							<RaceName>SoldiermorphXH</RaceName>
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>

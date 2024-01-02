@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinUnderwearTop" Abstract="True" MayRequire="Malistaticy.UnderWhere">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinUnderwearTop" Abstract="True" MayRequire="Malistaticy.UnderWhere">
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>UnderwearTop</ApparelLayer>
@@ -33,7 +33,7 @@
 		
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinUnderwear" Abstract="True" MayRequire="Malistaticy.UnderWhere">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinUnderwear" Abstract="True" MayRequire="Malistaticy.UnderWhere">
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>Underwear</ApparelLayer>
@@ -66,7 +66,7 @@
 		
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinLongJohns" Abstract="True" MayRequire="Malistaticy.UnderWhere">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinLongJohns" Abstract="True" MayRequire="Malistaticy.UnderWhere">
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>UnderwearTop</ApparelLayer>

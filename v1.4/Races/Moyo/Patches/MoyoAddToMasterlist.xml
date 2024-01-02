@@ -12,13 +12,13 @@
 					<xpath>Defs</xpath>
 					<value>
 					
-					<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_FemaleFeet" ParentName="MLFeet" Abstract="True">
+					<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleFeet" ParentName="MLFeet" Abstract="True">
 						<RenderVersion>1</RenderVersion>
 						<BodyType>Female</BodyType>
 						<ApparelLayer>Middle</ApparelLayer>
 						
-						<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Powerarmor/female_mask</MaskPath>
-						<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Powerarmor/female_burn</BurnPath>
+						<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Armor/female_mask</MaskPath>
+						<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Armor/female_burn</BurnPath>
 						
 						<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 						<OffsetSouth>(0.0000,0.0100)</OffsetSouth>
@@ -31,12 +31,12 @@
 						 
 					</ApparelPaperPattern.ApparelPaperPatternDef>
 				
-					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="MOYO_FemaleFeet">
-						<defName>GAPPE_MoyoFemaleFeet</defName>
+					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleFeet">
+						<defName>THIGAPPE_MoyoFemaleFeet</defName>
 						<RaceName>Alien_Moyo</RaceName>
 					</ApparelPaperPattern.ApparelPaperPatternDef>
 					
-					<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinFeet" ParentName="MLFeet" Abstract="True">
+					<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinFeet" ParentName="MLFeet" Abstract="True">
 						<RenderVersion>1</RenderVersion>
 						<BodyType>Thin</BodyType>
 						<ApparelLayer>Middle</ApparelLayer>
@@ -58,8 +58,8 @@
 
 					</ApparelPaperPattern.ApparelPaperPatternDef>
 					
-					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="MOYO_ThinFeet">
-						<defName>GAPPE_MoyoThinFeet</defName>
+					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinFeet">
+						<defName>THIGAPPE_MoyoThinFeet</defName>
 						<RaceName>Alien_Moyo</RaceName>
 					</ApparelPaperPattern.ApparelPaperPatternDef>
 					
@@ -71,7 +71,7 @@
 					<value>
 					
 					<!-- Primitive Garment Thin -->
-					<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_FemalePants" ParentName="HUMAN_FemalePants" Abstract="True">
+					<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemalePants" ParentName="HUMAN_FemalePants" Abstract="True">
 						<RenderVersion>1</RenderVersion>
 						<BodyType>Female</BodyType>
 						<ApparelLayer>OnSkin</ApparelLayer>
@@ -94,8 +94,8 @@
 					</ApparelPaperPattern.ApparelPaperPatternDef>
 		
 					<!-- Primitive Garment Thin -->
-					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="MOYO_FemalePants">
-						<defName>GAPPE_MoyoFemalePants</defName>
+					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemalePants">
+						<defName>THIGAPPE_MoyoFemalePants</defName>
 						<RaceName>Alien_Moyo</RaceName>
 					</ApparelPaperPattern.ApparelPaperPatternDef>
 					
