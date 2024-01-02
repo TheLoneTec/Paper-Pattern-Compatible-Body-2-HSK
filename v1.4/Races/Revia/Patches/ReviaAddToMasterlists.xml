@@ -3,7 +3,7 @@
 
 	<Operation Class="PatchOperationFindMod">
 	<mods>
-		<li>The Holy Invention - Grand Apparel Paper Pattern Extension</li>
+		<li>THIGAPPE - Automatic Apparel Refitting with Apparel Paper Pattern</li>
 	</mods>
 		<match Class="PatchOperationSequence">
 			<operations>

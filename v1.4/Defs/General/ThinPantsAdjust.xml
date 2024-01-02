@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	
+	<!-- Primitive Garment Thin -->
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinPantsAdjust" ParentName="THIGAPPE_HUMAN_ThinPants" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Thin</BodyType>
+		<ApparelLayer>OnSkin</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Human/Thin/Pants/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Human/Thin/Pants/Thin_mask</BurnPath>
+		
+		<OffsetNorth>(0.00,0.0)</OffsetNorth> 
+		<ScaleNorth>1.0</ScaleNorth>
+		
+		<OffsetEast>(0.00,0.0)</OffsetEast>
+		<ScaleEast>1.0</ScaleEast>
+		
+		<OffsetSouth>(0.00,0.0)</OffsetSouth>
+		<ScaleSouth>1.0</ScaleSouth>
+		
+		<OffsetWest>(0.00,0.0)</OffsetWest>
+		<ScaleWest>1.0</ScaleWest>
+
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<!-- Primitive Garment Thin -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinPantsAdjust">
+		<defName>THIGAPPE_HumanThinPants</defName>
+		<RaceName>Human</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Primitive Garment Thin -->
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_HulkPantsAdjust" ParentName="THIGAPPE_HUMAN_HulkPants" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Hulk</BodyType>
+		<ApparelLayer>OnSkin</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Human/Hulk/Pants/Hulk_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Human/Hulk/Pants/Hulk_mask</BurnPath>
+		
+		<OffsetNorth>(0.0000,0.2200)</OffsetNorth>
+		<OffsetSouth>(0.0000,0.2250)</OffsetSouth>
+		<OffsetEast>(0.0700,0.1860)</OffsetEast>
+		<OffsetWest>(0.0000,0.0000)</OffsetWest>
+		<ScaleNorth>1.2000</ScaleNorth>
+		<ScaleSouth>1.2000</ScaleSouth>
+		<ScaleEast>1.1400</ScaleEast>
+		<ScaleWest>1.0000</ScaleWest>
+
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<!-- Primitive Garment Thin -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkPantsAdjust">
+		<defName>THIGAPPE_HumanHulkPants</defName>
+		<RaceName>Human</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Primitive Garment Thin -->
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemalePantsAdjust" ParentName="THIGAPPE_HUMAN_FemalePants" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Female</BodyType>
+		<ApparelLayer>OnSkin</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Human/Female/Pants/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Human/Female/Pants/Female_mask</BurnPath>
+		
+		<OffsetNorth>(0.0000,0.2500)</OffsetNorth>
+		<OffsetSouth>(0.0100,0.2100)</OffsetSouth>
+		<OffsetEast>(0.1200,0.3200)</OffsetEast>
+		<OffsetWest>(0.0000,0.0200)</OffsetWest>
+		<ScaleNorth>1.5000</ScaleNorth>
+		<ScaleSouth>1.4000</ScaleSouth>
+		<ScaleEast>1.8000</ScaleEast>
+		<ScaleWest>1.0000</ScaleWest>
+
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<!-- Primitive Garment Thin -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemalePantsAdjust">
+		<defName>THIGAPPE_HumanFemalePants</defName>
+		<RaceName>Human</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Primitive Garment Thin -->
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_MalePantsAdjust" ParentName="THIGAPPE_HUMAN_MalePants" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Male</BodyType>
+		<ApparelLayer>OnSkin</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Human/Male/Pants/Male_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Human/Male/Pants/Male_mask</BurnPath>
+		
+		<OffsetNorth>(0.00,0.0)</OffsetNorth> 
+		<ScaleNorth>1.0</ScaleNorth>
+		
+		<OffsetEast>(0.00,0.0)</OffsetEast>
+		<ScaleEast>1.0</ScaleEast>
+		
+		<OffsetSouth>(0.00,0.0)</OffsetSouth>
+		<ScaleSouth>1.0</ScaleSouth>
+		
+		<OffsetWest>(0.00,0.0)</OffsetWest>
+		<ScaleWest>1.0</ScaleWest>
+
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<!-- Primitive Garment Thin -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MalePantsAdjust">
+		<defName>THIGAPPE_HumanMalePants</defName>
+		<RaceName>Human</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Primitive Garment Thin -->
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FatPantsAdjust" ParentName="THIGAPPE_HUMAN_FatPants" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Fat</BodyType>
+		<ApparelLayer>OnSkin</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Human/Fat/Pants/Fat_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Human/Fat/Pants/Fat_mask</BurnPath>
+		
+		<OffsetNorth>(0.00,0.0)</OffsetNorth> 
+		<ScaleNorth>1.0</ScaleNorth>
+		
+		<OffsetEast>(0.00,0.0)</OffsetEast>
+		<ScaleEast>1.0</ScaleEast>
+		
+		<OffsetSouth>(0.00,0.0)</OffsetSouth>
+		<ScaleSouth>1.0</ScaleSouth>
+		
+		<OffsetWest>(0.00,0.0)</OffsetWest>
+		<ScaleWest>1.0</ScaleWest>
+
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<!-- Primitive Garment Thin -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatPantsAdjust">
+		<defName>THIGAPPE_HumanFatPants</defName>
+		<RaceName>Human</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+</Defs>

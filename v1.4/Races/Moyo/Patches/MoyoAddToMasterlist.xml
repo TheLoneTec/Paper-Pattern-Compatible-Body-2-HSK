@@ -3,7 +3,7 @@
 
 	<Operation Class="PatchOperationFindMod">
 	<mods>
-		<li>The Holy Invention - Grand Apparel Paper Pattern Extension</li>
+		<li>THIGAPPE - Automatic Apparel Refitting with Apparel Paper Pattern</li>
 	</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
@@ -12,7 +12,7 @@
 					<xpath>Defs</xpath>
 					<value>
 					
-					<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleFeet" ParentName="MLFeet" Abstract="True">
+					<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleFeet" ParentName="THIGAPPE_MLFeet" Abstract="True">
 						<RenderVersion>1</RenderVersion>
 						<BodyType>Female</BodyType>
 						<ApparelLayer>Middle</ApparelLayer>
@@ -36,7 +36,7 @@
 						<RaceName>Alien_Moyo</RaceName>
 					</ApparelPaperPattern.ApparelPaperPatternDef>
 					
-					<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinFeet" ParentName="MLFeet" Abstract="True">
+					<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinFeet" ParentName="THIGAPPE_MLFeet" Abstract="True">
 						<RenderVersion>1</RenderVersion>
 						<BodyType>Thin</BodyType>
 						<ApparelLayer>Middle</ApparelLayer>
@@ -71,7 +71,7 @@
 					<value>
 					
 					<!-- Primitive Garment Thin -->
-					<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemalePants" ParentName="HUMAN_FemalePants" Abstract="True">
+					<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemalePants" ParentName="THIGAPPE_HUMAN_FemalePants" Abstract="True">
 						<RenderVersion>1</RenderVersion>
 						<BodyType>Female</BodyType>
 						<ApparelLayer>OnSkin</ApparelLayer>
