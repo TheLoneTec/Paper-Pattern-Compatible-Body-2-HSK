@@ -17,8 +17,8 @@
 						<BodyType>Female</BodyType>
 						<ApparelLayer>Middle</ApparelLayer>
 						
-						<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Armor/female_mask</MaskPath>
-						<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Armor/female_burn</BurnPath>
+						<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Armor/Female_mask</MaskPath>
+						<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Armor/Female_mask</BurnPath>
 						
 						<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 						<OffsetSouth>(0.0000,0.0100)</OffsetSouth>
@@ -41,8 +41,8 @@
 						<BodyType>Thin</BodyType>
 						<ApparelLayer>Middle</ApparelLayer>
 						
-						<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/thin_mask</MaskPath>
-						<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/thin_burn</BurnPath>
+						<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/Thin_mask</MaskPath>
+						<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/Thin_mask</BurnPath>
 						
 						<OffsetNorth>(0.00,0.0)</OffsetNorth>
 						<ScaleNorth>1.0</ScaleNorth>
@@ -76,8 +76,8 @@
 						<BodyType>Female</BodyType>
 						<ApparelLayer>OnSkin</ApparelLayer>
 						
-						<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Pants/female_mask</MaskPath>
-						<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Pants/female_burn</BurnPath>
+						<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Pants/Female_mask</MaskPath>
+						<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Pants/Female_mask</BurnPath>
 						
 						<OffsetNorth>(0.00,0.0)</OffsetNorth> 
 						<ScaleNorth>1.0</ScaleNorth>

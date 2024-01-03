@@ -246,8 +246,8 @@
 							<BodyType>Female</BodyType>
 							<ApparelLayer>Middle</ApparelLayer>
 							
-							<MaskPath>Things/ApparelPaperPattern/Ratkin/Female/Middle/female_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Ratkin/Female/Middle/female_burn</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Ratkin/Female/Middle/Female_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Ratkin/Female/Middle/Female_mask</BurnPath>
 							
 							<OffsetNorth>(-0.0005,0.0400)</OffsetNorth>
 							<OffsetSouth>(0.0000,0.0400)</OffsetSouth>
@@ -389,8 +389,8 @@
 							<BodyType>Female</BodyType>
 							<ApparelLayer>Shell</ApparelLayer>
 							
-							<MaskPath>Things/ApparelPaperPattern/Ratkin/Female/Middle/female_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Ratkin/Female/Middle/female_burn</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Ratkin/Female/Middle/Female_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Ratkin/Female/Middle/Female_mask</BurnPath>
 							
 							<OffsetNorth>(0.0250,0.0100)</OffsetNorth>
 							<OffsetSouth>(0.0250,-0.0200)</OffsetSouth>
@@ -590,7 +590,7 @@
 							<ApparelLayer>Overhead</ApparelLayer>
 							
 							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
 							
 							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
@@ -618,7 +618,7 @@
 							<ApparelLayer>Overhead</ApparelLayer>
 							
 							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
 							
 							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
@@ -646,7 +646,7 @@
 							<ApparelLayer>Overhead</ApparelLayer>
 							
 							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
 							
 							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
@@ -674,7 +674,7 @@
 							<ApparelLayer>Overhead</ApparelLayer>
 							
 							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
 							
 							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>

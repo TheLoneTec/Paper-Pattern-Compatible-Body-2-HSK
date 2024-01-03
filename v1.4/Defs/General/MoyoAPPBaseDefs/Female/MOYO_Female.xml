@@ -9,8 +9,8 @@
 		<BodyType>Female</BodyType>
 		<ApparelLayer>OnSkin</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkin/female_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkin/female_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkin/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkin/Female_mask</BurnPath>
 		
 		<!-- <OffsetNorth>(0.00,0.00)</OffsetNorth> -->
 		<ScaleNorth>1.10</ScaleNorth>
@@ -38,8 +38,8 @@
 	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleOnSkinFull" Abstract="True" ParentName="THIGAPPE_HUMAN_FemaleOnSkinFull">
 		<BodyType>Female</BodyType>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/female_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/female_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</BurnPath>
 		
 		<!-- <OffsetNorth>(0.00,0.00)</OffsetNorth> --> 
 		<ScaleNorth>1.1</ScaleNorth>
@@ -60,8 +60,8 @@
 		<BodyType>Female</BodyType>
 		<ApparelLayer>OnSkin</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/female_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/female_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</BurnPath>
 		
 		<OffsetNorth>(-0.003, -0.005)</OffsetNorth>
 		<ScaleNorth>1.15</ScaleNorth>
@@ -86,8 +86,8 @@
 	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemalePants" Abstract="True" ParentName="THIGAPPE_HUMAN_FemalePants" MayRequire="XeoNovaDan.VisiblePants">
 		<BodyType>Female</BodyType>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Pants/female_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Pants/female_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Pants/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Pants/Female_mask</BurnPath>
 		
 		<OffsetNorth>(0.0000,0.5300)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.5300)</OffsetSouth>
@@ -103,8 +103,8 @@
 	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemalePantsShort" Abstract="True" ParentName="THIGAPPE_HUMAN_FemalePantsShort" MayRequire="XeoNovaDan.VisiblePants">
 		<BodyType>Female</BodyType>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/PantsShort/female_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/PantsShort/female_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/PantsShort/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/PantsShort/Female_mask</BurnPath>
 		
 		<OffsetNorth>(0.0000,0.5300)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.5300)</OffsetSouth>
@@ -126,8 +126,8 @@
 		<BodyType>Female</BodyType>
 		<ApparelLayer>Middle</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Middle/female_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Middle/female_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Middle/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Middle/Female_mask</BurnPath>
 		
 		<OffsetNorth>(0.0025,0.10)</OffsetNorth> 
 		<ScaleNorth>1.20</ScaleNorth>
@@ -153,8 +153,8 @@
 		<BodyType>Female</BodyType>
 		<ApparelLayer>Middle</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Middle/female_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Middle/female_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Middle/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Middle/Female_mask</BurnPath>
 		
 		<OffsetNorth>(0.00,0.00)</OffsetNorth>
 		<ScaleNorth>1.05</ScaleNorth>
@@ -182,8 +182,8 @@
 		<!-- Default outer. -->
 		<BodyType>Female</BodyType>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Shell/female_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Shell/female_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Shell/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Shell/Female_mask</BurnPath>
 		
 		<OffsetNorth>(0.0145,-0.0075)</OffsetNorth>
 		<OffsetSouth>(0.0050,-0.0100)</OffsetSouth>
@@ -200,8 +200,8 @@
 		<!-- For any armor that should cover the entire body. -->
 		<BodyType>Female</BodyType>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Armor/female_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Armor/female_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Armor/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Armor/Female_mask</BurnPath>
 		
 		<!-- <OffsetNorth>(0.00,0.00)</OffsetNorth> --> 
 		<ScaleNorth>1.40</ScaleNorth>
@@ -223,8 +223,8 @@
 		<BodyType>Female</BodyType>
 		<ApparelLayer>Shell</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Shell/female_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Shell/female_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Shell/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Shell/Female_mask</BurnPath>
 		
 		<OffsetNorth>(-0.002,-0.0075)</OffsetNorth> 
 		<ScaleNorth>1.10</ScaleNorth>
@@ -252,7 +252,7 @@
 		<ApparelLayer>Belt</ApparelLayer>
 		
 		<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
 		
 		<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
@@ -286,8 +286,8 @@
 		<BodyType>Female</BodyType>
 		<ApparelLayer>Middle</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Pants/female_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Pants/female_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Pants/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Pants/Female_mask</BurnPath>
 		
 		<OffsetNorth>(0.0000,0.5300)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.5300)</OffsetSouth>
@@ -310,8 +310,8 @@
 		<BodyType>Female</BodyType>
 		<ApparelLayer>Middle</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Armor/female_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Armor/female_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Armor/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Armor/Female_mask</BurnPath>
 		
 		<!-- <OffsetNorth>(0.00,0.00)</OffsetNorth> --> 
 		<ScaleNorth>1.40</ScaleNorth>
@@ -334,8 +334,8 @@
 	
 	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleShoulderpads" Abstract="True"  MayRequire="VanillaExpanded.VARME">
 		<!-- VAE Shoulderpads fix. -->
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Armor/female_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Armor/female_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Armor/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Armor/Female_mask</BurnPath>
 		
 		<OffsetNorth>(-0.0175, -0.0075)</OffsetNorth>
 		<ScaleNorth>0.80</ScaleNorth>
@@ -362,8 +362,8 @@
 		<BodyType>Female</BodyType>
 		<ApparelLayer>OnSkin</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/female_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/female_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</BurnPath>
 		
 		<OffsetNorth>(0.00, 0.28)</OffsetNorth>
 		<!-- <ScaleNorth>1.00</ScaleNorth> -->
@@ -389,8 +389,8 @@
 		<BodyType>Female</BodyType>
 		<ApparelLayer>Shell</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/female_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/female_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</BurnPath>
 		
 		<TargetApparelDefs>
 		  <li>Apparel_BodyStrap</li>
@@ -419,8 +419,8 @@
 		<BodyType>Female</BodyType>
 		<ApparelLayer>Middle</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/female_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/female_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</BurnPath>
 		
 		<OffsetNorth>(0.00, 0.00)</OffsetNorth>
 		<!-- <ScaleNorth>1.00</ScaleNorth> -->

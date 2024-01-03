@@ -163,7 +163,7 @@
 						<ApparelLayer>RBNeck</ApparelLayer>
 						
 						<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
-						<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+						<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
 						
 						<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 						<OffsetSouth>(0.0000,0.0000)</OffsetSouth>

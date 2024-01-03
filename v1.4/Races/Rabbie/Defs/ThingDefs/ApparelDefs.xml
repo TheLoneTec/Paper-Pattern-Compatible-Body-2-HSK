@@ -22,8 +22,8 @@
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Thin</BodyType>
 
-		<MaskPath>Things/ApparelPaperPattern/Human/Thin/OnSkinFull/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Human/Thin/OnSkinFull/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Human/Thin/OnSkinFull/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Human/Thin/OnSkinFull/Thin_mask</BurnPath>
 
 		<OffsetNorth>(0.0000,-0.0300)</OffsetNorth>
 		<OffsetSouth>(0.0000,-0.0200)</OffsetSouth>

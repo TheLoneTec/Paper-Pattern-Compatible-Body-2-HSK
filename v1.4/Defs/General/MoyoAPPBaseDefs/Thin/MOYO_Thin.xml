@@ -9,8 +9,8 @@
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>OnSkin</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkin/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkin/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkin/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkin/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.00,0.025)</OffsetNorth> 
 		<!-- <ScaleNorth>1.00</ScaleNorth> -->
@@ -38,8 +38,8 @@
 	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinOnSkinFull" Abstract="True" ParentName="THIGAPPE_HUMAN_ThinOnSkinFull">
 		<BodyType>Thin</BodyType>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.00,0.05)</OffsetNorth> 
 		<ScaleNorth>1.40</ScaleNorth>
@@ -60,8 +60,8 @@
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>OnSkin</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.00,-0.025)</OffsetNorth> 
 		<ScaleNorth>1.075</ScaleNorth>
@@ -86,8 +86,8 @@
 	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinPants" Abstract="True" ParentName="THIGAPPE_HUMAN_ThinPants" MayRequire="XeoNovaDan.VisiblePants">
 		<BodyType>Thin</BodyType>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.0000,0.4300)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.4300)</OffsetSouth>
@@ -103,8 +103,8 @@
 	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinPantsShort" Abstract="True" ParentName="THIGAPPE_HUMAN_ThinPantsShort" MayRequire="XeoNovaDan.VisiblePants">
 		<BodyType>Thin</BodyType>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/PantsShort/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/PantsShort/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/PantsShort/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/PantsShort/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.0000,0.4300)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.4300)</OffsetSouth>
@@ -124,8 +124,8 @@
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>Middle</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Middle/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Middle/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Middle/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Middle/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.01,0.10)</OffsetNorth> 
 		<ScaleNorth>1.10</ScaleNorth>
@@ -174,8 +174,8 @@
 		<!-- Default outer. -->
 		<BodyType>Thin</BodyType>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/Thin_mask</BurnPath>
 		
 		<!-- <OffsetNorth>(0.00,0.00)</OffsetNorth> --> 
 		<ScaleNorth>1.10</ScaleNorth>
@@ -196,8 +196,8 @@
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>Shell</ApparelLayer>
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/Thin_mask</BurnPath>
 		
 		<!-- <OffsetNorth>(0.00,0.00)</OffsetNorth> --> 
 		<!-- <ScaleNorth>1.00</ScaleNorth> -->
@@ -223,8 +223,8 @@
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>Shell</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/Thin_mask</BurnPath>
 		
 		<TargetApparelDefs>
 		  <li>Apparel_BodyStrap</li>
@@ -236,8 +236,8 @@
 		<!-- For any armor that should cover the entire body. -->
 		<BodyType>Thin</BodyType>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Armor/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Armor/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Armor/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Armor/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.00,-0.10)</OffsetNorth> 
 		<ScaleNorth>1.35</ScaleNorth>
@@ -261,7 +261,7 @@
 		<ApparelLayer>Belt</ApparelLayer>
 		
 		<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
 		
 		<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
@@ -296,8 +296,8 @@
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>Middle</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.0000,0.4300)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.4300)</OffsetSouth>
@@ -320,8 +320,8 @@
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>Middle</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Armor/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Armor/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Armor/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Armor/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.00,-0.10)</OffsetNorth> 
 		<ScaleNorth>1.35</ScaleNorth>

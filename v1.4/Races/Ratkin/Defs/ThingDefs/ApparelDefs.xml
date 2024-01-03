@@ -6,7 +6,7 @@
 		 They're very useful for broadly applying multiple races/bodytype APP defs with common apparel restrictions. 
 		 When you use an ML parent, you must always define the RaceName and BodyType nodes in the child.-->
   
-	<ThingDef Name="MLHeadOuter" Abstract="True">
+	<ThingDef Name="THIGAPPE_MLHeadOuter" Abstract="True">
 		<RenderVersion>1</RenderVersion>
 		<ApparelLayer>OuterClothing</ApparelLayer>
 
@@ -18,12 +18,12 @@
 
 	<!-- CE Strapped Head Clothing (scarf) -->
 
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemaleHeadOuter" ParentName="MLHeadOuter" Abstract="True">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemaleHeadOuter" ParentName="THIGAPPE_MLHeadOuter" Abstract="True">
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Female</BodyType>
 
 		<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
 
 		<OffsetNorth>(0.0000,0.0200)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.0600)</OffsetSouth>
@@ -48,12 +48,12 @@
 
 	<!-- ========== Scarfs ========== -->
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_MaleHeadOuter" ParentName="MLHeadOuter" Abstract="True">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_MaleHeadOuter" ParentName="THIGAPPE_MLHeadOuter" Abstract="True">
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Male</BodyType>
 
 		<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
 
 		<OffsetNorth>(0.0000,0.0200)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.0600)</OffsetSouth>
@@ -71,12 +71,12 @@
 		<RaceName>Human</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinHeadOuter" ParentName="MLHeadOuter" Abstract="True">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinHeadOuter" ParentName="THIGAPPE_MLHeadOuter" Abstract="True">
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Thin</BodyType>
 
 		<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
 
 		<OffsetNorth>(0.0000,0.0200)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.0600)</OffsetSouth>
@@ -99,12 +99,12 @@
 		<RaceName>Ratkin</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_HulkHeadOuter" ParentName="MLHeadOuter" Abstract="True">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_HulkHeadOuter" ParentName="THIGAPPE_MLHeadOuter" Abstract="True">
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Hulk</BodyType>
 
 		<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
 
 		<OffsetNorth>(0.0000,0.0200)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.0600)</OffsetSouth>
@@ -122,12 +122,12 @@
 		<RaceName>Human</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FatHeadOuter" ParentName="MLHeadOuter" Abstract="True">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FatHeadOuter" ParentName="THIGAPPE_MLHeadOuter" Abstract="True">
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Fat</BodyType>
 
 		<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
 
 		<OffsetNorth>(0.0000,0.0200)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.0600)</OffsetSouth>

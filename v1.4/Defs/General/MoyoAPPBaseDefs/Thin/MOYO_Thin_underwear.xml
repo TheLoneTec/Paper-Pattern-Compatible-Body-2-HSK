@@ -6,8 +6,8 @@
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>UnderwearTop</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</BurnPath>
 		
 		<!-- <OffsetNorth>(0.00,0.00)</OffsetNorth>  -->
 		<ScaleNorth>0.35</ScaleNorth>
@@ -38,8 +38,8 @@
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>Underwear</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.00,0.05)</OffsetNorth> 
 		<ScaleNorth>0.55</ScaleNorth>
@@ -71,8 +71,8 @@
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>UnderwearTop</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</BurnPath>
 
 		<TargetPackageIds>
 			<li>Malistaticy.UnderWhere</li>
