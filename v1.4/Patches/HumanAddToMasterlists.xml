@@ -439,8 +439,8 @@
 							<BodyType>Hulk</BodyType>
 							<ApparelLayer>Shell</ApparelLayer>
 							
-							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Middle/Fat_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Middle/Fat_mask</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Shell/Fat_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Shell/Fat_mask</BurnPath>
 							
 							<OffsetNorth>(0.0200,0.0000)</OffsetNorth>
 							<OffsetSouth>(0.0100,-0.0400)</OffsetSouth>
@@ -468,8 +468,8 @@
 							<BodyType>Male</BodyType>
 							<ApparelLayer>Shell</ApparelLayer>
 							
-							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Middle/Fat_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Middle/Fat_mask</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Shell/Fat_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Shell/Fat_mask</BurnPath>
 							
 							<OffsetNorth>(0.0200,0.0000)</OffsetNorth>
 							<OffsetSouth>(0.0200,0.0700)</OffsetSouth>
@@ -497,8 +497,8 @@
 							<BodyType>Female</BodyType>
 							<ApparelLayer>Shell</ApparelLayer>
 							
-							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Middle/Fat_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Middle/Fat_mask</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Shell/Fat_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Shell/Fat_mask</BurnPath>
 							
 							<OffsetNorth>(0.0200,0.0000)</OffsetNorth>
 							<OffsetSouth>(0.0200,0.0700)</OffsetSouth>
@@ -526,8 +526,8 @@
 							<BodyType>Thin</BodyType>
 							<ApparelLayer>Shell</ApparelLayer>
 							
-							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Middle/Fat_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Middle/Fat_mask</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Shell/Fat_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Shell/Fat_mask</BurnPath>
 							
 							<OffsetNorth>(0.0200,0.0000)</OffsetNorth>
 							<OffsetSouth>(0.0200,0.0700)</OffsetSouth>

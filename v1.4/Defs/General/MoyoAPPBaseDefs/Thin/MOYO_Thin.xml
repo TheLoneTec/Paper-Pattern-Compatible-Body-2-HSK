@@ -124,8 +124,8 @@
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>Middle</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Middle/Thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Middle/Thin_mask</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.01,0.10)</OffsetNorth> 
 		<ScaleNorth>1.10</ScaleNorth>
