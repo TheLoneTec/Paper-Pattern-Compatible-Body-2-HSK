@@ -43,7 +43,7 @@
 			<!-- MLShorts -->
 			<!-- [XND] Visible Pants only. For legwear using the Skin layer that should stop at about knee-level, e.g. VE shorts and skirts. Note for MLPants applies here too. -->
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@THIGAPPE_MLShorts="true"]]/TargetApparelDefs</xpath>
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@THIGAPPE_MLShorts="true"]/TargetApparelDefs</xpath>
 				<value>
 					<!-- <li></li> -->
 				</value>

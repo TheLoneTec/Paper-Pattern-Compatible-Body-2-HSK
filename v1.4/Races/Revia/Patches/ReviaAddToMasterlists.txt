@@ -51,7 +51,7 @@
 				</li>
 
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[defName="GAPPE_ReviaFemaleLongJohns"]</xpath>
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[defName="THIGAPPE_ReviaFemaleLongJohns"]</xpath>
 					<value>
 						<OffsetSouth>(-0.0050,-0.0300)</OffsetSouth>
 						<ScaleSouth>1.2000</ScaleSouth>	
