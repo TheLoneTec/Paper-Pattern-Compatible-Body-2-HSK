@@ -246,8 +246,8 @@
 							<BodyType>Female</BodyType>
 							<ApparelLayer>Middle</ApparelLayer>
 							
-							<MaskPath>Things/ApparelPaperPattern/Ratkin/Female/Shell/Female_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Ratkin/Female/Shell/Female_mask</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Female/Shell/Female_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Female/Shell/Female_mask</BurnPath>
 							
 							<OffsetNorth>(-0.0005,0.0400)</OffsetNorth>
 							<OffsetSouth>(0.0000,0.0400)</OffsetSouth>
@@ -389,8 +389,8 @@
 							<BodyType>Female</BodyType>
 							<ApparelLayer>Shell</ApparelLayer>
 							
-							<MaskPath>Things/ApparelPaperPattern/Ratkin/Female/Shell/Female_mask</MaskPath>
-							<BurnPath>Things/ApparelPaperPattern/Ratkin/Female/Shell/Female_mask</BurnPath>
+							<MaskPath>Things/ApparelPaperPattern/Human/Female/Shell/Female_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Female/Shell/Female_mask</BurnPath>
 							
 							<OffsetNorth>(0.0250,0.0100)</OffsetNorth>
 							<OffsetSouth>(0.0250,-0.0200)</OffsetSouth>
