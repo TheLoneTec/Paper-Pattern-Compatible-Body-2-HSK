@@ -18,6 +18,7 @@
 						<!-- HMC Vile's Pre-Industrial Overhaul -->
 						<li>Norballo_Loincloth</li>
 						<li>Apparel_RagDressB</li>
+						<li>Norballo_Shirt</li>
 						<!-- Androids -->
 						<li>ChJAndroidThermalBandages</li>
 						<li>SpeacialForces_Bodysuit</li>
@@ -220,6 +221,21 @@
 							<ScaleEast>1.9000</ScaleEast>
 							<ScaleWest>1.0000</ScaleWest>
 
+							<IgnoreApparelDefs>
+								<li>CryptosleepBodysuit</li>
+								<li>MedievalTimes_Pants_Suspenders_Striped</li>
+								<li>Apparello_Suspender</li>
+								<li>Apparel_Pants</li>
+								<!-- HMC Vile's Pre-Industrial Overhaul -->
+								<li>Norballo_Loincloth</li>
+								<li>Apparel_RagDressB</li>
+								<li>Norballo_Shirt</li>
+								<!-- Androids -->
+								<li>ChJAndroidThermalBandages</li>
+								<li>SpeacialForces_Bodysuit</li>
+								<li>Apparello_XcomOne</li>
+							</IgnoreApparelDefs>
+
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>
 				</li>
@@ -244,6 +260,21 @@
 							<ScaleEast>1.9000</ScaleEast>
 							<ScaleWest>1.0000</ScaleWest>
 
+							<IgnoreApparelDefs>
+								<li>CryptosleepBodysuit</li>
+								<li>MedievalTimes_Pants_Suspenders_Striped</li>
+								<li>Apparello_Suspender</li>
+								<li>Apparel_Pants</li>
+								<!-- HMC Vile's Pre-Industrial Overhaul -->
+								<li>Norballo_Loincloth</li>
+								<li>Apparel_RagDressB</li>
+								<li>Norballo_Shirt</li>
+								<!-- Androids -->
+								<li>ChJAndroidThermalBandages</li>
+								<li>SpeacialForces_Bodysuit</li>
+								<li>Apparello_XcomOne</li>
+							</IgnoreApparelDefs>
+
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>
 				</li>
@@ -267,6 +298,21 @@
 							<ScaleSouth>1.9000</ScaleSouth>
 							<ScaleEast>1.9500</ScaleEast>
 							<ScaleWest>1.0000</ScaleWest>
+
+							<IgnoreApparelDefs>
+								<li>CryptosleepBodysuit</li>
+								<li>MedievalTimes_Pants_Suspenders_Striped</li>
+								<li>Apparello_Suspender</li>
+								<li>Apparel_Pants</li>
+								<!-- HMC Vile's Pre-Industrial Overhaul -->
+								<li>Norballo_Loincloth</li>
+								<li>Apparel_RagDressB</li>
+								<li>Norballo_Shirt</li>
+								<!-- Androids -->
+								<li>ChJAndroidThermalBandages</li>
+								<li>SpeacialForces_Bodysuit</li>
+								<li>Apparello_XcomOne</li>
+							</IgnoreApparelDefs>
 
 						</ApparelPaperPattern.ApparelPaperPatternDef>
 					</value>
