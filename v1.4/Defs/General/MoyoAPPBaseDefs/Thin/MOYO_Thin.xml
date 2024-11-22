@@ -4,13 +4,13 @@
 
 	<!-- ONSKIN: Covers most of the upper body. -->
 
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinOnSkin" Abstract="True">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinOnSkin" Abstract="True">
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>OnSkin</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkin/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkin/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkin/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkin/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.00,0.025)</OffsetNorth> 
 		<!-- <ScaleNorth>1.00</ScaleNorth> -->
@@ -35,11 +35,11 @@
 	
 	<!-- Any defs with a parent beginning in ML are subject to a master list of apparel restrictions. 
 		 See Defs/General/Apparel.xml for details. -->
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinOnSkinFull" Abstract="True" ParentName="MLOnSkinFull">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinOnSkinFull" Abstract="True" ParentName="THIGAPPE_HUMAN_ThinOnSkinFull">
 		<BodyType>Thin</BodyType>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.00,0.05)</OffsetNorth> 
 		<ScaleNorth>1.40</ScaleNorth>
@@ -55,13 +55,13 @@
 		
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinOnSkinFullAA" Abstract="True" MayRequire="Aelanna.EccentricTech.AngelApparel" >
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinOnSkinFullAA" Abstract="True" MayRequire="Aelanna.EccentricTech.AngelApparel" >
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>OnSkin</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.00,-0.025)</OffsetNorth> 
 		<ScaleNorth>1.075</ScaleNorth>
@@ -83,11 +83,11 @@
 	
 	<!-- PANTS: Only works if Visible Pants is active. -->
 
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinPants" Abstract="True" ParentName="MLPants" MayRequire="XeoNovaDan.VisiblePants">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinPants" Abstract="True" ParentName="THIGAPPE_HUMAN_ThinPants" MayRequire="XeoNovaDan.VisiblePants">
 		<BodyType>Thin</BodyType>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.0000,0.4300)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.4300)</OffsetSouth>
@@ -100,11 +100,11 @@
 		
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinPantsShort" Abstract="True" ParentName="MLShorts" MayRequire="XeoNovaDan.VisiblePants">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinPantsShort" Abstract="True" ParentName="THIGAPPE_HUMAN_ThinPantsShort" MayRequire="XeoNovaDan.VisiblePants">
 		<BodyType>Thin</BodyType>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/PantsShort/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/PantsShort/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/PantsShort/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/PantsShort/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.0000,0.4300)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.4300)</OffsetSouth>
@@ -119,13 +119,13 @@
 	
 	<!-- MIDDLE -->
 
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinMiddle" Abstract="True">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinMiddle" Abstract="True">
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>Middle</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Middle/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Middle/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.01,0.10)</OffsetNorth> 
 		<ScaleNorth>1.10</ScaleNorth>
@@ -141,7 +141,7 @@
 		
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinMiddleAA" Abstract="True" MayRequire="Aelanna.EccentricTech.AngelApparel">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinMiddleAA" Abstract="True" MayRequire="Aelanna.EccentricTech.AngelApparel">
 		<!-- Angel Apparel middle pieces. There's no reason I should've needed this def or the shell def. But for some reason the alignment of the AA apparel renders off compared to vanilla, e.g. the flak vest?
 			 I've contacted the original author of Angel Apparel and confirmed that all of the included pieces are aligned properly. 
 			 Apparently, vanilla body offsets were shifted by 2px back in 1.3. The only conclusion I've been able to come to, based on comparing textures, is that the vanilla apparel graphics weren't properly offset. Assuming they were offset at all. -->
@@ -170,12 +170,12 @@
 	
 	<!-- SHELL -->	
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinShell" Abstract="True" ParentName="MLShell">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinShell" Abstract="True" ParentName="THIGAPPE_HUMAN_ThinShell">
 		<!-- Default outer. -->
 		<BodyType>Thin</BodyType>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/Thin_mask</BurnPath>
 		
 		<!-- <OffsetNorth>(0.00,0.00)</OffsetNorth> --> 
 		<ScaleNorth>1.10</ScaleNorth>
@@ -191,13 +191,13 @@
 		 
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinShellAA" Abstract="True" MayRequire="Aelanna.EccentricTech.AngelApparel">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinShellAA" Abstract="True" MayRequire="Aelanna.EccentricTech.AngelApparel">
 		<!-- Angel Apparel Shell pieces. See HumanFethinMiddleAA. --> 
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>Shell</ApparelLayer>
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/Thin_mask</BurnPath>
 		
 		<!-- <OffsetNorth>(0.00,0.00)</OffsetNorth> --> 
 		<!-- <ScaleNorth>1.00</ScaleNorth> -->
@@ -217,14 +217,14 @@
 		 
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinBodyStrap" MayRequire="Ludeon.RimWorld.Ideology" Abstract="True">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinBodyStrap" MayRequire="Ludeon.RimWorld.Ideology" Abstract="True">
 		<!-- Slave body strap fix. -->
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>Shell</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Shell/Thin_mask</BurnPath>
 		
 		<TargetApparelDefs>
 		  <li>Apparel_BodyStrap</li>
@@ -232,12 +232,12 @@
 		
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinPowerarmor" Abstract="True" ParentName="MLPowerarmor">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinArmor" Abstract="True" ParentName="THIGAPPE_HUMAN_ThinArmor">
 		<!-- For any armor that should cover the entire body. -->
 		<BodyType>Thin</BodyType>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Powerarmor/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Powerarmor/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Armor/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Armor/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.00,-0.10)</OffsetNorth> 
 		<ScaleNorth>1.35</ScaleNorth>
@@ -255,13 +255,13 @@
 	
 	<!-- Utility -->
 	
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinUtility" Abstract="True">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinUtility" Abstract="True">
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>Belt</ApparelLayer>
 		
 		<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/burn</BurnPath>
+		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
 		
 		<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
@@ -291,13 +291,13 @@
 	<!-- TARGETED -->
 	
 	<!-- Flak pants don't work with the usual pants def because they're in the middle layer. -->
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinFlakPants" Abstract="True" MayRequire="XeoNovaDan.VisiblePants">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinFlakPants" Abstract="True" MayRequire="XeoNovaDan.VisiblePants">
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>Middle</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.0000,0.4300)</OffsetNorth>
 		<OffsetSouth>(0.0000,0.4300)</OffsetSouth>
@@ -315,13 +315,13 @@
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
 	<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
-	<ApparelPaperPattern.ApparelPaperPatternDef Name="MOYO_ThinTrooperArmor" MayRequire="VanillaExpanded.VAPPE" Abstract="True">
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinTrooperArmor" MayRequire="VanillaExpanded.VAPPE" Abstract="True">
 		<RenderVersion>1</RenderVersion>
 		<BodyType>Thin</BodyType>
 		<ApparelLayer>Middle</ApparelLayer>
 		
-		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Powerarmor/thin_mask</MaskPath>
-		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Powerarmor/thin_burn</BurnPath>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Armor/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Armor/Thin_mask</BurnPath>
 		
 		<OffsetNorth>(0.00,-0.10)</OffsetNorth> 
 		<ScaleNorth>1.35</ScaleNorth>

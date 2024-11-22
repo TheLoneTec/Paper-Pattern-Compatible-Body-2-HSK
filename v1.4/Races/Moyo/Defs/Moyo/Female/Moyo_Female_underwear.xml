@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="MOYO_FemaleUnderwearTop" MayRequire="Malistaticy.UnderWhere">
-		<defName>GAPPE_Alien_MoyoFemaleUnderwearTop</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleUnderwearTop" MayRequire="Malistaticy.UnderWhere">
+		<defName>THIGAPPE_Alien_MoyoFemaleUnderwearTop</defName>
 		<RaceName>Alien_Moyo</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="MOYO_FemaleUnderwear" MayRequire="Malistaticy.UnderWhere">
-		<defName>GAPPE_Alien_MoyoFemaleUnderwear</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleUnderwear" MayRequire="Malistaticy.UnderWhere">
+		<defName>THIGAPPE_Alien_MoyoFemaleUnderwear</defName>
 		<RaceName>Alien_Moyo</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="MOYO_FemaleLongJohns" MayRequire="Malistaticy.UnderWhere">
-		<defName>GAPPE_Alien_MoyoFemaleLongJohns</defName>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleLongJohns" MayRequire="Malistaticy.UnderWhere">
+		<defName>THIGAPPE_Alien_MoyoFemaleLongJohns</defName>
 		<RaceName>Alien_Moyo</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 </Defs>

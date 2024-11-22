@@ -6,7 +6,7 @@
 		 They're very useful for broadly applying multiple races/bodytype APP defs with common apparel restrictions. 
 		 When you use an ML parent, you must always define the RaceName and BodyType nodes in the child.-->
   
-	<ThingDef Name="MLFeet" Abstract="True">
+	<ThingDef Name="THIGAPPE_MLFeet" Abstract="True">
 		<RenderVersion>1</RenderVersion>
 		<ApparelLayer>Middle</ApparelLayer>
 

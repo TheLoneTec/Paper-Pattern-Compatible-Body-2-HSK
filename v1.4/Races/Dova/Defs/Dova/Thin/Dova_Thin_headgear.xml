@@ -3,8 +3,8 @@
 <Defs>
 
   <!-- Slave collar fix. -->
-  <ApparelPaperPattern.ApparelPaperPatternDef ParentName="HUMAN_ThinCollar" MayRequire="Ludeon.RimWorld.Ideology">
-		<defName>GAPPE_Alien_DovaThinCollar</defName>
+  <ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinCollar" MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>THIGAPPE_Alien_DovaThinCollar</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
   
