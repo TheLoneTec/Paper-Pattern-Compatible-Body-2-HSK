@@ -17,12 +17,7 @@
 		<defName>THIGAPPE_Alien_DovaMaleOnSkinFull</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
-		<defName>THIGAPPE_Alien_DovaMaleOnSkinFullAA</defName>
-		<RaceName>Alien_Dova</RaceName>
-	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
+
 	<!-- PANTS: Only works if Visible Pants is active. -->
 
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MalePants" MayRequire="XeoNovaDan.VisiblePants">
@@ -41,24 +36,14 @@
 		<defName>THIGAPPE_Alien_DovaMaleMiddle</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
-		<defName>THIGAPPE_Alien_DovaMaleMiddleAA</defName>
-		<RaceName>Alien_Dova</RaceName>
-	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
+
 	<!-- SHELL -->	
 	
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleShell">
 		<defName>THIGAPPE_Alien_DovaMaleShell</defName>
 		<RaceName>Alien_Dova</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
-		<defName>THIGAPPE_Alien_DovaMaleShellAA</defName>
-		<RaceName>Alien_Dova</RaceName>
-	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
+
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
 		<defName>THIGAPPE_Alien_DovaMaleBodyStrap</defName>
 		<RaceName>Alien_Dova</RaceName>

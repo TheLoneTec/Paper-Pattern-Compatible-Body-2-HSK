@@ -17,12 +17,7 @@
 		<defName>THIGAPPE_RatkinThinOnSkinFull</defName>
 		<RaceName>Ratkin</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
-		<defName>THIGAPPE_RatkinThinOnSkinFullAA</defName>
-		<RaceName>Ratkin</RaceName>
-	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
+
 	<!-- PANTS: Only works if Visible Pants is active. -->
 
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinPants" MayRequire="XeoNovaDan.VisiblePants">
@@ -41,24 +36,14 @@
 		<defName>THIGAPPE_RatkinThinMiddle</defName>
 		<RaceName>Ratkin</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
-		<defName>THIGAPPE_RatkinThinMiddleAA</defName>
-		<RaceName>Ratkin</RaceName>
-	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
+
 	<!-- SHELL -->	
 	
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinShell">
 		<defName>THIGAPPE_RatkinThinShell</defName>
 		<RaceName>Ratkin</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
-		<defName>THIGAPPE_RatkinThinShellAA</defName>
-		<RaceName>Ratkin</RaceName>
-	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
+
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
 		<defName>THIGAPPE_RatkinThinBodyStrap</defName>
 		<RaceName>Ratkin</RaceName>

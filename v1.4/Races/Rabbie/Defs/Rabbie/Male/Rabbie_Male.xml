@@ -17,12 +17,7 @@
 		<defName>THIGAPPE_RabbieMaleOnSkinFull</defName>
 		<RaceName>Rabbie</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
-		<defName>THIGAPPE_RabbieMaleOnSkinFullAA</defName>
-		<RaceName>Rabbie</RaceName>
-	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
+
 	<!-- PANTS: Only works if Visible Pants is active. -->
 
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MalePants" MayRequire="XeoNovaDan.VisiblePants">
@@ -41,24 +36,14 @@
 		<defName>THIGAPPE_RabbieMaleMiddle</defName>
 		<RaceName>Rabbie</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
-		<defName>THIGAPPE_RabbieMaleMiddleAA</defName>
-		<RaceName>Rabbie</RaceName>
-	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
+
 	<!-- SHELL -->	
 	
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleShell">
 		<defName>THIGAPPE_RabbieMaleShell</defName>
 		<RaceName>Rabbie</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
-	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
-		<defName>THIGAPPE_RabbieMaleShellAA</defName>
-		<RaceName>Rabbie</RaceName>
-	</ApparelPaperPattern.ApparelPaperPatternDef>
-	
+
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
 		<defName>THIGAPPE_RabbieMaleBodyStrap</defName>
 		<RaceName>Rabbie</RaceName>
