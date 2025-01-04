@@ -18,6 +18,11 @@
 		<RaceName>ChjAndroid</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
 	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_ChjAndroidMaleOnSkinFullAA</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
 	<!-- PANTS: Only works if Visible Pants is active. -->
 
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MalePants" MayRequire="XeoNovaDan.VisiblePants">
@@ -36,14 +41,24 @@
 		<defName>THIGAPPE_ChjAndroidMaleMiddle</defName>
 		<RaceName>ChjAndroid</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_ChjAndroidMaleMiddleAA</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
 	<!-- SHELL -->	
 	
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleShell">
 		<defName>THIGAPPE_ChjAndroidMaleShell</defName>
 		<RaceName>ChjAndroid</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_ChjAndroidMaleShellAA</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
 		<defName>THIGAPPE_ChjAndroidMaleBodyStrap</defName>
 		<RaceName>ChjAndroid</RaceName>

@@ -17,7 +17,12 @@
 		<defName>THIGAPPE_SkynetAgentMaleOnSkinFull</defName>
 		<RaceName>SkynetAgent</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_SkynetAgentMaleOnSkinFullAA</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
 	<!-- PANTS: Only works if Visible Pants is active. -->
 
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MalePants" MayRequire="XeoNovaDan.VisiblePants">
@@ -36,14 +41,24 @@
 		<defName>THIGAPPE_SkynetAgentMaleMiddle</defName>
 		<RaceName>SkynetAgent</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_SkynetAgentMaleMiddleAA</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
 	<!-- SHELL -->	
 	
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleShell">
 		<defName>THIGAPPE_SkynetAgentMaleShell</defName>
 		<RaceName>SkynetAgent</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_SkynetAgentMaleShellAA</defName>
+		<RaceName>SkynetAgent</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
 		<defName>THIGAPPE_SkynetAgentMaleBodyStrap</defName>
 		<RaceName>SkynetAgent</RaceName>

@@ -17,7 +17,12 @@
 		<defName>THIGAPPE_Alien_OrassanThinOnSkinFull</defName>
 		<RaceName>Alien_Orassan</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_Alien_OrassanThinOnSkinFullAA</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
 	<!-- PANTS: Only works if Visible Pants is active. -->
 
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinPants" MayRequire="XeoNovaDan.VisiblePants">
@@ -36,14 +41,24 @@
 		<defName>THIGAPPE_Alien_OrassanThinMiddle</defName>
 		<RaceName>Alien_Orassan</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_Alien_OrassanThinMiddleAA</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
 	<!-- SHELL -->	
 	
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinShell">
 		<defName>THIGAPPE_Alien_OrassanThinShell</defName>
 		<RaceName>Alien_Orassan</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_Alien_OrassanThinShellAA</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
 		<defName>THIGAPPE_Alien_OrassanThinBodyStrap</defName>
 		<RaceName>Alien_Orassan</RaceName>

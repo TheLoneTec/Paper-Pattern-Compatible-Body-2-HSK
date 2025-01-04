@@ -17,7 +17,12 @@
 		<defName>THIGAPPE_SkynetInfiltratorFemaleOnSkinFull</defName>
 		<RaceName>SkynetInfiltrator</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel" >
+		<defName>THIGAPPE_SkynetInfiltratorFemaleOnSkinFullAA</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
 	<!-- PANTS: Only works if Visible Pants is active. -->
 
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemalePants" MayRequire="XeoNovaDan.VisiblePants">
@@ -38,7 +43,16 @@
 		<defName>THIGAPPE_SkynetInfiltratorFemaleMiddle</defName>
 		<RaceName>SkynetInfiltrator</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-
+	
+			
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<!-- Angel Apparel middle pieces. There's no reason I should've needed this def or the shell def. But for some reason the alignment of the AA apparel renders off compared to vanilla, e.g. the flak vest?
+			 I've contacted the original author of Angel Apparel and confirmed that all of the included pieces are aligned properly. 
+			 Apparently, vanilla body offsets were shifted by 2px back in 1.3. The only conclusion I've been able to come to, based on comparing textures, is that the vanilla apparel graphics weren't properly offset. Assuming they were offset at all. -->
+		<defName>THIGAPPE_SkynetInfiltratorFemaleMiddleAA</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
 	<!-- SHELL -->	
 	
 	<!-- OnSkinFull parent for general use, e.g. not apparel locked. -->
@@ -54,7 +68,13 @@
 		<defName>THIGAPPE_SkynetInfiltratorFemaleArmor</defName>
 		<RaceName>SkynetInfiltrator</RaceName>
 	</ApparelPaperPattern.ApparelPaperPatternDef>
-
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<!-- Angel Apparel Shell pieces. See SkynetInfiltratorFemaleMiddleAA. --> 
+		<defName>THIGAPPE_SkynetInfiltratorFemaleShellAA</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+			
 	<!-- UTILITY -->
 	
 	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleUtility">
