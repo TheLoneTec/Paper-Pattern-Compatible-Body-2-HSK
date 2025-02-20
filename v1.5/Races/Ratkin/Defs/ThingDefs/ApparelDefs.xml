@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- These are master lists of sorts for paper pattern defs that target specific pieces of apparel. 
+		 They're very useful for broadly applying multiple races/bodytype APP defs with common apparel restrictions. 
+		 When you use an ML parent, you must always define the RaceName and BodyType nodes in the child.-->
+  
+	<ThingDef Name="THIGAPPE_MLHeadOuter" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<ApparelLayer>OuterClothing</ApparelLayer>
+
+		<TargetApparelDefs>
+			<li>RK_Muffler</li>
+		</TargetApparelDefs>
+
+	</ThingDef>
+
+	<!-- CE Strapped Head Clothing (scarf) -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemaleHeadOuter" ParentName="THIGAPPE_MLHeadOuter" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Female</BodyType>
+
+		<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
+
+		<OffsetNorth>(0.0000,0.0200)</OffsetNorth>
+		<OffsetSouth>(0.0000,0.0600)</OffsetSouth>
+		<OffsetEast>(0.0000,0.0600)</OffsetEast>
+		<OffsetWest>(0.0000,0.0600)</OffsetWest>
+		<ScaleNorth>1.0000</ScaleNorth>
+		<ScaleSouth>1.0000</ScaleSouth>
+		<ScaleEast>1.0000</ScaleEast>
+		<ScaleWest>1.0000</ScaleWest>
+
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleHeadOuter">
+		<defName>THIGAPPE_HumanFemaleHeadOuter</defName>
+		<RaceName>Human</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleHeadOuter">
+		<defName>THIGAPPE_RatkinFemaleHeadOuter</defName>
+		<RaceName>Ratkin</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<!-- ========== Scarfs ========== -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_MaleHeadOuter" ParentName="THIGAPPE_MLHeadOuter" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Male</BodyType>
+
+		<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
+
+		<OffsetNorth>(0.0000,0.0200)</OffsetNorth>
+		<OffsetSouth>(0.0000,0.0600)</OffsetSouth>
+		<OffsetEast>(0.0000,0.0600)</OffsetEast>
+		<OffsetWest>(0.0000,0.0600)</OffsetWest>
+		<ScaleNorth>1.0000</ScaleNorth>
+		<ScaleSouth>1.0000</ScaleSouth>
+		<ScaleEast>1.0000</ScaleEast>
+		<ScaleWest>1.0000</ScaleWest>
+
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleHeadOuter">
+		<defName>THIGAPPE_HumanMaleHeadOuter</defName>
+		<RaceName>Human</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinHeadOuter" ParentName="THIGAPPE_MLHeadOuter" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Thin</BodyType>
+
+		<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
+
+		<OffsetNorth>(0.0000,0.0200)</OffsetNorth>
+		<OffsetSouth>(0.0000,0.0600)</OffsetSouth>
+		<OffsetEast>(0.0000,0.0600)</OffsetEast>
+		<OffsetWest>(0.0000,0.0600)</OffsetWest>
+		<ScaleNorth>1.0000</ScaleNorth>
+		<ScaleSouth>1.0000</ScaleSouth>
+		<ScaleEast>1.0000</ScaleEast>
+		<ScaleWest>1.0000</ScaleWest>
+
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinHeadOuter">
+		<defName>THIGAPPE_HumanThinHeadOuter</defName>
+		<RaceName>Human</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinHeadOuter">
+		<defName>THIGAPPE_RatkinThinHeadOuter</defName>
+		<RaceName>Ratkin</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_HulkHeadOuter" ParentName="THIGAPPE_MLHeadOuter" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Hulk</BodyType>
+
+		<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
+
+		<OffsetNorth>(0.0000,0.0200)</OffsetNorth>
+		<OffsetSouth>(0.0000,0.0600)</OffsetSouth>
+		<OffsetEast>(0.0000,0.0600)</OffsetEast>
+		<OffsetWest>(0.0000,0.0600)</OffsetWest>
+		<ScaleNorth>1.0000</ScaleNorth>
+		<ScaleSouth>1.0000</ScaleSouth>
+		<ScaleEast>1.0000</ScaleEast>
+		<ScaleWest>1.0000</ScaleWest>
+
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkHeadOuter">
+		<defName>THIGAPPE_HumanHulkHeadOuter</defName>
+		<RaceName>Human</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FatHeadOuter" ParentName="THIGAPPE_MLHeadOuter" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Fat</BodyType>
+
+		<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
+
+		<OffsetNorth>(0.0000,0.0200)</OffsetNorth>
+		<OffsetSouth>(0.0000,0.0600)</OffsetSouth>
+		<OffsetEast>(0.0000,0.0600)</OffsetEast>
+		<OffsetWest>(0.0000,0.0600)</OffsetWest>
+		<ScaleNorth>1.0000</ScaleNorth>
+		<ScaleSouth>1.0000</ScaleSouth>
+		<ScaleEast>1.0000</ScaleEast>
+		<ScaleWest>1.0000</ScaleWest>
+
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatHeadOuter">
+		<defName>THIGAPPE_HumanFatHeadOuter</defName>
+		<RaceName>Human</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+</Defs> 

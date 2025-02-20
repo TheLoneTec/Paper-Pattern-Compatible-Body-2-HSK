@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinUnderwearTop" Abstract="True" MayRequire="Malistaticy.UnderWhere">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Thin</BodyType>
+		<ApparelLayer>UnderwearTop</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</BurnPath>
+		
+		<!-- <OffsetNorth>(0.00,0.00)</OffsetNorth>  -->
+		<ScaleNorth>0.35</ScaleNorth>
+		
+		<OffsetEast>(-0.10,-0.0025)</OffsetEast>
+		<ScaleEast>0.50</ScaleEast>
+		
+		<OffsetSouth>(0.00,0.075)</OffsetSouth>
+		<ScaleSouth>0.35</ScaleSouth>
+		
+		<OffsetWest>(-0.10,-0.0025)</OffsetWest>
+		<ScaleWest>0.50</ScaleWest>
+		
+		<TargetPackageIds>
+			<li>Malistaticy.UnderWhere</li>
+		</TargetPackageIds>
+		
+		<modExtensions>
+			<li Class="ApparelPaperPattern.APPBodyTypeOverrider">
+				<bodyTypeOverride>Hulk</bodyTypeOverride>
+			</li>
+		</modExtensions>		
+		
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinUnderwear" Abstract="True" MayRequire="Malistaticy.UnderWhere">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Thin</BodyType>
+		<ApparelLayer>Underwear</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</BurnPath>
+		
+		<OffsetNorth>(0.00,0.05)</OffsetNorth> 
+		<ScaleNorth>0.55</ScaleNorth>
+		
+		<OffsetEast>(0.00,0.05)</OffsetEast>
+		<ScaleEast>0.55</ScaleEast>
+		
+		<OffsetSouth>(0.00,0.05)</OffsetSouth>
+		<ScaleSouth>0.55</ScaleSouth>
+		
+		<OffsetWest>(0.00,0.05)</OffsetWest>
+		<ScaleWest>0.55</ScaleWest>
+
+		<TargetPackageIds>
+			<li>Malistaticy.UnderWhere</li>
+		</TargetPackageIds>
+		
+		<modExtensions>
+			<li Class="ApparelPaperPattern.APPBodyTypeOverrider">
+				<bodyTypeOverride>Hulk</bodyTypeOverride>
+			</li>
+		</modExtensions>	
+
+		
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinLongJohns" Abstract="True" MayRequire="Malistaticy.UnderWhere">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Thin</BodyType>
+		<ApparelLayer>UnderwearTop</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/OnSkinFull/Thin_mask</BurnPath>
+
+		<TargetPackageIds>
+			<li>Malistaticy.UnderWhere</li>
+		</TargetPackageIds>
+		<TargetApparelDefs>
+			<li>UnderWhere_LongJohns</li>
+		</TargetApparelDefs>
+		
+		<OffsetNorth>(0.00,-0.05)</OffsetNorth> 
+		<ScaleNorth>1.30</ScaleNorth>
+		
+		<OffsetEast>(0.00,-0.05)</OffsetEast>
+		<ScaleEast>1.30</ScaleEast>
+		
+		<OffsetSouth>(0.00,-0.05)</OffsetSouth>
+		<ScaleSouth>1.30</ScaleSouth>
+		
+		<OffsetWest>(0.00,-0.05)</OffsetWest>
+		<ScaleWest>1.30</ScaleWest>
+		
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+</Defs>

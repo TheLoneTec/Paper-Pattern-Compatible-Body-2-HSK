@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- ONSKIN: Covers most of the upper body. -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleOnSkin">
+		<defName>THIGAPPE_SkynetPrototypeTXFemaleOnSkin</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- ONSKINFULL: Covers most of the whole body. -->
+	
+	<!-- Any defs with a parent beginning in ML are subject to a master list of apparel restrictions. 
+		 See Defs/General/ApparelMasterlists.xml for details. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleOnSkinFull">
+		<defName>THIGAPPE_SkynetPrototypeTXFemaleOnSkinFull</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel" >
+		<defName>THIGAPPE_SkynetPrototypeTXFemaleOnSkinFullAA</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- PANTS: Only works if Visible Pants is active. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemalePants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_SkynetPrototypeTXFemalePants</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemalePantsShort" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_SkynetPrototypeTXFemalePantsShort</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- MIDDLE -->
+
+	<!-- Middle parent for general use, e.g. not apparel locked. -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleMiddle">
+		<defName>THIGAPPE_SkynetPrototypeTXFemaleMiddle</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+			
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<!-- Angel Apparel middle pieces. There's no reason I should've needed this def or the shell def. But for some reason the alignment of the AA apparel renders off compared to vanilla, e.g. the flak vest?
+			 I've contacted the original author of Angel Apparel and confirmed that all of the included pieces are aligned properly. 
+			 Apparently, vanilla body offsets were shifted by 2px back in 1.3. The only conclusion I've been able to come to, based on comparing textures, is that the vanilla apparel graphics weren't properly offset. Assuming they were offset at all. -->
+		<defName>THIGAPPE_SkynetPrototypeTXFemaleMiddleAA</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- SHELL -->	
+	
+	<!-- OnSkinFull parent for general use, e.g. not apparel locked. -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleShell">
+		<!-- Default outer. -->
+		<defName>THIGAPPE_SkynetPrototypeTXFemaleShell</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleArmor">
+		<!-- For any armor that should cover the entire body. -->
+		<defName>THIGAPPE_SkynetPrototypeTXFemaleArmor</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<!-- Angel Apparel Shell pieces. See SkynetPrototypeTXFemaleMiddleAA. --> 
+		<defName>THIGAPPE_SkynetPrototypeTXFemaleShellAA</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+	<!-- UTILITY -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleUtility">
+		<defName>THIGAPPE_SkynetPrototypeTXFemaleUtility</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	
+	<!-- TARGETED -->
+	
+	<!-- Flak pants don't work with the usual pants def because they're in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleFlakPants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_SkynetPrototypeTXFemaleFlakPants</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleTrooperArmor" MayRequire="VanillaExpanded.VAPPE">
+		<defName>THIGAPPE_SkynetPrototypeTXFemaleTrooperArmor</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleShoulderpads"  MayRequire="VanillaExpanded.VARME">
+		<!-- VAE Shoulderpads fix. -->
+		<defName>THIGAPPE_SkynetPrototypeTXFemaleShoulderpads</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleTK" MayRequire="VanillaExpanded.VAPPE">
+		<!-- VAE tribal kilt fix. -->
+		<defName>THIGAPPE_SkynetPrototypeTXFemaleTK</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
+		<!-- Slave body strap fix. -->
+		<defName>THIGAPPE_SkynetPrototypeTXFemaleBodyStrap</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleCorset">
+		<!-- Corset fix. -->
+		<defName>THIGAPPE_SkynetPrototypeTXFemaleCorset</defName>
+		<RaceName>SkynetPrototypeTX</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+</Defs>

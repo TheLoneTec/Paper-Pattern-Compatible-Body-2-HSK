@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- ONSKIN: Covers most of the upper body. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinOnSkin">
+		<defName>THIGAPPE_Alien_OrassanThinOnSkin</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- ONSKINFULL: Covers most of the whole body. -->
+	
+	<!-- Any defs with a parent beginning in ML are subject to a master list of apparel restrictions. 
+		 See Defs/General/Apparel.xml for details. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinOnSkinFull">
+		<defName>THIGAPPE_Alien_OrassanThinOnSkinFull</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_Alien_OrassanThinOnSkinFullAA</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- PANTS: Only works if Visible Pants is active. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinPants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_Alien_OrassanThinPants</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinPantsShort" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_Alien_OrassanThinPantsShort</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- MIDDLE -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinMiddle">
+		<defName>THIGAPPE_Alien_OrassanThinMiddle</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_Alien_OrassanThinMiddleAA</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- SHELL -->	
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinShell">
+		<defName>THIGAPPE_Alien_OrassanThinShell</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_Alien_OrassanThinShellAA</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>THIGAPPE_Alien_OrassanThinBodyStrap</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinArmor">
+		<defName>THIGAPPE_Alien_OrassanThinArmor</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Utility -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinUtility">
+		<defName>THIGAPPE_Alien_OrassanThinUtility</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+
+	<!-- TARGETED -->
+	
+	<!-- Flak pants don't work with the usual pants def because they're in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinFlakPants">
+		<defName>THIGAPPE_Alien_OrassanThinFlakPants</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinTrooperArmor" MayRequire="VanillaExpanded.VAPPE">
+		<defName>THIGAPPE_Alien_OrassanThinTrooperArmor</defName>
+		<RaceName>Alien_Orassan</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+</Defs>

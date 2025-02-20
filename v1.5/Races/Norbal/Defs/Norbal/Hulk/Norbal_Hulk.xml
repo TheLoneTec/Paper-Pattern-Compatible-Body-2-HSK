@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- ONSKIN: Covers most of the upper body. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkOnSkin">
+		<defName>THIGAPPE_NorbalHulkOnSkin</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- ONSKINFULL: Covers most of the whole body. -->
+	
+	<!-- Any defs with a parent beginning in ML are subject to a master list of apparel restrictions. 
+		 See Defs/General/Apparel.xml for details. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkOnSkinFull">
+		<defName>THIGAPPE_NorbalHulkOnSkinFull</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel" >
+		<defName>THIGAPPE_NorbalHulkOnSkinFullAA</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- PANTS: Only works if Visible Pants is active. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkPants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_NorbalHulkPants</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkPantsShort" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_NorbalHulkPantsShort</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- MIDDLE -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkMiddle">
+		<defName>THIGAPPE_NorbalHulkMiddle</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- SHELL -->	
+	
+	<!-- OnSkinFull parent for general use, e.g. not apparel locked. -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkShell">
+		<!-- Default outer. -->
+		<defName>THIGAPPE_NorbalHulkShell</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
+		<!-- Slave body strap fix. -->
+		<defName>THIGAPPE_NorbalHulkBodyStrap</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkArmor">
+		<!-- For any armor that should cover the entire body. -->
+		<defName>THIGAPPE_NorbalHulkArmor</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- UTILITY -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkUtility">
+		<defName>THIGAPPE_NorbalHulkUtility</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<!-- TARGETED -->
+	
+	<!-- Flak pants don't work with the usual pants def because they're in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkFlakPants">
+		<defName>THIGAPPE_NorbalHulkFlakPants</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkTrooperArmor" MayRequire="VanillaExpanded.VAPPE">
+		<defName>THIGAPPE_NorbalHulkTrooperArmor</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+</Defs>

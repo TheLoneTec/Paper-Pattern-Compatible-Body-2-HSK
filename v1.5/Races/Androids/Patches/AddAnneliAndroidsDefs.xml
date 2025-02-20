@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Annelitrice 2.0</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+			
+				<!-- Female -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleOnSkinAnneli">
+							<defName>THIGAPPE_ChjAndroidFemaleOnSkinAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleAnneli_OnSkinAnneli">
+							<defName>THIGAPPE_ChjAndroidFemaleAnneli_OnSkinAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleMiddleAnneli">
+							<defName>THIGAPPE_ChjAndroidFemaleMiddleAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleAnneli_MiddleAnneli">
+							<defName>THIGAPPE_ChjAndroidFemaleAnneli_MiddleAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleShellAnneli">
+							<defName>THIGAPPE_ChjAndroidFemaleShellAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleAnneli_ShellAnneli">
+							<defName>THIGAPPE_ChjAndroidFemaleAnneli_ShellAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleAnneli_UpperShell_ArmorAnneli">
+							<defName>THIGAPPE_ChjAndroidFemaleAnneli_UpperShell_ArmorAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleAnneli_UpperShell_TacticalAnneli">
+							<defName>THIGAPPE_ChjAndroidFemaleAnneli_UpperShell_TacticalAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleOverheadAnneli">
+							<defName>THIGAPPE_ChjAndroidFemaleOverheadAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleEyeCoverAnneli">
+							<defName>THIGAPPE_ChjAndroidFemaleEyeCoverAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleAnneli_BagAnneli">
+							<defName>THIGAPPE_ChjAndroidFemaleAnneli_BagAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+				
+				<!-- Male -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleOnSkinAnneli">
+							<defName>THIGAPPE_ChjAndroidMaleOnSkinAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleAnneli_OnSkinAnneli">
+							<defName>THIGAPPE_ChjAndroidMaleAnneli_OnSkinAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleMiddleAnneli">
+							<defName>THIGAPPE_ChjAndroidMaleMiddleAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleAnneli_MiddleAnneli">
+							<defName>THIGAPPE_ChjAndroidMaleAnneli_MiddleAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleShellAnneli">
+							<defName>THIGAPPE_ChjAndroidMaleShellAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleAnneli_ShellAnneli">
+							<defName>THIGAPPE_ChjAndroidMaleAnneli_ShellAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleAnneli_UpperShell_ArmorAnneli">
+							<defName>THIGAPPE_ChjAndroidMaleAnneli_UpperShell_ArmorAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleAnneli_UpperShell_TacticalAnneli">
+							<defName>THIGAPPE_ChjAndroidMaleAnneli_UpperShell_TacticalAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleOverheadAnneli">
+							<defName>THIGAPPE_ChjAndroidMaleOverheadAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleEyeCoverAnneli">
+							<defName>THIGAPPE_ChjAndroidMaleEyeCoverAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleAnneli_BagAnneli">
+							<defName>THIGAPPE_ChjAndroidMaleAnneli_BagAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+					
+				<!-- Thin -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinOnSkinAnneli">
+							<defName>THIGAPPE_ChjAndroidThinOnSkinAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinAnneli_OnSkinAnneli">
+							<defName>THIGAPPE_ChjAndroidThinAnneli_OnSkinAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinMiddleAnneli">
+							<defName>THIGAPPE_ChjAndroidThinMiddleAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinAnneli_MiddleAnneli">
+							<defName>THIGAPPE_ChjAndroidThinAnneli_MiddleAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinShellAnneli">
+							<defName>THIGAPPE_ChjAndroidThinShellAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinAnneli_ShellAnneli">
+							<defName>THIGAPPE_ChjAndroidThinAnneli_ShellAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinAnneli_UpperShell_ArmorAnneli">
+							<defName>THIGAPPE_ChjAndroidThinAnneli_UpperShell_ArmorAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinAnneli_UpperShell_TacticalAnneli">
+							<defName>THIGAPPE_ChjAndroidThinAnneli_UpperShell_TacticalAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinOverheadAnneli">
+							<defName>THIGAPPE_ChjAndroidThinOverheadAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinEyeCoverAnneli">
+							<defName>THIGAPPE_ChjAndroidThinEyeCoverAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinAnneli_BagAnneli">
+							<defName>THIGAPPE_ChjAndroidThinAnneli_BagAnneli</defName>
+							<RaceName>ChjAndroid</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+			
+			</operations>
+		</match>
+	</Operation>
+</Patch>

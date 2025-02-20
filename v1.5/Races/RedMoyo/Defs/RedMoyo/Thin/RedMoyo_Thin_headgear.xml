@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <!-- Slave collar fix. -->
+  <ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinCollar" MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>THIGAPPE_Alien_RedMoyoThinCollar</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+  
+  
+</Defs>

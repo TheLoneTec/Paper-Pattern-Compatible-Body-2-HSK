@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>THIGAPPE - Automatic Apparel Refitting with Apparel Paper Pattern</li>
+	</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/graphicPaths/body</xpath>
+					<value>
+						<body>
+							<path>Things/Pawn/Humanlike/Bodies/</path>
+							<bodytypeGraphics>
+								<Male>Things/Pawn/Humanlike/Bodies/Naked_Male</Male>
+								<Female>Things/Pawn/Humanlike/Bodies/Naked_Female</Female>
+								<Thin>Things/Pawn/Humanlike/Bodies/Naked_Thin</Thin>
+								<Child MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Bodies/Child/Naked_Child</Child>
+								<Baby MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Bodies/Naked_Baby</Baby>
+							</bodytypeGraphics>
+						</body>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/bodyTypes</xpath>
+					<value>
+						<bodyTypes>
+							<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+							<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+							<!--<li>Male</li>-->
+							<li>Female</li>
+							<li>Thin</li>
+						</bodyTypes>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="RK_RatTail"]/offsets</xpath>
+					<value>
+						<offsets>
+							<south>
+								<bodyTypes>
+									<Male>(-0.01,-0.18)</Male>
+									<Female>(-.01,-0.18)</Female>
+									<Thin>(-0.01,-0.18)</Thin>
+									<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.01,-0.18)</Baby>
+									<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.01,-0.18)</Child>
+								</bodyTypes>
+							</south>
+							<north>
+								<bodyTypes>
+									<Male>(0,0.11)</Male>
+									<Female>(0,0.11)</Female>
+									<Thin>(-0.01,0.002)</Thin>
+									<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.01,0.18)</Baby>
+									<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.01,0.18)</Child>
+								</bodyTypes>
+							</north>
+							<east>
+								<bodyTypes>
+									<Male>(-0.04,-0.13)</Male>
+									<Female>(-0.02,-0.11)</Female>
+									<Thin>(-0.04,-0.13)</Thin>
+									<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.06,-0.02)</Baby>
+									<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.06,-0.02)</Child>
+								</bodyTypes>
+							</east>
+						</offsets>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPartLabel="left ear"]/offsets</xpath>
+					<value>
+						<offsets>
+							<south>
+								<bodyTypes>
+									<Thin>(-0.035,-0.4)</Thin>
+									<Female>(-0.035,-0.4)</Female>
+									<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.035,-0.4)</Baby>
+									<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.035,-0.4)</Child>
+								</bodyTypes>
+								<portraitBodyTypes>
+									<Thin>(-0.035,-0.4)</Thin>
+									<Female>(-0.035,-0.4)</Female>
+									<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.035,-0.4)</Baby>
+									<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.035,-0.4)</Child>
+								</portraitBodyTypes>
+							</south>
+							<north>
+								<bodyTypes>
+									<Thin>(0.03,-0.27)</Thin>
+									<Female>(0.03,-0.27)</Female>
+									<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.03,-0.27)</Baby>
+									<Child MayRequire="Ludeon.RimWorld.Biotech">(0.03,-0.27)</Child>
+								</bodyTypes>
+								<portraitBodyTypes>
+									<Thin>(0.03,-0.27)</Thin>
+									<Female>(0.03,-0.27)</Female>
+									<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.03,-0.27)</Baby>
+									<Child MayRequire="Ludeon.RimWorld.Biotech">(0.03,-0.27)</Child>
+								</portraitBodyTypes>
+							</north>
+							<east>
+								<bodyTypes>
+									<Thin>(0.125,-0.3)</Thin>
+									<Female>(0.112,-0.3)</Female>
+									<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.125,-0.3)</Baby>
+									<Child MayRequire="Ludeon.RimWorld.Biotech">(0.125,-0.3)</Child>
+								</bodyTypes>
+								<portraitBodyTypes>
+									<Thin>(0.125,-0.3)</Thin>
+									<Female>(0.112,-0.3)</Female>
+									<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.125,-0.3)</Baby>
+									<Child MayRequire="Ludeon.RimWorld.Biotech">(0.125,-0.3)</Child>
+								</portraitBodyTypes>
+							</east>
+						</offsets>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPartLabel="right ear"]/offsets</xpath>
+					<value>
+						<offsets>
+							<south>
+								<bodyTypes>
+									<Thin>(0.035,-0.4)</Thin>
+									<Female>(0.035,-0.4)</Female>
+									<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.035,-0.4)</Baby>
+									<Child MayRequire="Ludeon.RimWorld.Biotech">(0.035,-0.4)</Child>
+								</bodyTypes>
+								<portraitBodyTypes>
+									<Thin>(0.035,-0.4)</Thin>
+									<Female>(0.035,-0.4)</Female>
+									<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.035,-0.4)</Baby>
+									<Child MayRequire="Ludeon.RimWorld.Biotech">(0.035,-0.4)</Child>
+								</portraitBodyTypes>
+							</south>
+							<north>
+								<bodyTypes>
+									<Thin>(-0.01,-0.25)</Thin>
+									<Female>(-0.01,-0.25)</Female>
+									<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.01,-0.25)</Baby>
+									<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.01,-0.25)</Child>
+								</bodyTypes>
+								<portraitBodyTypes>
+									<Thin>(-0.01,-0.25)</Thin>
+									<Female>(-0.01,-0.25)</Female>
+									<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.01,-0.25)</Baby>
+									<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.01,-0.25)</Child>
+								</portraitBodyTypes>
+							</north>
+							<east>
+								<bodyTypes>
+									<Thin>(0.118,-0.3)</Thin>
+									<Female>(0.112,-0.3)</Female>
+									<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.118,-0.3)</Baby>
+									<Child MayRequire="Ludeon.RimWorld.Biotech">(0.118,-0.3)</Child>
+								</bodyTypes>
+								<portraitBodyTypes>
+									<Thin>(0.118,-0.3)</Thin>
+									<Female>(0.112,-0.3)</Female>
+									<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.118,-0.3)</Baby>
+									<Child MayRequire="Ludeon.RimWorld.Biotech">(0.118,-0.3)</Child>
+								</portraitBodyTypes>
+							</east>
+						</offsets>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/customDrawSize</xpath>
+					<nomatch Class="PatchOperationAdd">
+					  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator</xpath>
+					  <value>
+						<customDrawSize>(0.85, 0.85)</customDrawSize>
+					  </value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+					  <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/alienPartGenerator/customDrawSize</xpath>
+					  <value>
+						<customDrawSize>(0.85, 0.85)</customDrawSize>
+					  </value>
+					</match>
+				</li>
+<!--
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/useGenderedBodies</xpath>
+					<value>
+						<useGenderedBodies>true</useGenderedBodies>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator</xpath>
+					<value>
+						<customHeadDrawSize>(1, 1)</customHeadDrawSize>
+					</value>
+				</li>
+		-->	
+
+			</operations>
+		</match>
+    </Operation>
+	
+</Patch>

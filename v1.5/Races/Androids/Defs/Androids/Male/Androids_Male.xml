@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- ONSKIN: Covers most of the upper body. -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleOnSkin">
+		<defName>THIGAPPE_ChjAndroidMaleOnSkin</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- ONSKINFULL: Covers most of the whole body. -->
+	
+	<!-- Any defs with a parent beginning in ML are subject to a master list of apparel restrictions. 
+		 See Defs/General/ApparelMasterlists.xml for details. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleOnSkinFull">
+		<defName>THIGAPPE_ChjAndroidMaleOnSkinFull</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_ChjAndroidMaleOnSkinFullAA</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- PANTS: Only works if Visible Pants is active. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MalePants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_ChjAndroidMalePants</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MalePantsShort" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_ChjAndroidMalePantsShort</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- MIDDLE -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleMiddle">
+		<defName>THIGAPPE_ChjAndroidMaleMiddle</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_ChjAndroidMaleMiddleAA</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- SHELL -->	
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleShell">
+		<defName>THIGAPPE_ChjAndroidMaleShell</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_ChjAndroidMaleShellAA</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>THIGAPPE_ChjAndroidMaleBodyStrap</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleArmor">
+		<defName>THIGAPPE_ChjAndroidMaleArmor</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- UTILITY -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleUtility">
+		<defName>THIGAPPE_ChjAndroidMaleUtility</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<!-- TARGETED -->
+	
+	<!-- Flak pants don't work with the usual pants def because they're in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleFlakPants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_ChjAndroidMaleFlakPants</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleTrooperArmor" MayRequire="VanillaExpanded.VAPPE">
+		<defName>THIGAPPE_ChjAndroidMaleTrooperArmor</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleTK" MayRequire="VanillaExpanded.VAPPE">
+		<defName>THIGAPPE_ChjAndroidMaleTK</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+</Defs>

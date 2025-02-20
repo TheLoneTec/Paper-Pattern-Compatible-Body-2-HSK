@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <!-- Slave collar fix. -->
+  <ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinCollar" MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>THIGAPPE_ChjAndroidThinCollar</defName>
+		<RaceName>ChjAndroid</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+  
+  
+</Defs>

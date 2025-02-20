@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleUnderwearTop" MayRequire="Malistaticy.UnderWhere">
+		<defName>THIGAPPE_Alien_AsariFemaleUnderwearTop</defName>
+		<RaceName>Alien_Asari</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleUnderwear" MayRequire="Malistaticy.UnderWhere">
+		<defName>THIGAPPE_Alien_AsariFemaleUnderwear</defName>
+		<RaceName>Alien_Asari</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleLongJohns" MayRequire="Malistaticy.UnderWhere">
+		<defName>THIGAPPE_Alien_AsariFemaleLongJohns</defName>
+		<RaceName>Alien_Asari</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+</Defs>

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- ONSKIN: Covers most of the upper body. -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleOnSkin" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Female</BodyType>
+		<ApparelLayer>OnSkin</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkin/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkin/Female_mask</BurnPath>
+		
+		<!-- <OffsetNorth>(0.00,0.00)</OffsetNorth> -->
+		<ScaleNorth>1.10</ScaleNorth>
+		
+		<!--<OffsetEast>(0.0, 0.0)</OffsetEast>-->
+		<ScaleEast>1.15</ScaleEast>
+		
+		<!-- <OffsetSouth>(0.0,0.00)</OffsetSouth>-->
+		<ScaleSouth>1.10</ScaleSouth>
+		
+		<!--<OffsetWest>(0.035, 0.0)</OffsetWest>-->
+		<ScaleWest>1.15</ScaleWest>
+		
+		<IgnorePackageIds>
+			<li>Nemonian.MY</li>
+			<li>AOBA.RedMoyo</li>
+		</IgnorePackageIds>
+		
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- ONSKINFULL: Covers most of the whole body. -->
+	
+	<!-- Any defs with a parent beginning in ML are subject to a master list of apparel restrictions. 
+		 See Defs/General/Apparel.xml for details. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleOnSkinFull" Abstract="True" ParentName="THIGAPPE_HUMAN_FemaleOnSkinFull">
+		<BodyType>Female</BodyType>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</BurnPath>
+		
+		<!-- <OffsetNorth>(0.00,0.00)</OffsetNorth> --> 
+		<ScaleNorth>1.1</ScaleNorth>
+		
+		<!--<OffsetEast>(0.00,0.00)</OffsetEast>-->
+		<ScaleEast>1.1</ScaleEast>
+		
+		<!-- <OffsetSouth>(0.00,0.00)</OffsetSouth> -->
+		<ScaleSouth>1.1</ScaleSouth>
+		
+		<!--<OffsetWest>(0.00,0.00)</OffsetWest> -->
+		<ScaleWest>1.1</ScaleWest>
+
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleOnSkinFullAA" Abstract="True" MayRequire="Aelanna.EccentricTech.AngelApparel" >
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Female</BodyType>
+		<ApparelLayer>OnSkin</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</BurnPath>
+		
+		<OffsetNorth>(-0.003, -0.005)</OffsetNorth>
+		<ScaleNorth>1.15</ScaleNorth>
+		
+		<!-- <OffsetEast>(0.00,0.00)</OffsetEast>-->
+		<ScaleEast>1.15</ScaleEast>
+		
+		<!-- <OffsetSouth>(0.00,0.00)</OffsetSouth> -->
+		<ScaleSouth>1.15</ScaleSouth>
+		
+		<!-- <OffsetWest>(0.00,0.00)</OffsetWest> -->
+		<ScaleWest>1.15</ScaleWest>
+		
+		<TargetPackageIds>
+			<li>Aelanna.EccentricTech.AngelApparel</li>
+		</TargetPackageIds>
+		 
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- PANTS: Only works if Visible Pants is active. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemalePants" Abstract="True" ParentName="THIGAPPE_HUMAN_FemalePants" MayRequire="XeoNovaDan.VisiblePants">
+		<BodyType>Female</BodyType>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Pants/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Pants/Female_mask</BurnPath>
+		
+		<OffsetNorth>(0.0000,0.5300)</OffsetNorth>
+		<OffsetSouth>(0.0000,0.5300)</OffsetSouth>
+		<OffsetEast>(0.1000,0.5300)</OffsetEast>
+		<OffsetWest>(0.1000,0.5300)</OffsetWest>
+		<ScaleNorth>6.0000</ScaleNorth>
+		<ScaleSouth>6.0000</ScaleSouth>
+		<ScaleEast>6.0000</ScaleEast>
+		<ScaleWest>6.0000</ScaleWest>
+		
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemalePantsShort" Abstract="True" ParentName="THIGAPPE_HUMAN_FemalePantsShort" MayRequire="XeoNovaDan.VisiblePants">
+		<BodyType>Female</BodyType>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/PantsShort/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/PantsShort/Female_mask</BurnPath>
+		
+		<OffsetNorth>(0.0000,0.5300)</OffsetNorth>
+		<OffsetSouth>(0.0000,0.5300)</OffsetSouth>
+		<OffsetEast>(0.1000,0.5300)</OffsetEast>
+		<OffsetWest>(0.1000,0.5300)</OffsetWest>
+		<ScaleNorth>6.0000</ScaleNorth>
+		<ScaleSouth>6.0000</ScaleSouth>
+		<ScaleEast>6.0000</ScaleEast>
+		<ScaleWest>6.0000</ScaleWest>
+		
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- MIDDLE -->
+
+	<!-- Middle parent for general use, e.g. not apparel locked. -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleMiddle" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Female</BodyType>
+		<ApparelLayer>Middle</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Shell/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Shell/Female_mask</BurnPath>
+		
+		<OffsetNorth>(0.0025,0.10)</OffsetNorth> 
+		<ScaleNorth>1.20</ScaleNorth>
+		
+		<OffsetEast>(0.0075,0.10)</OffsetEast>
+		<ScaleEast>1.20</ScaleEast>
+		
+		<OffsetSouth>(0.00,0.10)</OffsetSouth>
+		<ScaleSouth>1.20</ScaleSouth>
+		
+		<OffsetWest>(0.0075,0.10)</OffsetWest>
+		<ScaleWest>1.20</ScaleWest>
+		
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+			
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleMiddleAA" Abstract="True" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<!-- Angel Apparel middle pieces. There's no reason I should've needed this def or the shell def. But for some reason the alignment of the AA apparel renders off compared to vanilla, e.g. the flak vest?
+			 I've contacted the original author of Angel Apparel and confirmed that all of the included pieces are aligned properly. 
+			 Apparently, vanilla body offsets were shifted by 2px back in 1.3. The only conclusion I've been able to come to, based on comparing textures, is that the vanilla apparel graphics weren't properly offset. Assuming they were offset at all. -->
+
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Female</BodyType>
+		<ApparelLayer>Middle</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Shell/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Shell/Female_mask</BurnPath>
+		
+		<OffsetNorth>(0.00,0.00)</OffsetNorth>
+		<ScaleNorth>1.05</ScaleNorth>
+		
+		<OffsetEast>(0.025,0.01)</OffsetEast>
+		<ScaleEast>0.975</ScaleEast>
+		
+		<OffsetSouth>(0.00,0.00)</OffsetSouth>
+		<ScaleSouth>1.025</ScaleSouth>
+		
+		<OffsetWest>(0.025,0.01)</OffsetWest>
+		<ScaleWest>0.975</ScaleWest>
+		
+		<TargetPackageIds>
+			<li>Aelanna.EccentricTech.AngelApparel</li>
+		</TargetPackageIds>
+		
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- SHELL -->	
+	
+	<!-- OnSkinFull parent for general use, e.g. not apparel locked. -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleShell" Abstract="True" ParentName="THIGAPPE_HUMAN_FemaleShell">
+		<!-- Default outer. -->
+		<BodyType>Female</BodyType>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Shell/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Shell/Female_mask</BurnPath>
+		
+		<OffsetNorth>(0.0145,-0.0075)</OffsetNorth>
+		<OffsetSouth>(0.0050,-0.0100)</OffsetSouth>
+		<OffsetEast>(0.0000,0.0250)</OffsetEast>
+		<OffsetWest>(0.0250,0.0250)</OffsetWest>
+		<ScaleNorth>1.0500</ScaleNorth>
+		<ScaleSouth>1.0500</ScaleSouth>
+		<ScaleEast>1.0500</ScaleEast>
+		<ScaleWest>1.0500</ScaleWest>
+
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleArmor" Abstract="True" ParentName="THIGAPPE_HUMAN_FemaleArmor">
+		<!-- For any armor that should cover the entire body. -->
+		<BodyType>Female</BodyType>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Armor/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Armor/Female_mask</BurnPath>
+		
+		<!-- <OffsetNorth>(0.00,0.00)</OffsetNorth> --> 
+		<ScaleNorth>1.40</ScaleNorth>
+		
+		<!-- <OffsetEast>(0.00,0.00)</OffsetEast>-->
+		<ScaleEast>1.35</ScaleEast>
+		
+		<OffsetSouth>(0.00, 0.03)</OffsetSouth>
+		<ScaleSouth>1.45</ScaleSouth>
+		
+		<!-- <OffsetWest>(0.00,0.00)</OffsetWest> -->
+		<ScaleWest>1.35</ScaleWest>
+		
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleShellAA" Abstract="True" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<!-- Angel Apparel Shell pieces. See HumanFemaleMiddleAA. --> 
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Female</BodyType>
+		<ApparelLayer>Shell</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Shell/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Shell/Female_mask</BurnPath>
+		
+		<OffsetNorth>(-0.002,-0.0075)</OffsetNorth> 
+		<ScaleNorth>1.10</ScaleNorth>
+		
+		<OffsetEast>(0.01,0.00)</OffsetEast>
+		<ScaleEast>1.00</ScaleEast>
+		
+		<OffsetSouth>(0.0,-0.01)</OffsetSouth>
+		<ScaleSouth>1.10</ScaleSouth>
+		
+		<OffsetWest>(0.01,0.00)</OffsetWest>
+		<ScaleWest>1.00</ScaleWest>
+		
+		<TargetPackageIds>
+			<li>Aelanna.EccentricTech.AngelApparel</li>
+		</TargetPackageIds>
+		 
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+	<!-- UTILITY -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleUtility" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Female</BodyType>
+		<ApparelLayer>Belt</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
+		
+		<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+		<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
+		<OffsetEast>(0.5000,0.0000)</OffsetEast>
+		<OffsetWest>(0.5000,0.0000)</OffsetWest>
+		<ScaleNorth>0.7500</ScaleNorth>
+		<ScaleSouth>0.7500</ScaleSouth>
+		<ScaleEast>0.7500</ScaleEast>
+		<ScaleWest>0.7500</ScaleWest>
+		
+		<IgnorePackageIds>
+			<li>Ayameduki.HARNearmare</li>
+			<li>Ayameduki.HARSaclean</li>
+			<li>Ayameduki.HARSolark</li>
+			<li>Ayameduki.HARQualeela</li>
+			<li>Ayameduki.HARXenoorca</li>
+			<li>Ayameduki.HARNeclose</li>
+			<li>Ayameduki.HARNexaga</li>
+			<li>Ayameduki.HARSilkiera</li>
+			<li>Ayameduki.HARIdhale</li>
+		</IgnorePackageIds>
+
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	
+	<!-- TARGETED -->
+	
+	<!-- Flak pants don't work with the usual pants def because they're in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleFlakPants" Abstract="True" MayRequire="XeoNovaDan.VisiblePants">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Female</BodyType>
+		<ApparelLayer>Middle</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Pants/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Pants/Female_mask</BurnPath>
+		
+		<OffsetNorth>(0.0000,0.5300)</OffsetNorth>
+		<OffsetSouth>(0.0000,0.5300)</OffsetSouth>
+		<OffsetEast>(0.1000,0.5300)</OffsetEast>
+		<OffsetWest>(0.1000,0.5300)</OffsetWest>
+		<ScaleNorth>6.0000</ScaleNorth>
+		<ScaleSouth>6.0000</ScaleSouth>
+		<ScaleEast>6.0000</ScaleEast>
+		<ScaleWest>6.0000</ScaleWest>
+
+		<TargetApparelDefs>
+			<li>Apparel_FlakPants</li>
+		</TargetApparelDefs>
+
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleTrooperArmor" MayRequire="VanillaExpanded.VAPPE" Abstract="True">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Female</BodyType>
+		<ApparelLayer>Middle</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Armor/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Armor/Female_mask</BurnPath>
+		
+		<!-- <OffsetNorth>(0.00,0.00)</OffsetNorth> --> 
+		<ScaleNorth>1.40</ScaleNorth>
+		
+		<!-- <OffsetEast>(0.00,0.00)</OffsetEast>-->
+		<ScaleEast>1.35</ScaleEast>
+		
+		<OffsetSouth>(0.00, 0.03)</OffsetSouth>
+		<ScaleSouth>1.45</ScaleSouth>
+		
+		<!-- <OffsetWest>(0.00,0.00)</OffsetWest> -->
+		<ScaleWest>1.35</ScaleWest>
+
+		<TargetApparelDefs>
+			<li>VAE_Apparel_TrooperArmor</li>
+			<li>VAE_Apparel_RoyalTrooperArmor</li>
+		</TargetApparelDefs>
+
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleShoulderpads" Abstract="True"  MayRequire="VanillaExpanded.VARME">
+		<!-- VAE Shoulderpads fix. -->
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Armor/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Armor/Female_mask</BurnPath>
+		
+		<OffsetNorth>(-0.0175, -0.0075)</OffsetNorth>
+		<ScaleNorth>0.80</ScaleNorth>
+		
+		<OffsetEast>(0.00, -0.005)</OffsetEast>
+		<ScaleEast>0.80</ScaleEast>
+		
+		<OffsetSouth>(0.00, -0.01)</OffsetSouth>
+		<ScaleSouth>0.80</ScaleSouth>
+		
+		<OffsetWest>(0.00, -0.005)</OffsetWest>
+		<ScaleWest>0.80</ScaleWest>
+		
+		<TargetApparelDefs>
+			<li>VAE_Apparel_PlateShoulderpads</li>
+		</TargetApparelDefs>
+		
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleTK" Abstract="True" MayRequire="VanillaExpanded.VAPPE">
+		<!-- VAE tribal kilt fix. -->
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Female</BodyType>
+		<ApparelLayer>OnSkin</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</BurnPath>
+		
+		<OffsetNorth>(0.00, 0.28)</OffsetNorth>
+		<!-- <ScaleNorth>1.00</ScaleNorth> -->
+		
+		<OffsetEast>(0.00, 0.28)</OffsetEast>
+		<!-- <ScaleEast>1.00</ScaleEast> -->
+		
+		<OffsetSouth>(0.00, 0.28)</OffsetSouth>
+		<!-- <ScaleSouth>1.00</ScaleSouth> -->
+		
+		<OffsetWest>(0.00, 0.28)</OffsetWest>
+		<!-- <ScaleWest>1.00</ScaleWest>-->
+		
+		<TargetApparelDefs>
+			<li>VAE_Apparel_TribalKilt</li>
+		</TargetApparelDefs>
+		 
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleBodyStrap" MayRequire="Ludeon.RimWorld.Ideology" Abstract="True">
+		<!-- Slave body strap fix. -->
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Female</BodyType>
+		<ApparelLayer>Shell</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</BurnPath>
+		
+		<TargetApparelDefs>
+		  <li>Apparel_BodyStrap</li>
+		</TargetApparelDefs>
+		
+		
+		<OffsetNorth>(-0.002, -0.0075)</OffsetNorth>
+		<ScaleNorth>0.88</ScaleNorth>
+		
+		<OffsetEast>(0.00, -0.005)</OffsetEast>
+		<ScaleEast>0.80</ScaleEast>
+		
+		<OffsetSouth>(0.00, -0.01)</OffsetSouth>
+		<ScaleSouth>0.88</ScaleSouth>
+		
+		<OffsetWest>(0.00, -0.005)</OffsetWest>
+		<ScaleWest>0.80</ScaleWest>
+		
+		
+		
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleCorset" Abstract="True">
+		<!-- Corset fix. -->
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Female</BodyType>
+		<ApparelLayer>Middle</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</BurnPath>
+		
+		<OffsetNorth>(0.00, 0.00)</OffsetNorth>
+		<!-- <ScaleNorth>1.00</ScaleNorth> -->
+		
+		<OffsetEast>(0.00, 0.00)</OffsetEast>
+		<!-- <ScaleEast>1.00</ScaleEast> -->
+		
+		<OffsetSouth>(0.00, 0.00)</OffsetSouth>
+		<!-- <ScaleSouth>1.00</ScaleSouth> -->
+		
+		<OffsetWest>(0.00, 0.00)</OffsetWest>
+		<!-- <ScaleWest>1.00</ScaleWest>-->
+		
+		<TargetApparelDefs>
+			<li>Apparel_Corset</li>
+		</TargetApparelDefs>
+		 
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+</Defs>

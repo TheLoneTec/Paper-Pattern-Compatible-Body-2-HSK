@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleUnderwearTop" Abstract="True" MayRequire="Malistaticy.UnderWhere">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Female</BodyType>
+		<ApparelLayer>UnderwearTop</ApparelLayer>
+		
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</BurnPath>
+
+		<OffsetNorth>(0.0,0.075)</OffsetNorth> 
+		<ScaleNorth>0.50</ScaleNorth>
+		
+		<OffsetEast>(0.025,0.025)</OffsetEast>
+		<ScaleEast>0.50</ScaleEast>
+		
+		<OffsetSouth>(0.0,0.075)</OffsetSouth>
+		<ScaleSouth>0.50</ScaleSouth>
+		
+		<OffsetWest>(0.025,0.025)</OffsetWest>
+		<ScaleWest>0.50</ScaleWest>
+
+		<TargetPackageIds>
+			<li>Malistaticy.UnderWhere</li>
+		</TargetPackageIds>
+		
+		<modExtensions>
+			<li Class="ApparelPaperPattern.APPBodyTypeOverrider">
+				<bodyTypeOverride>Hulk</bodyTypeOverride>
+			</li>
+		</modExtensions>
+		
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleUnderwear" Abstract="True" MayRequire="Malistaticy.UnderWhere">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Female</BodyType>
+		<ApparelLayer>Underwear</ApparelLayer>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</BurnPath>
+
+		<OffsetNorth>(0,0.05)</OffsetNorth>
+		<ScaleNorth>0.9</ScaleNorth>
+		
+		<OffsetEast>(0,0)</OffsetEast>
+		<ScaleEast> 0.9</ScaleEast>
+		
+		<OffsetSouth>(0,0.05)</OffsetSouth>
+		<ScaleSouth>0.9</ScaleSouth>
+		
+		<OffsetWest>(0,0)</OffsetWest>
+		<ScaleWest> 0.9</ScaleWest>
+		
+		<TargetPackageIds>
+			<li>Malistaticy.UnderWhere</li>
+		</TargetPackageIds>
+		
+		
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleLongJohns" Abstract="True" MayRequire="Malistaticy.UnderWhere">
+		<RenderVersion>1</RenderVersion>
+		<BodyType>Female</BodyType>
+		<ApparelLayer>UnderwearTop</ApparelLayer>
+		<MaskPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</MaskPath>
+		<BurnPath>Things/ApparelPaperPattern/Moyo/Female/OnSkinFull/Female_mask</BurnPath>
+
+		<OffsetNorth>(0.015,0.0)</OffsetNorth>
+		<ScaleNorth>1.20</ScaleNorth>
+		
+		<OffsetEast>(0.02,0.0)</OffsetEast>
+		<ScaleEast>1.20</ScaleEast>
+		
+		<OffsetSouth>(0.02,-0.03)</OffsetSouth>
+		<ScaleSouth>1.20</ScaleSouth>
+		
+		<OffsetWest>(0.02,0.0)</OffsetWest>
+		<ScaleWest>1.20</ScaleWest>
+
+		<TargetPackageIds>
+			<li>Malistaticy.UnderWhere</li>
+		</TargetPackageIds>
+		<TargetApparelDefs>
+			<li>UnderWhere_LongJohns</li>
+		</TargetApparelDefs>
+		
+		<modExtensions>
+			<li Class="ApparelPaperPattern.APPBodyTypeOverrider">
+				<bodyTypeOverride>Hulk</bodyTypeOverride>
+			</li>
+		</modExtensions>
+		 
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+</Defs>

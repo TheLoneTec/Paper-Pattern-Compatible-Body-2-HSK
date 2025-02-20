@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>A Rim Reborn - Core</li>
+			<li>A Rim Reborn - Hyur Race</li>
+			<li>A Rim Reborn - Miqo'te Race</li>
+			<li>A Rim Reborn - Viera Race</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+			
+				<!-- Female -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleOnSkinARR">
+							<defName>THIGAPPE_SoldiermorphXHFemaleOnSkinARR</defName>
+							<RaceName>SoldiermorphXH</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleBottomARR">
+							<defName>THIGAPPE_SoldiermorphXHFemaleBottomARR</defName>
+							<RaceName>SoldiermorphXH</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleMiddleARR">
+							<defName>THIGAPPE_SoldiermorphXHFemaleMiddleARR</defName>
+							<RaceName>SoldiermorphXH</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+					
+				<!-- Male -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleOnSkinARR">
+							<defName>THIGAPPE_SoldiermorphXHMaleOnSkinARR</defName>
+							<RaceName>SoldiermorphXH</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleBottomARR">
+							<defName>THIGAPPE_SoldiermorphXHMaleBottomARR</defName>
+							<RaceName>SoldiermorphXH</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleMiddleARR">
+							<defName>THIGAPPE_SoldiermorphXHMaleMiddleARR</defName>
+							<RaceName>SoldiermorphXH</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+				
+				<!-- Thin -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinOnSkinARR">
+							<defName>THIGAPPE_SoldiermorphXHThinOnSkinARR</defName>
+							<RaceName>SoldiermorphXH</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinBottomARR">
+							<defName>THIGAPPE_SoldiermorphXHThinBottomARR</defName>
+							<RaceName>SoldiermorphXH</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinMiddleARR">
+							<defName>THIGAPPE_SoldiermorphXHThinMiddleARR</defName>
+							<RaceName>SoldiermorphXH</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

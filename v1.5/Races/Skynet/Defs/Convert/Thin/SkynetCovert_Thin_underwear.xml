@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinUnderwearTop" MayRequire="Malistaticy.UnderWhere">
+		<defName>THIGAPPE_SkynetCovertThinUnderwearTop</defName>
+		<RaceName>SkynetCovert</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinUnderwear" MayRequire="Malistaticy.UnderWhere">
+		<defName>THIGAPPE_SkynetCovertThinUnderwear</defName>
+		<RaceName>SkynetCovert</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinLongJohns" MayRequire="Malistaticy.UnderWhere">
+		<defName>THIGAPPE_SkynetCovertThinLongJohns</defName>
+		<RaceName>SkynetCovert</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+</Defs>

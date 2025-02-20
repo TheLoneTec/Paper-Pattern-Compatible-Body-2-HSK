@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>THIGAPPE - Automatic Apparel Refitting with Apparel Paper Pattern</li>
+	</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+					
+					<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemaleFeet" ParentName="THIGAPPE_MLFeet" Abstract="True">
+						<RenderVersion>1</RenderVersion>
+						<BodyType>Female</BodyType>
+						<ApparelLayer>Middle</ApparelLayer>
+						
+						<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Armor/Female_mask</MaskPath>
+						<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Armor/Female_mask</BurnPath>
+						
+						<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+						<OffsetSouth>(0.0000,0.0100)</OffsetSouth>
+						<OffsetEast>(0.1100,0.0000)</OffsetEast>
+						<OffsetWest>(0.1000,0.0000)</OffsetWest>
+						<ScaleNorth>1.0000</ScaleNorth>
+						<ScaleSouth>1.0000</ScaleSouth>
+						<ScaleEast>1.0000</ScaleEast>
+						<ScaleWest>1.0000</ScaleWest>
+						 
+					</ApparelPaperPattern.ApparelPaperPatternDef>
+				
+					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleFeet">
+						<defName>THIGAPPE_MoyoFemaleFeet</defName>
+						<RaceName>Alien_Moyo</RaceName>
+					</ApparelPaperPattern.ApparelPaperPatternDef>
+					
+					<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_ThinFeet" ParentName="THIGAPPE_MLFeet" Abstract="True">
+						<RenderVersion>1</RenderVersion>
+						<BodyType>Thin</BodyType>
+						<ApparelLayer>Middle</ApparelLayer>
+						
+						<MaskPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/Thin_mask</MaskPath>
+						<BurnPath>Things/ApparelPaperPattern/Moyo/Thin/Pants/Thin_mask</BurnPath>
+						
+						<OffsetNorth>(0.00,0.0)</OffsetNorth>
+						<ScaleNorth>1.0</ScaleNorth>
+						
+						<OffsetEast>(-0.10,0.0)</OffsetEast>
+						<ScaleEast>1.0</ScaleEast>
+						
+						<OffsetSouth>(0.00,0.0)</OffsetSouth>
+						<ScaleSouth>1.0</ScaleSouth>
+						
+						<OffsetWest>(0.10,0.0)</OffsetWest>
+						<ScaleWest>1.0</ScaleWest>
+
+					</ApparelPaperPattern.ApparelPaperPatternDef>
+					
+					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinFeet">
+						<defName>THIGAPPE_MoyoThinFeet</defName>
+						<RaceName>Alien_Moyo</RaceName>
+					</ApparelPaperPattern.ApparelPaperPatternDef>
+					
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+					
+					<!-- Primitive Garment Thin -->
+					<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_MOYO_FemalePants" ParentName="THIGAPPE_HUMAN_FemalePants" Abstract="True">
+						<RenderVersion>1</RenderVersion>
+						<BodyType>Female</BodyType>
+						<ApparelLayer>OnSkin</ApparelLayer>
+						
+						<MaskPath>Things/ApparelPaperPattern/Moyo/Female/Pants/Female_mask</MaskPath>
+						<BurnPath>Things/ApparelPaperPattern/Moyo/Female/Pants/Female_mask</BurnPath>
+						
+						<OffsetNorth>(0.00,0.0)</OffsetNorth> 
+						<ScaleNorth>1.0</ScaleNorth>
+						
+						<OffsetEast>(0.00,0.0)</OffsetEast>
+						<ScaleEast>1.0</ScaleEast>
+						
+						<OffsetSouth>(0.00,0.0)</OffsetSouth>
+						<ScaleSouth>1.0</ScaleSouth>
+						
+						<OffsetWest>(0.00,0.0)</OffsetWest>
+						<ScaleWest>1.0</ScaleWest>
+
+					</ApparelPaperPattern.ApparelPaperPatternDef>
+		
+					<!-- Primitive Garment Thin -->
+					<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemalePants">
+						<defName>THIGAPPE_MoyoFemalePants</defName>
+						<RaceName>Alien_Moyo</RaceName>
+					</ApparelPaperPattern.ApparelPaperPatternDef>
+					
+					</value>
+				</li>
+
+			</operations>
+		</match>
+    </Operation>
+	
+</Patch>

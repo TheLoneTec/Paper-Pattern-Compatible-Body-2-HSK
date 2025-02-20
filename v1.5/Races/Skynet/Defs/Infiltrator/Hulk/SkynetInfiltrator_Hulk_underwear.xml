@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkUnderwearTop" MayRequire="Malistaticy.UnderWhere">
+		<defName>THIGAPPE_SkynetInfiltratorHulkUnderwearTop</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkUnderwear" MayRequire="Malistaticy.UnderWhere">
+		<defName>THIGAPPE_SkynetInfiltratorHulkUnderwear</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkLongJohns" MayRequire="Malistaticy.UnderWhere">
+		<defName>THIGAPPE_SkynetInfiltratorHulkLongJohns</defName>
+		<RaceName>SkynetInfiltrator</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+</Defs>

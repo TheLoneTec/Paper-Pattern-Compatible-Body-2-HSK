@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- ONSKIN: Covers most of the upper body. -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleOnSkin">
+		<defName>THIGAPPE_NorbalMaleOnSkin</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- ONSKINFULL: Covers most of the whole body. -->
+	
+	<!-- Any defs with a parent beginning in ML are subject to a master list of apparel restrictions. 
+		 See Defs/General/Apparel.xml for details. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleOnSkinFull">
+		<defName>THIGAPPE_NorbalMaleOnSkinFull</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_NorbalMaleOnSkinFullAA</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- PANTS: Only works if Visible Pants is active. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MalePants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_NorbalMalePants</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MalePantsShort" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_NorbalMalePantsShort</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- MIDDLE -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleMiddle">
+		<defName>THIGAPPE_NorbalMaleMiddle</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_NorbalMaleMiddleAA</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- SHELL -->	
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleShell">
+		<defName>THIGAPPE_NorbalMaleShell</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_NorbalMaleShellAA</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>THIGAPPE_NorbalMaleBodyStrap</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleArmor">
+		<defName>THIGAPPE_NorbalMaleArmor</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- UTILITY -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleUtility">
+		<defName>THIGAPPE_NorbalMaleUtility</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+
+	<!-- TARGETED -->
+	
+	<!-- Flak pants don't work with the usual pants def because they're in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleFlakPants">
+		<defName>THIGAPPE_NorbalMaleFlakPants</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleTrooperArmor" MayRequire="VanillaExpanded.VAPPE">
+		<defName>THIGAPPE_NorbalMaleTrooperArmor</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MaleTK" MayRequire="VanillaExpanded.VAPPE">
+		<defName>THIGAPPE_NorbalMaleTK</defName>
+		<RaceName>Norbal</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+</Defs>

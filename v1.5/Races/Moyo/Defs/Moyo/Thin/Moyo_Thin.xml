@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- ONSKIN: Covers most of the upper body. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinOnSkin">
+		<defName>THIGAPPE_Alien_MoyoThinOnSkin</defName>
+		<RaceName>Alien_Moyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- ONSKINFULL: Covers most of the whole body. -->
+	
+	<!-- Any defs with a parent beginning in ML are subject to a master list of apparel restrictions. 
+		 See Defs/General/Apparel.xml for details. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinOnSkinFull">
+		<defName>THIGAPPE_Alien_MoyoThinOnSkinFull</defName>
+		<RaceName>Alien_Moyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_Alien_MoyoThinOnSkinFullAA</defName>
+		<RaceName>Alien_Moyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- PANTS: Only works if Visible Pants is active. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinPants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_Alien_MoyoThinPants</defName>
+		<RaceName>Alien_Moyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinPantsShort" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_Alien_MoyoThinPantsShort</defName>
+		<RaceName>Alien_Moyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- MIDDLE -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinMiddle">
+		<defName>THIGAPPE_Alien_MoyoThinMiddle</defName>
+		<RaceName>Alien_Moyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_Alien_MoyoThinMiddleAA</defName>
+		<RaceName>Alien_Moyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- SHELL -->	
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinShell">
+		<defName>THIGAPPE_Alien_MoyoThinShell</defName>
+		<RaceName>Alien_Moyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_Alien_MoyoThinShellAA</defName>
+		<RaceName>Alien_Moyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>THIGAPPE_Alien_MoyoThinBodyStrap</defName>
+		<RaceName>Alien_Moyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinArmor">
+		<defName>THIGAPPE_Alien_MoyoThinArmor</defName>
+		<RaceName>Alien_Moyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Utility -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinUtility">
+		<defName>THIGAPPE_Alien_MoyoThinUtility</defName>
+		<RaceName>Alien_Moyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+
+	<!-- TARGETED -->
+	
+	<!-- Flak pants don't work with the usual pants def because they're in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinFlakPants">
+		<defName>THIGAPPE_Alien_MoyoThinFlakPants</defName>
+		<RaceName>Alien_Moyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinTrooperArmor" MayRequire="VanillaExpanded.VAPPE">
+		<defName>THIGAPPE_Alien_MoyoThinTrooperArmor</defName>
+		<RaceName>Alien_Moyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+</Defs>

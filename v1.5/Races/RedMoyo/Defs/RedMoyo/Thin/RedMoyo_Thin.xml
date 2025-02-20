@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- ONSKIN: Covers most of the upper body. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinOnSkin">
+		<defName>THIGAPPE_Alien_RedMoyoThinOnSkin</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- ONSKINFULL: Covers most of the whole body. -->
+	
+	<!-- Any defs with a parent beginning in ML are subject to a master list of apparel restrictions. 
+		 See Defs/General/Apparel.xml for details. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinOnSkinFull">
+		<defName>THIGAPPE_Alien_RedMoyoThinOnSkinFull</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_Alien_RedMoyoThinOnSkinFullAA</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- PANTS: Only works if Visible Pants is active. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinPants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_Alien_RedMoyoThinPants</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinPantsShort" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_Alien_RedMoyoThinPantsShort</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- MIDDLE -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinMiddle">
+		<defName>THIGAPPE_Alien_RedMoyoThinMiddle</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_Alien_RedMoyoThinMiddleAA</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- SHELL -->	
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinShell">
+		<defName>THIGAPPE_Alien_RedMoyoThinShell</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<defName>THIGAPPE_Alien_RedMoyoThinShellAA</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>THIGAPPE_Alien_RedMoyoThinBodyStrap</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinArmor">
+		<defName>THIGAPPE_Alien_RedMoyoThinArmor</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Utility -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinUtility">
+		<defName>THIGAPPE_Alien_RedMoyoThinUtility</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+
+	<!-- TARGETED -->
+	
+	<!-- Flak pants don't work with the usual pants def because they're in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinFlakPants">
+		<defName>THIGAPPE_Alien_RedMoyoThinFlakPants</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_ThinTrooperArmor" MayRequire="VanillaExpanded.VAPPE">
+		<defName>THIGAPPE_Alien_RedMoyoThinTrooperArmor</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+</Defs>

@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>THIGAPPE - Automatic Apparel Refitting with Apparel Paper Pattern</li>
+	</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationConditional">
+				<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "THIGAPPE_HUMAN_FemaleShell"]/IgnorePackageIds</xpath>
+					<match Class="PatchOperationAdd">
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "THIGAPPE_HUMAN_FemaleShell"]/IgnorePackageIds</xpath>
+						<value>
+							<li>Solaris.RatkinRaceMod</li>
+						</value>
+					</match>
+					<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@Name = "THIGAPPE_HUMAN_FemaleShell"]</xpath>
+						<value>
+							<IgnorePackageIds>
+								<li>Solaris.RatkinRaceMod</li>
+							</IgnorePackageIds>
+						</value>
+					</nomatch>
+				</li>
+	
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "RK_ApronSkirt" or defName="RK_SummerDress" or defName="RK_MildCoat" or defName="RK_WorkerWear"
+					 or defName="RK_ResearchGown" or defName="RK_ExplorerWear" or defName="RK_ChefSuit" or defName="RK_GaurdenUniform"
+					  or defName="RK_FlatColorCoat" or defName="RK_FrillOnepiece" or defName="RK_SistersDerss"]/apparel/layers</xpath>
+					<value>
+						<layers><li>Middle</li></layers>
+					</value>
+				</li>
+	
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "RK_Plate"]/apparel/layers</xpath>
+					<value>
+						<layers><li>Shell</li></layers>
+					</value>
+				</li>
+	
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "RK_WhiteCoat"]/apparel/layers</xpath>
+					<value>
+						<layers><li>Webbing</li></layers>
+					</value>
+				</li>
+	
+				<!-- ============= Feet Defs ============= -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+					
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_RATKINThinFeet" ParentName="THIGAPPE_MLFeet" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Thin</BodyType>
+							<ApparelLayer>Middle</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Thin/Armor/Thin_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Thin/Armor/Thin_mask</BurnPath>
+							
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
+							<OffsetEast>(0.000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>1.0000</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>1.0000</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
+							 
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_RATKINThinFeet">
+							<defName>THIGAPPE_RatkinThinFeet</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_RATKINFemaleFeet" ParentName="THIGAPPE_MLFeet" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Female</BodyType>
+							<ApparelLayer>Middle</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Female/Armor/Female_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Female/Armor/Female_mask</BurnPath>
+							
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
+							<OffsetEast>(0.000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>1.0000</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>1.0000</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
+							 
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_RATKINFemaleFeet">
+							<defName>THIGAPPE_RatkinFemaleFeet</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_RATKINMaleFeet" ParentName="THIGAPPE_MLFeet" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Male</BodyType>
+							<ApparelLayer>Middle</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Male/Armor/Female_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Male/Armor/Female_mask</BurnPath>
+							
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0100)</OffsetSouth>
+							<OffsetEast>(0.000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>1.0000</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>1.0000</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
+							 
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_RATKINMaleFeet">
+							<defName>THIGAPPE_RatkinMaleFeet</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+						<!-- ============= Pants Defs ============= -->
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinPantsAdjust">
+							<defName>THIGAPPE_RatkinThinPants</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_HulkPantsAdjust">
+							<defName>THIGAPPE_RatkinHulkPants</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemalePantsAdjust">
+							<defName>THIGAPPE_RatkinFemalePants</defName>
+							<RaceName>Ratkin</RaceName>
+							
+							<OffsetNorth>(0.0200,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0200,0.0000)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0200)</OffsetWest>
+							<ScaleNorth>1.0400</ScaleNorth>
+							<ScaleSouth>1.0400</ScaleSouth>
+							<ScaleEast>1.0400</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_MalePantsAdjust">
+							<defName>THIGAPPE_RatkinMalePants</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FatPantsAdjust">
+							<defName>THIGAPPE_RatkinFatPants</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					</value>
+					
+				</li>
+
+				<!-- ============= Custom Clothing Position ============= -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<!-- Ratkin Plate armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinPlateArmor" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Thin</BodyType>
+							<ApparelLayer>Shell</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Male/Armor/Male_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Male/Armor/Male_mask</BurnPath>
+							
+							<OffsetNorth>(0.00,0.14)</OffsetNorth>
+							<ScaleNorth>1.1</ScaleNorth>
+							
+							<OffsetEast>(-0.05,0.05)</OffsetEast>
+							<ScaleEast>1.0</ScaleEast>
+							
+							<OffsetSouth>(0.00, 0.14)</OffsetSouth>
+							<ScaleSouth>1.1</ScaleSouth>
+							
+							<OffsetWest>(0.05,0.05)</OffsetWest>
+							<ScaleWest>1.0</ScaleWest>
+
+							<TargetApparelDefs>
+								<li>RK_Plate</li><!--
+								<li>RK_BattleSuit</li>
+								<li>RK_BattleSuitB</li>-->
+							</TargetApparelDefs>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinPlateArmor">
+							<defName>THIGAPPE_RatkinThinPlateArmor</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<!-- Ratkin Plate armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemalePlateArmor" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Female</BodyType>
+							<ApparelLayer>Shell</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Female/Armor/Female_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Female/Armor/Female_mask</BurnPath>
+							
+							<OffsetNorth>(0.00,0.14)</OffsetNorth>
+							<ScaleNorth>1.1</ScaleNorth>
+							
+							<OffsetEast>(-0.05,0.05)</OffsetEast>
+							<ScaleEast>1.0</ScaleEast>
+							
+							<OffsetSouth>(0.00, 0.14)</OffsetSouth>
+							<ScaleSouth>1.1</ScaleSouth>
+							
+							<OffsetWest>(0.05,0.05)</OffsetWest>
+							<ScaleWest>1.0</ScaleWest>
+
+							<TargetApparelDefs>
+								<li>RK_Plate</li>
+							</TargetApparelDefs>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemalePlateArmor">
+							<defName>THIGAPPE_RatkinFemalePlateArmor</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemaleMiddleAdjusted" ParentName="THIGAPPE_HUMAN_FemaleMiddle" Abstract="True">
+
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Female</BodyType>
+							<ApparelLayer>Middle</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Female/Shell/Female_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Female/Shell/Female_mask</BurnPath>
+							
+							<OffsetNorth>(-0.0005,0.0400)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0400)</OffsetSouth>
+							<OffsetEast>(0.0275,0.0400)</OffsetEast>
+							<OffsetWest>(0.0175,0.1000)</OffsetWest>
+							<ScaleNorth>1.0000</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>1.0000</ScaleEast>
+							<ScaleWest>1.2000</ScaleWest>
+
+							<IgnoreApparelDefs>
+								<li>RK_OrderUniform</li>
+								<li>RK_OrderUniformB</li>
+							</IgnoreApparelDefs>
+
+							<TargetPackageIds>
+								<li>Solaris.RatkinRaceMod</li>
+							</TargetPackageIds>
+							
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleMiddleAdjusted">
+							<defName>THIGAPPE_RatkinFemaleMiddleAdjusted</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+				
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinMiddleAdjusted" Abstract="True">
+
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Thin</BodyType>
+							<ApparelLayer>Middle</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Male/Shell/Male_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Male/Shell/Male_mask</BurnPath>
+							
+							<OffsetNorth>(-0.0005,0.0400)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0400)</OffsetSouth>
+							<OffsetEast>(0.0275,0.0400)</OffsetEast>
+							<OffsetWest>(0.0175,0.1000)</OffsetWest>
+							<ScaleNorth>1.0000</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>1.0000</ScaleEast>
+							<ScaleWest>1.2000</ScaleWest>
+
+							<IgnoreApparelDefs>
+								<li>RK_OrderUniform</li>
+								<li>RK_OrderUniformB</li>
+							</IgnoreApparelDefs>
+
+							<TargetPackageIds>
+								<li>Solaris.RatkinRaceMod</li>
+							</TargetPackageIds>
+							
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinMiddleAdjusted">
+							<defName>THIGAPPE_RatkinThinMiddleAdjusted</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemaleMiddleUniformA" Abstract="True">
+
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Female</BodyType>
+							<ApparelLayer>Middle</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Female/Armor/Female_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Female/Armor/Female_mask</BurnPath>
+							
+							<OffsetNorth>(0.0025,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
+							<OffsetEast>(0.0275,0.0200)</OffsetEast>
+							<OffsetWest>(0.0075,0.1000)</OffsetWest>
+							<ScaleNorth>1.2300</ScaleNorth>
+							<ScaleSouth>1.2600</ScaleSouth>
+							<ScaleEast>1.2400</ScaleEast>
+							<ScaleWest>1.2000</ScaleWest>
+
+							<IgnoreApparelDefs>
+								<li>RK_BattleSuit</li>
+								<li>RK_BattleSuitB</li>
+							</IgnoreApparelDefs>
+
+							<TargetApparelDefs>
+								<li>RK_OrderUniform</li>
+							</TargetApparelDefs>
+							
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleMiddleUniformA">
+							<defName>THIGAPPE_RatkinFemaleMiddleUniformA</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinMiddleUniformA" Abstract="True">
+
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Thin</BodyType>
+							<ApparelLayer>Middle</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Male/Shell/Male_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Male/Shell/Male_mask</BurnPath>
+							
+							<OffsetNorth>(0.0025,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
+							<OffsetEast>(0.0005,0.0200)</OffsetEast>
+							<OffsetWest>(0.0075,0.1000)</OffsetWest>
+							<ScaleNorth>1.2300</ScaleNorth>
+							<ScaleSouth>1.2600</ScaleSouth>
+							<ScaleEast>1.2400</ScaleEast>
+							<ScaleWest>1.2000</ScaleWest>
+
+							<IgnoreApparelDefs>
+								<li>RK_BattleSuit</li>
+								<li>RK_BattleSuitB</li>
+							</IgnoreApparelDefs>
+							
+							<TargetApparelDefs>
+								<li>RK_OrderUniform</li>
+							</TargetApparelDefs>
+							
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinMiddleUniformA">
+							<defName>THIGAPPE_RatkinThinMiddleUniformA</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+				
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_RATKINFemaleShellAdjusted" ParentName="THIGAPPE_HUMAN_FemaleShell" Abstract="True">
+							<!-- Angel Apparel middle pieces. There's no reason I should've needed this def or the shell def. But for some reason the alignment of the AA apparel renders off compared to vanilla, e.g. the flak vest?
+								 I've contacted the original author of Angel Apparel and confirmed that all of the included pieces are aligned properly. 
+								 Apparently, vanilla body offsets were shifted by 2px back in 1.3. The only conclusion I've been able to come to, based on comparing textures, is that the vanilla apparel graphics weren't properly offset. Assuming they were offset at all. -->
+
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Female</BodyType>
+							<ApparelLayer>Shell</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Female/Shell/Female_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Female/Shell/Female_mask</BurnPath>
+							
+							<OffsetNorth>(0.0250,0.0100)</OffsetNorth>
+							<OffsetSouth>(0.0250,-0.0200)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0200)</OffsetEast>
+							<OffsetWest>(0.0000,0.0200)</OffsetWest>
+							<ScaleNorth>1.0200</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>1.0400</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
+							
+							<TargetPackageIds>
+								<li>Solaris.RatkinRaceMod</li>
+							</TargetPackageIds>
+							
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_RATKINFemaleShellAdjusted">
+							<defName>THIGAPPE_RatkinFemaleShellAdjusted</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<!-- Ratkin Plate armor doesn't work with the usual armor def because it's in the middle layer.	 -->
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_RATKINThinBattleSuit" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Thin</BodyType>
+							<ApparelLayer>Shell</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Male/Shell/Male_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Male/Shell/Male_mask</BurnPath>
+							
+							<OffsetNorth>(0.0000,-0.0200)</OffsetNorth>
+							<OffsetSouth>(0.0000,-0.0300)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>1.2000</ScaleNorth>
+							<ScaleSouth>1.2000</ScaleSouth>
+							<ScaleEast>1.2000</ScaleEast>
+							<ScaleWest>1.2000</ScaleWest>
+
+							<TargetApparelDefs>
+								<li>RK_BattleSuit</li>
+								<li>RK_BattleSuitB</li>
+							</TargetApparelDefs>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_RATKINThinBattleSuit">
+							<defName>THIGAPPE_RatkinThinBattleSuit</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<!-- Ratkin Plate armor doesn't work with the usual armor def because it's in the middle layer.	 -->
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_RATKINFemaleBattleSuit" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Female</BodyType>
+							<ApparelLayer>Shell</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Female/Shell/Female_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Female/Shell/Female_mask</BurnPath>
+							
+							<OffsetNorth>(0.0000,-0.0200)</OffsetNorth>
+							<OffsetSouth>(0.0000,-0.0300)</OffsetSouth>
+							<OffsetEast>(0.0000,-0.0100)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>1.2000</ScaleNorth>
+							<ScaleSouth>1.2000</ScaleSouth>
+							<ScaleEast>1.2000</ScaleEast>
+							<ScaleWest>1.2000</ScaleWest>
+
+							<TargetApparelDefs>
+								<li>RK_BattleSuit</li>
+								<li>RK_BattleSuitB</li>
+							</TargetApparelDefs>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_RATKINFemaleBattleSuit">
+							<defName>THIGAPPE_RatkinFemaleBattleSuit</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<!-- =========== Cardigan =========== -->
+
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinCardigan" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Thin</BodyType>
+							<ApparelLayer>Shell</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Armor/Fat_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Armor/Fat_mask</BurnPath>
+							
+							<OffsetNorth>(0.00,0.1)</OffsetNorth>
+							<ScaleNorth>1.0</ScaleNorth>
+							
+							<OffsetEast>(0.00,0.1)</OffsetEast>
+							<ScaleEast>1.0</ScaleEast>
+							
+							<OffsetSouth>(0.00, 0.1)</OffsetSouth>
+							<ScaleSouth>1.0</ScaleSouth>
+							
+							<OffsetWest>(0.00,0.1)</OffsetWest>
+							<ScaleWest>1.0</ScaleWest>
+
+							<TargetApparelDefs>
+								<li>RK_Cardigan</li>
+							</TargetApparelDefs>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinCardigan">
+							<defName>THIGAPPE_RatkinThinCardigan</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+						<!-- Ratkin Plate armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_FemaleCardigan" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Female</BodyType>
+							<ApparelLayer>Shell</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Fat/Armor/Fat_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Fat/Armor/Fat_mask</BurnPath>
+							
+							<OffsetNorth>(0.00,0.1)</OffsetNorth>
+							<ScaleNorth>1.0</ScaleNorth>
+							
+							<OffsetEast>(0.00,0.1)</OffsetEast>
+							<ScaleEast>1.0</ScaleEast>
+							
+							<OffsetSouth>(0.00, 0.1)</OffsetSouth>
+							<ScaleSouth>1.0</ScaleSouth>
+							
+							<OffsetWest>(0.00,0.1)</OffsetWest>
+							<ScaleWest>1.0</ScaleWest>
+
+							<TargetApparelDefs>
+								<li>RK_Cardigan</li>
+							</TargetApparelDefs>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleCardigan">
+							<defName>THIGAPPE_RatkinFemaleCardigan</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. 
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinLayered">
+							<defName>THIGAPPE_RatkinThinUnchanged</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						-->
+						<!-- Ratkin Plate armor doesn't work with the usual armor def because it's in the middle layer. 
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_HUMAN_ThinPuffy" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Thin</BodyType>
+							<ApparelLayer>Shell</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/Human/Male/Armor/Male_mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/Human/Male/Armor/Male_mask</BurnPath>
+							
+							<OffsetNorth>(0.00,0.14)</OffsetNorth>
+							<ScaleNorth>1.1</ScaleNorth>
+							
+							<OffsetEast>(-0.05,0.05)</OffsetEast>
+							<ScaleEast>1.0</ScaleEast>
+							
+							<OffsetSouth>(0.00, 0.14)</OffsetSouth>
+							<ScaleSouth>1.1</ScaleSouth>
+							
+							<OffsetWest>(0.05,0.05)</OffsetWest>
+							<ScaleWest>1.0</ScaleWest>
+
+							<TargetApparelDefs>
+								<li>RK_RoyalRobe</li>
+							</TargetApparelDefs>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+			-->
+						<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. 
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinPuffy">
+							<defName>THIGAPPE_RatkinThinPuffy</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						-->
+						
+						<!-- ========== Other Helmets on Ratkin ========== -->
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_RATKINThinOtherHat" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Thin</BodyType>
+							<ApparelLayer>Overhead</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
+							
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>0.9000</ScaleNorth>
+							<ScaleSouth>0.9000</ScaleSouth>
+							<ScaleEast>0.9000</ScaleEast>
+							<ScaleWest>0.9000</ScaleWest>
+
+							<IgnorePackageIds>
+								<li>Solaris.RatkinRaceMod</li>
+							</IgnorePackageIds>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_RATKINThinOtherHat">
+							<defName>THIGAPPE_RatkinThinOtherHat</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_RATKINFemaleOtherHat" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Female</BodyType>
+							<ApparelLayer>Overhead</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
+							
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>0.9000</ScaleNorth>
+							<ScaleSouth>0.9000</ScaleSouth>
+							<ScaleEast>0.9000</ScaleEast>
+							<ScaleWest>0.9000</ScaleWest>
+
+							<IgnorePackageIds>
+								<li>Solaris.RatkinRaceMod</li>
+							</IgnorePackageIds>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_RATKINFemaleOtherHat">
+							<defName>THIGAPPE_RatkinFemaleOtherHat</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+				
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_RATKINThinHat" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Thin</BodyType>
+							<ApparelLayer>Overhead</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
+							
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>1.0000</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>1.0000</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
+
+							<TargetPackageIds>
+								<li>Solaris.RatkinRaceMod</li>
+							</TargetPackageIds>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_RATKINThinHat">
+							<defName>THIGAPPE_RatkinThinHat</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef Name="THIGAPPE_RATKINFemaleHat" Abstract="True">
+							<RenderVersion>1</RenderVersion>
+							<BodyType>Female</BodyType>
+							<ApparelLayer>Overhead</ApparelLayer>
+							
+							<MaskPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</MaskPath>
+							<BurnPath>Things/ApparelPaperPattern/General/CircleNoCut10px/mask</BurnPath>
+							
+							<OffsetNorth>(0.0000,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0000,0.0000)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0000)</OffsetWest>
+							<ScaleNorth>1.0000</ScaleNorth>
+							<ScaleSouth>1.0000</ScaleSouth>
+							<ScaleEast>1.0000</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
+
+							<TargetPackageIds>
+								<li>Solaris.RatkinRaceMod</li>
+							</TargetPackageIds>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_RATKINFemaleHat">
+							<defName>THIGAPPE_RatkinFemaleHat</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+				
+					
+					</value>
+				</li>
+<!--
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+					
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleCape">
+							<defName>THIGAPPE_RatkinFemaleCape</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinCape">
+							<defName>THIGAPPE_RatkinThinCape</defName>
+							<RaceName>Ratkin</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+						
+					</value>
+				</li>
+-->
+
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[@THIGAPPE_MLShellIgnore="true"]/IgnoreApparelDefs</xpath>
+					<value>
+						<li>RK_RoyalRobe</li>
+						<li>RK_WinterRobe</li>
+						<!--
+						<li>RK_BattleSuit</li>
+						<li>RK_BattleSuitB</li>
+						-->
+					</value>
+				</li>
+
+			</operations>
+		</match>
+    </Operation>
+	
+</Patch>

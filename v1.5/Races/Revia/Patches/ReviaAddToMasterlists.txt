@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>THIGAPPE - Automatic Apparel Refitting with Apparel Paper Pattern</li>
+	</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+	
+				<!-- ============= Feet Defs ============= -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinFeet">
+							<defName>THIGAPPE_ReviaThinFeet</defName>
+							<RaceName>ReviaRaceAlien</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+					
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemaleFeet">
+							<defName>THIGAPPE_ReviaFemaleFeet</defName>
+							<RaceName>ReviaRaceAlien</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+						<!-- ============= Pants Defs ============= -->
+						
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_ThinPantsAdjust">
+							<defName>THIGAPPE_ReviaThinPants</defName>
+							<RaceName>ReviaRaceAlien</RaceName>
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+						<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_HUMAN_FemalePantsAdjust">
+							<defName>THIGAPPE_ReviaFemalePants</defName>
+							<RaceName>ReviaRaceAlien</RaceName>
+							
+							<OffsetNorth>(0.0200,0.0000)</OffsetNorth>
+							<OffsetSouth>(0.0200,0.0000)</OffsetSouth>
+							<OffsetEast>(0.0000,0.0000)</OffsetEast>
+							<OffsetWest>(0.0000,0.0200)</OffsetWest>
+							<ScaleNorth>1.0400</ScaleNorth>
+							<ScaleSouth>1.0400</ScaleSouth>
+							<ScaleEast>1.0400</ScaleEast>
+							<ScaleWest>1.0000</ScaleWest>
+
+						</ApparelPaperPattern.ApparelPaperPatternDef>
+
+					</value>
+					
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[defName="THIGAPPE_ReviaFemaleLongJohns"]</xpath>
+					<value>
+						<OffsetSouth>(-0.0050,-0.0300)</OffsetSouth>
+						<ScaleSouth>1.2000</ScaleSouth>	
+					</value>
+				</li>
+
+			</operations>
+		</match>
+    </Operation>
+	
+</Patch>

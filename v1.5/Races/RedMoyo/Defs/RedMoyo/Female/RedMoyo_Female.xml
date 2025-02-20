@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- ONSKIN: Covers most of the upper body. -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleOnSkin">
+		<defName>THIGAPPE_Alien_RedMoyoFemaleOnSkin</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- ONSKINFULL: Covers most of the whole body. -->
+	
+	<!-- Any defs with a parent beginning in ML are subject to a master list of apparel restrictions. 
+		 See Defs/General/Apparel.xml for details. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleOnSkinFull">
+		<defName>THIGAPPE_Alien_RedMoyoFemaleOnSkinFull</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleOnSkinFullAA" MayRequire="Aelanna.EccentricTech.AngelApparel" >
+		<defName>THIGAPPE_Alien_RedMoyoFemaleOnSkinFullAA</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- PANTS: Only works if Visible Pants is active. -->
+
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemalePants" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_Alien_RedMoyoFemalePants</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemalePantsShort" MayRequire="XeoNovaDan.VisiblePants">
+		<defName>THIGAPPE_Alien_RedMoyoFemalePantsShort</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- MIDDLE -->
+
+	<!-- Middle parent for general use, e.g. not apparel locked. -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleMiddle">
+		<defName>THIGAPPE_Alien_RedMoyoFemaleMiddle</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+			
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleMiddleAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<!-- Angel Apparel middle pieces. There's no reason I should've needed this def or the shell def. But for some reason the alignment of the AA apparel renders off compared to vanilla, e.g. the flak vest?
+			 I've contacted the original author of Angel Apparel and confirmed that all of the included pieces are aligned properly. 
+			 Apparently, vanilla body offsets were shifted by 2px back in 1.3. The only conclusion I've been able to come to, based on comparing textures, is that the vanilla apparel graphics weren't properly offset. Assuming they were offset at all. -->
+		<defName>THIGAPPE_Alien_RedMoyoFemaleMiddleAA</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- SHELL -->	
+	
+	<!-- OnSkinFull parent for general use, e.g. not apparel locked. -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleShell">
+		<!-- Default outer. -->
+		<defName>THIGAPPE_Alien_RedMoyoFemaleShell</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleArmor">
+		<!-- For any armor that should cover the entire body. -->
+		<defName>THIGAPPE_Alien_RedMoyoFemaleArmor</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleShellAA" MayRequire="Aelanna.EccentricTech.AngelApparel">
+		<!-- Angel Apparel Shell pieces. See Alien_RedMoyoFemaleMiddleAA. --> 
+		<defName>THIGAPPE_Alien_RedMoyoFemaleShellAA</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+			
+	<!-- UTILITY -->
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleUtility">
+		<defName>THIGAPPE_Alien_RedMoyoFemaleUtility</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	
+	<!-- TARGETED -->
+	
+	<!-- Flak pants don't work with the usual pants def because they're in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleFlakPants">
+		<defName>THIGAPPE_Alien_RedMoyoFemaleFlakPants</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<!-- Trooper armor doesn't work with the usual armor def because it's in the middle layer. -->
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleTrooperArmor" MayRequire="VanillaExpanded.VAPPE">
+		<defName>THIGAPPE_Alien_RedMoyoFemaleTrooperArmor</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleShoulderpads"  MayRequire="VanillaExpanded.VARME">
+		<!-- VAE Shoulderpads fix. -->
+		<defName>THIGAPPE_Alien_RedMoyoFemaleShoulderpads</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleTK" MayRequire="VanillaExpanded.VAPPE">
+		<!-- VAE tribal kilt fix. -->
+		<defName>THIGAPPE_Alien_RedMoyoFemaleTK</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleBodyStrap" MayRequire="Ludeon.RimWorld.Ideology">
+		<!-- Slave body strap fix. -->
+		<defName>THIGAPPE_Alien_RedMoyoFemaleBodyStrap</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+	<ApparelPaperPattern.ApparelPaperPatternDef ParentName="THIGAPPE_MOYO_FemaleCorset">
+		<!-- Corset fix. -->
+		<defName>THIGAPPE_Alien_RedMoyoFemaleCorset</defName>
+		<RaceName>Alien_RedMoyo</RaceName>
+	</ApparelPaperPattern.ApparelPaperPatternDef>
+	
+</Defs>

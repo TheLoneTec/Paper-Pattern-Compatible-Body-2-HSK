@@ -34,4 +34,21 @@
 	<li IfModActive="skyarkhangel.skynet">v1.4\Races\Skynet</li>
 	<li IfModActive="Malistaticy.UnderWhere">v1.4\Mods\UnderWhere</li>
   </v1.4>
+  <v1.5>
+    <li>/</li>
+	<li>v1.5</li>
+    <li IfModActive="ChJees.Androids">v1.5\Races\Androids</li>
+    <li IfModActive="skyarkhangel.asarirace">v1.5\Races\Asari</li>
+    <li IfModActive="Nemonian.MY">v1.5\Races\Moyo</li>
+    <li IfModActive="AOBA.RedMoyo">v1.5\Races\MoyoRed</li>
+    <li IfModActive="Solaris.RatkinRaceMod">v1.5\Races\Ratkin</li>
+    <li IfModActive="skyarkhangel.HSK">v1.5\Races\Nova</li>
+    <li IfModActive="skyarkhangel.HSK">v1.5\Races\Dova</li>
+    <li IfModActive="skyarkhangel.HSK">v1.5\Races\Norbal</li>
+	<li IfModActive="skyarkhangel.HSK">v1.5\Races\Orassan</li>
+	<li IfModActive="FS.ReviaRace">v1.5\Races\Revia</li>
+	<li IfModActive="RunneLatki.RabbieRaceMod.sk">v1.5\Races\Rabbie</li>
+	<li IfModActive="skyarkhangel.skynet">v1.5\Races\Skynet</li>
+	<li IfModActive="Malistaticy.UnderWhere">v1.5\Mods\UnderWhere</li>
+  </v1.5>
 </loadFolders>
